@@ -43,7 +43,48 @@
     text-decoration: underline;
   }
 }
+@media (min-width: 321px) {
+  .tap-me-menu {
+    display: block;
+    font-size: 0.5rem;
+    position: absolute;
+    top: 3rem;
+    right: 0.5rem;
+    z-index: 1;
+  }
+  .menu-class {
+    position: absolute;
+    top: 7rem;
+    display: flex;
+    animation: Slide;
+    animation-duration: 2s;
+    background: rgba(228, 166, 9, 0.737);
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    left: 0rem;
+    height: 100%;
+    width: 90%;
+    border: 2px white solid;
+  }
 
+  .menu-class ul {
+    position: relative;
+    left: -2rem;
+    top: 0rem;
+  }
+  .menu-class ul li {
+    display: block;
+    list-style: none;
+  }
+  .menu-class ul li a {
+    color: white;
+    display: block;
+    line-height: 5rem;
+    z-index: 1;
+    text-decoration: underline;
+  }
+}
 @keyframes Slide {
   0% {
     left: -11rem;
