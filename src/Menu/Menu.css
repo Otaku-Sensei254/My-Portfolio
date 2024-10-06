@@ -1,6 +1,7 @@
 .tap-me-menu {
   display: none;
 }
+
 @media (max-width: 320px) {
   .tap-me-menu {
     display: block;
