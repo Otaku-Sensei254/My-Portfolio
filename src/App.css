@@ -1,0 +1,55 @@
+.container {
+  max-width: 100% !important;
+  margin: 0;
+  position: relative;
+  max-height: 60vh;
+  z-index: 1;
+}
+
+body {
+  background: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  scroll-behavior: smooth;
+}
+
+@media (max-width: 320px) {
+}
+.whatsapp_float {
+  position: fixed;
+  top: 0;
+  color: green;
+}
+.container {
+  max-width: 100% !important;
+  margin: 0;
+  position: relative;
+  max-height: 60vh;
+  z-index: -1;
+}
+body {
+  display: none;
+}
+@media (min-width: 360px) {
+  body {
+    z-index: -1;
+    height: 600px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    z-index: -1;
+  }
+  .app-container {
+    z-index: -1;
+  }
+  body {
+    z-index: -1;
+    width: 90%;
+  }
+  #root {
+    z-index: 1;
+  }
+}

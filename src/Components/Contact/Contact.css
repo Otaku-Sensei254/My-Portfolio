@@ -1,0 +1,1320 @@
+@media (max-width: 320px) {
+  .talk {
+    position: relative;
+    top: 4rem;
+    left: 2rem;
+    justify-content: center;
+    align-items: center;
+  }
+  .talk-h1 {
+    position: relative;
+
+    font-size: 2rem;
+  }
+  .envolope {
+    position: relative;
+    left: 1rem;
+    top: 10px;
+  }
+  .socials2 p {
+    position: absolute;
+    color: white;
+    width: 100%;
+    top: -5rem;
+  }
+  .socials2 {
+    position: absolute;
+    display: flex;
+    top: 9.5rem;
+    right: 6rem;
+    list-style: none;
+  }
+
+  .whts2 {
+    position: relative;
+    right: 4rem;
+    color: green;
+    background: transparent;
+    font-size: 2rem;
+  }
+  .whts2:hover {
+    transform: translatey(-1.5rem);
+    transition: 0.56s ease-in-out;
+    box-shadow: 0 0 10px black, 0 0 20px green;
+  }
+  .fbck2 {
+    position: relative;
+    right: 2rem;
+    color: rgb(0, 153, 255);
+    font-size: 2rem;
+  }
+  .fbck2:hover {
+    transform: translatey(-1.5rem);
+    transition: 0.56s ease-in-out;
+    box-shadow: 0 0 10px black, 0 0 20px rgb(0, 153, 255);
+  }
+  .insta2 {
+    position: relative;
+    right: 0rem;
+    color: rgb(130, 0, 67);
+    font-size: 2rem;
+  }
+  .insta2:hover {
+    transform: translatey(-1.5rem);
+    transition: 0.56s ease-in-out;
+    box-shadow: 0 0 10px black, 0 0 20px rgb(130, 0, 67);
+  }
+  .git2 {
+    position: relative;
+    left: 1rem;
+    font-size: 2rem;
+    top: 0rem;
+  }
+  .git2:hover {
+    transform: translatey(-1.5rem);
+    transition: 0.56s ease-in-out;
+    box-shadow: 0 0 10px black, 0 0 20px rgb(135, 27, 212);
+  }
+  form {
+    position: relative;
+    right: 1rem;
+    top: -0.5rem;
+    background: white;
+    height: 400px;
+    width: 120%;
+    color: black;
+    padding: 4px 10px;
+    border-radius: 2px;
+  }
+  form label {
+    position: relative;
+    top: 0rem;
+    font-size: 18px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
+  form input {
+    position: relative;
+    margin-left: 0rem;
+    display: block;
+    background: rgba(227, 223, 208, 0.68);
+    border-radius: 10px;
+    color: black;
+    padding: 4px 10px;
+    font-size: 0.8rem;
+    border: none;
+    width: 90%;
+    height: 30px;
+    border: 2px black solid;
+  }
+
+  form textarea {
+    display: block;
+    position: relative;
+    top: 1rem;
+    left: 2rem;
+    width: 70%;
+    background: rgba(227, 224, 210, 0.68);
+    color: black;
+    padding: 4px 10px;
+    font-size: 15px;
+  }
+  form .sub-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 2rem;
+    top: 2rem;
+  }
+}
+@media (min-width: 344px) {
+  .talk {
+    position: relative;
+    top: 27rem;
+    left: 2rem;
+    justify-content: center;
+    align-items: center;
+  }
+  .talk-h1 {
+    position: relative;
+    left: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    top: -22rem;
+  }
+  .socials2 p {
+    position: absolute;
+    color: white;
+    width: 100%;
+    top: -7rem;
+  }
+  .socials2 {
+    position: relative;
+    display: flex;
+    top: -2rem;
+    left: 0rem;
+    list-style: none;
+  }
+
+  .whts2 {
+    position: relative;
+    right: 4rem;
+    color: green;
+    background: transparent;
+    font-size: 2rem;
+  }
+  .whts2:hover {
+    transform: translatey(-1.5rem);
+    transition: 0.56s ease-in-out;
+    box-shadow: 0 0 10px black, 0 0 20px green;
+  }
+  .fbck2 {
+    position: relative;
+    right: 2rem;
+    color: rgb(0, 153, 255);
+    font-size: 2rem;
+  }
+  .fbck2:hover {
+    transform: translatey(-1.5rem);
+    transition: 0.56s ease-in-out;
+    box-shadow: 0 0 10px black, 0 0 20px rgb(0, 153, 255);
+  }
+  .insta2 {
+    position: relative;
+    right: 0rem;
+    color: rgb(130, 0, 67);
+    font-size: 2rem;
+  }
+  .insta2:hover {
+    transform: translatey(-1.5rem);
+    transition: 0.56s ease-in-out;
+    box-shadow: 0 0 10px black, 0 0 20px rgb(130, 0, 67);
+  }
+  .git2 {
+    position: relative;
+    left: 1rem;
+    font-size: 2rem;
+    top: 0rem;
+  }
+  .git2:hover {
+    transform: translatey(-1.5rem);
+    transition: 0.56s ease-in-out;
+    box-shadow: 0 0 10px black, 0 0 20px rgb(135, 27, 212);
+  }
+  .envolope {
+    position: relative;
+    left: 1rem;
+    top: 10px;
+  }
+  form {
+    position: relative;
+    right: 2.3rem;
+    top: -22rem;
+    background: white;
+    height: 400px;
+    width: 150%;
+    color: black;
+    padding: 4px 10px;
+    border-radius: 2px;
+  }
+  form label {
+    position: relative;
+    top: 0rem;
+    font-size: 18px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
+  form input {
+    position: relative;
+    margin-left: 0rem;
+    display: block;
+    background: rgba(227, 223, 208, 0.68);
+    border-radius: 10px;
+    color: black;
+    padding: 4px 10px;
+    font-size: 0.8rem;
+    border: none;
+    width: 90%;
+    height: 30px;
+    border: 2px black solid;
+  }
+
+  form textarea {
+    display: block;
+    position: relative;
+    top: 1rem;
+    left: 2rem;
+    width: 80%;
+    background: rgba(227, 224, 210, 0.68);
+    color: black;
+    padding: 4px 10px;
+    font-size: 15px;
+  }
+  form .sub-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 6rem;
+    top: 2rem;
+  }
+}
+@media (min-width: 360px) {
+  .talk {
+    position: relative;
+    top: 23rem;
+    left: 2rem;
+    justify-content: center;
+    align-items: center;
+  }
+  .talk-h1 {
+    position: relative;
+    left: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    top: -22rem;
+  }
+  .socials2 p {
+    position: absolute;
+    color: white;
+    width: 100%;
+    top: -7rem;
+  }
+  .socials2 {
+    position: relative;
+    display: flex;
+    top: -6rem;
+    left: 0rem;
+    list-style: none;
+  }
+
+  .whts2 {
+    position: relative;
+    right: 4rem;
+    color: green;
+    background: transparent;
+    font-size: 2rem;
+  }
+  .whts2:hover {
+    transform: translatey(-1.5rem);
+    transition: 0.56s ease-in-out;
+    box-shadow: 0 0 10px black, 0 0 20px green;
+  }
+  .fbck2 {
+    position: relative;
+    right: 2rem;
+    color: rgb(0, 153, 255);
+    font-size: 2rem;
+  }
+  .fbck2:hover {
+    transform: translatey(-1.5rem);
+    transition: 0.56s ease-in-out;
+    box-shadow: 0 0 10px black, 0 0 20px rgb(0, 153, 255);
+  }
+  .insta2 {
+    position: relative;
+    right: 0rem;
+    color: rgb(130, 0, 67);
+    font-size: 2rem;
+  }
+  .insta2:hover {
+    transform: translatey(-1.5rem);
+    transition: 0.56s ease-in-out;
+    box-shadow: 0 0 10px black, 0 0 20px rgb(130, 0, 67);
+  }
+  .git2 {
+    position: relative;
+    left: 1rem;
+    font-size: 2rem;
+    top: 0rem;
+  }
+  .git2:hover {
+    transform: translatey(-1.5rem);
+    transition: 0.56s ease-in-out;
+    box-shadow: 0 0 10px black, 0 0 20px rgb(135, 27, 212);
+  }
+  .envolope {
+    position: relative;
+    left: 1rem;
+    top: 10px;
+  }
+  form {
+    position: relative;
+    right: 2.3rem;
+    top: -22rem;
+    background: white;
+    height: 400px;
+    width: 160%;
+    color: black;
+    padding: 4px 10px;
+    border-radius: 2px;
+  }
+  form label {
+    position: relative;
+    top: 0rem;
+    font-size: 18px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
+  form input {
+    position: relative;
+    margin-left: 1rem;
+    display: block;
+    background: rgba(227, 223, 208, 0.68);
+    border-radius: 10px;
+    color: black;
+    padding: 4px 10px;
+    font-size: 0.8rem;
+    border: none;
+    width: 90%;
+    height: 30px;
+    border: 2px black solid;
+  }
+
+  form textarea {
+    display: block;
+    position: relative;
+    top: 1rem;
+    left: 2rem;
+    width: 80%;
+    background: rgba(227, 224, 210, 0.68);
+    color: black;
+    padding: 4px 10px;
+    font-size: 15px;
+  }
+  form .sub-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 6rem;
+    top: 2rem;
+  }
+}
+@media (min-width: 375px) {
+  .talk {
+    position: relative;
+    top: 3rem;
+    left: 2rem;
+    justify-content: center;
+    align-items: center;
+  }
+  .talk-h1 {
+    position: relative;
+    left: 2rem;
+    color: white;
+    top: 0rem;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+  }
+  .envolope {
+    position: relative;
+    left: 1rem;
+    top: 10px;
+  }
+  .socials2 p {
+    position: absolute;
+    color: white;
+    width: 100%;
+    display: flex;
+    top: -6rem;
+  }
+  .socials2 {
+    position: absolute;
+    display: flex;
+    top: -4em;
+    right: 6rem;
+    width: 100%;
+    list-style: none;
+  }
+
+  .whts2 {
+    position: relative;
+    right: 4rem;
+    color: green;
+    background: transparent;
+    font-size: 2rem;
+  }
+  .whts2:hover {
+    transform: translatey(-1.5rem);
+    transition: 0.56s ease-in-out;
+    box-shadow: 0 0 10px black, 0 0 20px green;
+  }
+  .fbck2 {
+    position: relative;
+    right: 2rem;
+    color: rgb(0, 153, 255);
+    font-size: 2rem;
+  }
+  .fbck2:hover {
+    transform: translatey(-1.5rem);
+    transition: 0.56s ease-in-out;
+    box-shadow: 0 0 10px black, 0 0 20px rgb(0, 153, 255);
+  }
+  .insta2 {
+    position: relative;
+    right: 0rem;
+    color: rgb(130, 0, 67);
+    font-size: 2rem;
+  }
+  .insta2:hover {
+    transform: translatey(-1.5rem);
+    transition: 0.56s ease-in-out;
+    box-shadow: 0 0 10px black, 0 0 20px rgb(130, 0, 67);
+  }
+  .git2 {
+    position: relative;
+    left: 1rem;
+    font-size: 2rem;
+    top: 0rem;
+  }
+  .git2:hover {
+    transform: translatey(-1.5rem);
+    transition: 0.56s ease-in-out;
+    box-shadow: 0 0 10px black, 0 0 20px rgb(135, 27, 212);
+  }
+  .socials2 {
+    position: relative;
+    left: -1rem;
+  }
+  .socials2 text {
+    width: 120%;
+    display: flex;
+    position: relative;
+    left: 1.5rem;
+    color: white;
+  }
+  form {
+    position: relative;
+    right: 2.3rem;
+    top: -0.5rem;
+    background: white;
+    height: 400px;
+    width: 170%;
+    color: black;
+    padding: 4px 10px;
+    border-radius: 2px;
+  }
+  form label {
+    position: relative;
+    top: 0rem;
+    font-size: 18px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
+  form input {
+    position: relative;
+    margin-left: 1rem;
+    display: block;
+    background: rgba(227, 223, 208, 0.68);
+    border-radius: 10px;
+    color: black;
+    padding: 4px 10px;
+    font-size: 0.8rem;
+    border: none;
+    width: 90%;
+    height: 30px;
+    border: 2px black solid;
+  }
+
+  form textarea {
+    display: block;
+    position: relative;
+    top: 1rem;
+    left: 2rem;
+    width: 80%;
+    background: rgba(227, 224, 210, 0.68);
+    color: black;
+    padding: 4px 10px;
+    font-size: 15px;
+  }
+  form .sub-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 6rem;
+    top: 2rem;
+  }
+}
+@media (min-width: 414px) {
+  .talk {
+    position: relative;
+    top: -5rem;
+    left: 3rem;
+    justify-content: center;
+    align-items: center;
+  }
+  .talk-h1 {
+    position: relative;
+    left: 2rem;
+    color: white;
+    top: 0rem;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+  }
+  .envolope {
+    position: relative;
+    left: 1rem;
+    top: 10px;
+  }
+  .socials2 p {
+    position: absolute;
+    color: white;
+    width: 100%;
+    display: flex;
+    top: -6rem;
+  }
+  .socials2 {
+    position: relative;
+    display: flex;
+    top: -10rem;
+    left: 0rem;
+    list-style: none;
+  }
+
+  .whts2 {
+    position: relative;
+    right: 4rem;
+    color: green;
+    background: transparent;
+    font-size: 2rem;
+  }
+  .whts2:hover {
+    transform: translatey(-1.5rem);
+    transition: 0.56s ease-in-out;
+    box-shadow: 0 0 10px black, 0 0 20px green;
+  }
+  .fbck2 {
+    position: relative;
+    right: 2rem;
+    color: rgb(0, 153, 255);
+    font-size: 2rem;
+  }
+  .fbck2:hover {
+    transform: translatey(-1.5rem);
+    transition: 0.56s ease-in-out;
+    box-shadow: 0 0 10px black, 0 0 20px rgb(0, 153, 255);
+  }
+  .insta2 {
+    position: relative;
+    right: 0rem;
+    color: rgb(130, 0, 67);
+    font-size: 2rem;
+  }
+  .insta2:hover {
+    transform: translatey(-1.5rem);
+    transition: 0.56s ease-in-out;
+    box-shadow: 0 0 10px black, 0 0 20px rgb(130, 0, 67);
+  }
+  .git2 {
+    position: relative;
+    left: 1rem;
+    font-size: 2rem;
+    top: 0rem;
+  }
+  .git2:hover {
+    transform: translatey(-1.5rem);
+    transition: 0.56s ease-in-out;
+    box-shadow: 0 0 10px black, 0 0 20px rgb(135, 27, 212);
+  }
+  .socials2 {
+    position: relative;
+    left: -1rem;
+  }
+  .socials2 text {
+    width: 120%;
+    display: flex;
+    position: relative;
+    left: 1.5rem;
+    color: white;
+  }
+  form {
+    position: relative;
+    right: 2.3rem;
+    top: -0.5rem;
+    background: white;
+    height: 400px;
+    width: 170%;
+    color: black;
+    padding: 4px 10px;
+    border-radius: 2px;
+  }
+  form label {
+    position: relative;
+    top: 0rem;
+    font-size: 18px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
+  form input {
+    position: relative;
+    margin-left: 1rem;
+    display: block;
+    background: rgba(227, 223, 208, 0.68);
+    border-radius: 10px;
+    color: black;
+    padding: 4px 10px;
+    font-size: 0.8rem;
+    border: none;
+    width: 90%;
+    height: 30px;
+    border: 2px black solid;
+  }
+
+  form textarea {
+    display: block;
+    position: relative;
+    top: 1rem;
+    left: 2rem;
+    width: 80%;
+    background: rgba(227, 224, 210, 0.68);
+    color: black;
+    padding: 4px 10px;
+    font-size: 15px;
+  }
+  form .sub-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 6rem;
+    top: 2rem;
+  }
+}
+@media (min-width: 425px) {
+  .talk {
+    position: relative;
+    top: 0rem;
+    left: 3rem;
+    justify-content: center;
+    align-items: center;
+  }
+  .talk-h1 {
+    position: relative;
+    left: 2rem;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+  }
+  .envolope {
+    position: relative;
+    left: 1rem;
+    top: 10px;
+  }
+  .socials2 p {
+    position: absolute;
+    color: white;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    font-size: 1.5rem;
+    top: -10rem;
+  }
+  .socials2 {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    gap: 0px 2px;
+    top: -4rem;
+    left: 6rem;
+    list-style: none;
+  }
+  .socials2 a {
+    position: relative;
+    top: -4rem;
+    left: 2rem;
+  }
+
+  .whts2 {
+    position: relative;
+    right: 4rem;
+    color: green;
+    background: transparent;
+    font-size: 2rem;
+  }
+  .whts2:hover {
+    transform: translatey(-1.5rem);
+    transition: 0.56s ease-in-out;
+    box-shadow: 0 0 10px black, 0 0 20px green;
+  }
+  .fbck2 {
+    position: relative;
+    right: 2rem;
+    color: rgb(0, 153, 255);
+    font-size: 2rem;
+  }
+  .fbck2:hover {
+    transform: translatey(-1.5rem);
+    transition: 0.56s ease-in-out;
+    box-shadow: 0 0 10px black, 0 0 20px rgb(0, 153, 255);
+  }
+  .insta2 {
+    position: relative;
+    right: 0rem;
+    color: rgb(130, 0, 67);
+    font-size: 2rem;
+  }
+  .insta2:hover {
+    transform: translatey(-1.5rem);
+    transition: 0.56s ease-in-out;
+    box-shadow: 0 0 10px black, 0 0 20px rgb(130, 0, 67);
+  }
+  .git2 {
+    position: relative;
+    left: 1rem;
+    font-size: 2rem;
+    top: 0rem;
+  }
+  .git2:hover {
+    transform: translatey(-1.5rem);
+    transition: 0.56s ease-in-out;
+    box-shadow: 0 0 10px black, 0 0 20px rgb(135, 27, 212);
+  }
+  form {
+    position: relative;
+    right: 2rem;
+    top: -0.5rem;
+    background: white;
+    height: 400px;
+    width: 170%;
+    color: black;
+    padding: 4px 10px;
+    border-radius: 2px;
+  }
+  form label {
+    position: relative;
+    top: 0rem;
+    font-size: 18px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
+  form input {
+    position: relative;
+    margin-left: 0.5rem;
+    display: block;
+    background: rgba(227, 223, 208, 0.68);
+    border-radius: 10px;
+    color: black;
+    padding: 4px 10px;
+    font-size: 0.8rem;
+    border: none;
+    width: 90%;
+    height: 30px;
+    border: 2px black solid;
+  }
+
+  form textarea {
+    display: block;
+    position: relative;
+    top: 1rem;
+    left: 2rem;
+    width: 80%;
+    background: rgba(227, 224, 210, 0.68);
+    color: black;
+    padding: 4px 10px;
+    font-size: 15px;
+  }
+  form .sub-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 6rem;
+    top: 2rem;
+  }
+}
+
+@media (min-width: 600px) {
+  .talk {
+    position: relative;
+    top: 20rem;
+    left: 10rem;
+    justify-content: center;
+    align-items: center;
+  }
+  .talk-h1 {
+    position: relative;
+    left: 2rem;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    z-index: 1;
+    top: -19rem;
+  }
+  .envolope {
+    position: relative;
+    left: 1rem;
+    top: 10px;
+  }
+  .socials2 p {
+    position: absolute;
+    color: white;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    font-size: 1.5rem;
+    top: -10rem;
+  }
+  .socials2 {
+    position: relative;
+    display: flex;
+    top: -4rem;
+    left: 10rem;
+    list-style: none;
+  }
+
+  .whts2 {
+    position: relative;
+    right: 4rem;
+    color: green;
+    background: transparent;
+    font-size: 2rem;
+  }
+  .whts2:hover {
+    transform: translatey(-1.5rem);
+    transition: 0.56s ease-in-out;
+    box-shadow: 0 0 10px black, 0 0 20px green;
+  }
+  .fbck2 {
+    position: relative;
+    right: 2rem;
+    color: rgb(0, 153, 255);
+    font-size: 2rem;
+  }
+  .fbck2:hover {
+    transform: translatey(-1.5rem);
+    transition: 0.56s ease-in-out;
+    box-shadow: 0 0 10px black, 0 0 20px rgb(0, 153, 255);
+  }
+  .insta2 {
+    position: relative;
+    right: 0rem;
+    color: rgb(130, 0, 67);
+    font-size: 2rem;
+  }
+  .insta2:hover {
+    transform: translatey(-1.5rem);
+    transition: 0.56s ease-in-out;
+    box-shadow: 0 0 10px black, 0 0 20px rgb(130, 0, 67);
+  }
+  .git2 {
+    position: relative;
+    left: 1rem;
+    font-size: 2rem;
+    top: 0rem;
+  }
+  .git2:hover {
+    transform: translatey(-1.5rem);
+    transition: 0.56s ease-in-out;
+    box-shadow: 0 0 10px black, 0 0 20px rgb(135, 27, 212);
+  }
+  form {
+    position: relative;
+    right: 2rem;
+    top: -20rem;
+    background: white;
+    height: 400px;
+    width: 170%;
+    color: black;
+    padding: 4px 10px;
+    border-radius: 2px;
+  }
+  form label {
+    position: relative;
+    top: 0rem;
+    font-size: 18px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
+  form input {
+    position: relative;
+    margin-left: 0.5rem;
+    display: block;
+    background: rgba(227, 223, 208, 0.68);
+    border-radius: 10px;
+    color: black;
+    padding: 4px 10px;
+    font-size: 0.8rem;
+    border: none;
+    width: 90%;
+    height: 30px;
+    border: 2px black solid;
+  }
+
+  form textarea {
+    display: block;
+    position: relative;
+    top: 1rem;
+    left: 2rem;
+    width: 80%;
+    background: rgba(227, 224, 210, 0.68);
+    color: black;
+    padding: 4px 10px;
+    font-size: 15px;
+  }
+  form .sub-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 6rem;
+    top: 2rem;
+  }
+  .men {
+    width: 100%;
+  }
+}
+@media (min-width: 768px) {
+  .talk {
+    position: relative;
+    top: 19rem;
+    left: 10rem;
+    justify-content: center;
+    align-items: center;
+  }
+  .talk-h1 {
+    position: relative;
+    left: 2rem;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    top: -19.5rem;
+  }
+  .envolope {
+    position: relative;
+    left: 1rem;
+    top: 10px;
+  }
+  .socials2 text .links-p {
+    position: absolute;
+    color: white;
+    width: 120%;
+    display: flex;
+    flex-direction: row;
+    top: -5rem;
+  }
+  .socials2 {
+    position: relative;
+    display: flex;
+    top: -4rem;
+    left: 10rem;
+    list-style: none;
+  }
+
+  .whts2 {
+    position: relative;
+    right: 4rem;
+    color: green;
+    background: transparent;
+    font-size: 2rem;
+  }
+  .whts2:hover {
+    transform: translatey(-1.5rem);
+    transition: 0.56s ease-in-out;
+    box-shadow: 0 0 10px black, 0 0 20px green;
+  }
+  .fbck2 {
+    position: relative;
+    right: 2rem;
+    color: rgb(0, 153, 255);
+    font-size: 2rem;
+  }
+  .fbck2:hover {
+    transform: translatey(-1.5rem);
+    transition: 0.56s ease-in-out;
+    box-shadow: 0 0 10px black, 0 0 20px rgb(0, 153, 255);
+  }
+  .insta2 {
+    position: relative;
+    right: 0rem;
+    color: rgb(130, 0, 67);
+    font-size: 2rem;
+  }
+  .insta2:hover {
+    transform: translatey(-1.5rem);
+    transition: 0.56s ease-in-out;
+    box-shadow: 0 0 10px black, 0 0 20px rgb(130, 0, 67);
+  }
+  .git2 {
+    position: relative;
+    left: 1rem;
+    font-size: 2rem;
+    top: 0rem;
+  }
+  .git2:hover {
+    transform: translatey(-1.5rem);
+    transition: 0.56s ease-in-out;
+    box-shadow: 0 0 10px black, 0 0 20px rgb(135, 27, 212);
+  }
+  form {
+    position: relative;
+    right: 2rem;
+    top: -20rem;
+    background: white;
+    height: 400px;
+    width: 170%;
+    color: black;
+    padding: 4px 10px;
+    border-radius: 2px;
+  }
+  form label {
+    position: relative;
+    top: 0rem;
+    font-size: 18px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
+  form input {
+    position: relative;
+    margin-left: 0.5rem;
+    display: block;
+    background: rgba(227, 223, 208, 0.68);
+    border-radius: 10px;
+    color: black;
+    padding: 4px 10px;
+    font-size: 0.8rem;
+    border: none;
+    width: 90%;
+    height: 30px;
+    border: 2px black solid;
+  }
+
+  form textarea {
+    display: block;
+    position: relative;
+    top: 1rem;
+    left: 2rem;
+    width: 80%;
+    background: rgba(227, 224, 210, 0.68);
+    color: black;
+    padding: 4px 10px;
+    font-size: 15px;
+  }
+  form .sub-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 6rem;
+    top: 2rem;
+  }
+  .men {
+    width: 100%;
+  }
+}
+
+@media (min-height: 882px) {
+  .socials2 {
+    position: relative;
+    left: 6rem;
+    top: -4rem;
+  }
+}
+@media (min-height: 896px) {
+  .talk {
+    position: relative;
+    top: 2rem;
+  }
+  .socials2 {
+    position: absolute;
+    top: 11rem;
+  }
+}
+@media (min-height: 914px) {
+  .talk {
+    position: relative;
+    top: -1rem;
+  }
+  .socials2 {
+    position: absolute;
+    left: 7rem;
+    top: 9rem;
+  }
+}
+@media (min-height: 932px) {
+  .socials2 {
+    position: absolute;
+    top: 11rem;
+    right: 2rem;
+  }
+  .socials2 p {
+    position: absolute;
+    left: -2rem;
+  }
+  .socials2 a {
+    position: relative;
+    left: -0rem;
+  }
+}
+@media (min-width: 1024px) {
+  .talk {
+    position: relative;
+    top: 2rem;
+    left: 25rem;
+    justify-content: center;
+    align-items: center;
+  }
+  .talk-h1 {
+    position: relative;
+    left: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    z-index: 1;
+    color: red;
+  }
+  .envolope {
+    position: relative;
+    left: 1rem;
+    top: 10px;
+  }
+  .socials2 p {
+    position: relative;
+    color: white;
+    width: 100%;
+    font-size: 1.5rem;
+    top: -12rem;
+  }
+  .socials2 {
+    position: relative;
+    display: flex;
+    top: -4rem;
+    left: 5rem;
+    list-style: none;
+  }
+
+  .whts2 {
+    position: relative;
+    right: 4rem;
+    color: green;
+    background: transparent;
+    font-size: 2rem;
+  }
+  .whts2:hover {
+    transform: translatey(-1.5rem);
+    transition: 0.56s ease-in-out;
+    box-shadow: 0 0 10px black, 0 0 20px green;
+  }
+  .fbck2 {
+    position: relative;
+    right: 2rem;
+    color: rgb(0, 153, 255);
+    font-size: 2rem;
+  }
+  .fbck2:hover {
+    transform: translatey(-1.5rem);
+    transition: 0.56s ease-in-out;
+    box-shadow: 0 0 10px black, 0 0 20px rgb(0, 153, 255);
+  }
+  .insta2 {
+    position: relative;
+    right: 0rem;
+    color: rgb(130, 0, 67);
+    font-size: 2rem;
+  }
+  .insta2:hover {
+    transform: translatey(-1.5rem);
+    transition: 0.56s ease-in-out;
+    box-shadow: 0 0 10px black, 0 0 20px rgb(130, 0, 67);
+  }
+  .git2 {
+    position: relative;
+    left: 1rem;
+    font-size: 2rem;
+    top: 0rem;
+  }
+  .git2:hover {
+    transform: translatey(-1.5rem);
+    transition: 0.56s ease-in-out;
+    box-shadow: 0 0 10px black, 0 0 20px rgb(135, 27, 212);
+  }
+  form {
+    position: relative;
+    right: 2rem;
+    top: -0.5rem;
+    background: white;
+    height: 400px;
+    width: 200%;
+    color: black;
+    padding: 4px 10px;
+    border-radius: 2px;
+  }
+  form label {
+    position: relative;
+    top: 0rem;
+    font-size: 18px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
+  form input {
+    position: relative;
+    margin-left: 0.5rem;
+    display: block;
+    background: rgba(227, 223, 208, 0.68);
+    border-radius: 10px;
+    color: black;
+    padding: 4px 10px;
+    font-size: 0.8rem;
+    border: none;
+    width: 90%;
+    height: 30px;
+    border: 2px black solid;
+  }
+
+  form textarea {
+    display: block;
+    position: relative;
+    top: 1rem;
+    left: 2rem;
+    width: 80%;
+    background: rgba(227, 224, 210, 0.68);
+    color: black;
+    padding: 4px 10px;
+    font-size: 15px;
+  }
+  form .sub-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 6rem;
+    top: 2rem;
+  }
+}
+@media (min-height: 1024px) {
+  .talk {
+    position: relative;
+    top: 19rem;
+  }
+  .socials2 {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    gap: 0px 2px;
+    top: 12rem;
+    left: 10rem;
+  }
+}

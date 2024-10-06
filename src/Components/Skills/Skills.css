@@ -1,0 +1,3530 @@
+.SKILLS {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 320px) {
+  .SKILLS {
+    display: block;
+    position: relative;
+    top: 2rem;
+    left: 2rem;
+  }
+  .SKILLS h4 {
+    width: 70%;
+  }
+  .skills-card {
+    position: relative;
+    top: -2rem;
+    right: 10rem;
+    height: 100vh;
+    width: 100%;
+  }
+  .card h2 {
+    position: relative;
+    left: 10rem;
+    top: 4rem;
+    font-size: 2rem;
+  }
+  .front-end {
+    position: relative;
+    left: -10rem;
+    height: 10px;
+    top: 6rem;
+  }
+  .front-end h3 {
+    position: relative;
+    top: -5rem;
+    left: 22rem;
+    font-size: 40px;
+    color: gold;
+    width: 90%;
+    text-decoration: dashed;
+  }
+
+  .front-end .front {
+    width: 1.5rem;
+    height: 1.5rem;
+    position: relative;
+    left: 19rem;
+    top: -11rem;
+    background: transparent;
+    padding: 8px 8px;
+    border: 2px solid white;
+    font-size: 1rem;
+  }
+  .front-end .front:hover {
+    box-shadow: 0 0 20px white 0 0 20px gold;
+    border: 0 0 10px white 0 0 10px gold;
+  }
+  .front-end h4 {
+    position: relative;
+    left: 25rem;
+    top: -13rem;
+  }
+  .html-stat {
+    position: relative;
+    left: 23rem;
+    top: -14rem;
+    width: 70%;
+    background: white;
+    border-radius: 15px;
+  }
+  .prog {
+    padding: 9px 10px;
+    width: 0;
+    height: 5px;
+    background-color: gold;
+    text-align: center;
+    line-height: 10px;
+    color: black;
+    font-weight: bold;
+    animation: progress 3s forwards;
+    border-radius: 15px;
+  }
+  .CSS-stat {
+    position: relative;
+    left: 23rem;
+    top: -14rem;
+    width: 70%;
+    background: white;
+    color: black;
+    border-radius: 15px;
+  }
+  .CSS-prog {
+    background-color: gold;
+    animation: slide forwards 3s;
+    border-radius: 15px;
+    padding: 0 1rem;
+  }
+  .React-stat {
+    position: relative;
+    left: 23rem;
+    top: -14rem;
+    width: 70%;
+    background: white;
+    color: black;
+    border-radius: 15px;
+  }
+  .React-prog {
+    background-color: gold;
+    animation: slide2 forwards 3s;
+    border-radius: 15px;
+    padding: 0 1rem;
+  }
+  .back {
+    width: 1.5rem;
+    height: 1.5rem;
+    position: relative;
+    left: 54rem;
+    top: -8rem;
+    background: transparent;
+    padding: 10px 10px;
+    border: 2px solid white;
+    font-size: 1rem;
+  }
+  .back-end {
+    position: relative;
+    right: 45rem;
+    top: 22rem;
+  }
+  .back-end h3 {
+    position: relative;
+    top: -3rem;
+    left: 58rem;
+    font-size: 35px;
+    width: 80%;
+    color: gold;
+    text-decoration: dashed;
+  }
+  .py-stat {
+    background-color: white;
+    width: 70%;
+    position: relative;
+    left: 58rem;
+    top: -13rem;
+    border-radius: 15px;
+  }
+  .py-prog {
+    color: black;
+    padding: 0 1rem;
+    animation: pyMove forwards 3s;
+    background: gold;
+    border-radius: 15px;
+  }
+  .py {
+    position: relative;
+    font-size: 25px;
+    left: 60rem;
+    top: -11rem;
+  }
+  .php-cont {
+    position: relative;
+    left: 60rem;
+    top: -14rem;
+    width: 100%;
+  }
+  .php-4 {
+    font-size: 25px;
+  }
+  .php-stat {
+    background: white;
+    width: 70%;
+    position: relative;
+    right: 2rem;
+    border-radius: 15px;
+  }
+  .php-prog {
+    color: black;
+    padding: 0 1rem;
+    background: gold;
+    animation: 3s forwards phpSlide;
+    border-radius: 15px;
+  }
+  .soft-skills {
+    position: relative;
+    top: 38rem;
+    left: 12rem;
+    height: 100vh;
+  }
+  .SOFTS {
+    position: relative;
+  }
+  .soft-skills h2 {
+    font-size: 3rem;
+    position: relative;
+    left: 44rem;
+    top: -50rem;
+  }
+  .progress-bar-container h2 label {
+    position: relative;
+    left: -1rem;
+    top: -12rem;
+  }
+  .soft {
+    position: relative;
+    left: 40rem;
+    top: -58rem;
+    width: 5rem;
+    height: 5rem;
+  }
+  .comm {
+    position: relative;
+    left: 35rem;
+    top: -20rem;
+    font-size: 30px;
+  }
+  .comm-stat {
+    border-radius: 50%;
+    height: 2rem;
+    width: 2rem;
+    border: 10px solid red;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    animation: loading 3s;
+  }
+
+  @keyframes progress {
+    0% {
+      width: 20%;
+    }
+    50% {
+      width: 50%;
+    }
+    100% {
+      width: 70%;
+    }
+  }
+  @keyframes slide {
+    0% {
+      width: 30%;
+    }
+    50% {
+      width: 50%;
+    }
+    100% {
+      width: 50%;
+    }
+  }
+  @keyframes slide2 {
+    0% {
+      width: 20%;
+    }
+    50% {
+      width: 50%;
+    }
+    100% {
+      width: 60%;
+    }
+  }
+  @keyframes pyMove {
+    0% {
+      width: 20%;
+    }
+    40% {
+      width: 40%;
+    }
+    100% {
+      width: 45%;
+    }
+  }
+  @keyframes phpSlide {
+    0% {
+      width: 10%;
+    }
+    100% {
+      width: 40%;
+    }
+  }
+
+  /*----- Soft-Skills -----*/
+  .soft-skills label {
+    color: white;
+    font-size: 2rem;
+    position: relative;
+    top: -15rem;
+    right: 2rem;
+    width: 100%;
+  }
+  .communicate {
+    position: relative;
+    left: 45rem;
+    top: -63rem;
+    overflow: hidden;
+    width: 50%;
+  }
+  .creativity {
+    position: relative;
+    left: 47rem;
+    top: -47rem;
+  }
+  .teamwork {
+    position: relative;
+    left: 58rem;
+    top: -25rem;
+  }
+  .teamwork label {
+    color: white;
+    font-size: 2rem;
+    position: relative;
+    right: 1rem;
+  }
+  .creativity label {
+    position: relative;
+    left: -21rem;
+    top: 7rem;
+  }
+  .creativity .create {
+    position: relative;
+    left: -2rem;
+    top: 0rem;
+  }
+  .progress-bar {
+    width: 100px;
+    height: 100px;
+    color: black;
+    border-radius: 50%;
+
+    /* to center the percentage value */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  progress {
+    visibility: hidden;
+    width: 0;
+    height: 0;
+  }
+  .html {
+    background: radial-gradient(closest-side, white 79%, transparent 80% 100%),
+      conic-gradient(gold calc(var(--progress-value) * 1%), black 0);
+    animation: html-progress 2s 1 forwards;
+  }
+  .html::before {
+    animation: html-progress 3s 1 forwards;
+  }
+  .css {
+    background: radial-gradient(
+        closest-side,
+        white 79%,
+        transparent 80% 100%,
+        black 0
+      ),
+      conic-gradient(gold calc(var(--progress-value) * 1%), black 0);
+    animation: css-progress 2s 1 forwards;
+  }
+
+  .css::before {
+    animation: css-progress 2s 1 forwards;
+  }
+  .js {
+    background: radial-gradient(
+        closest-side,
+        white 79%,
+        transparent 80% 100%,
+        black 0
+      ),
+      conic-gradient(gold calc(var(--progress-value) * 1%), black 0);
+    animation: js-progress 2s 1 forwards;
+  }
+
+  .js::before {
+    animation: js-progress 2s 1 forwards;
+  }
+  @property --progress-value {
+    syntax: "<integer>";
+    inherits: false;
+    initial-value: 0;
+  }
+
+  @keyframes html-progress {
+    to {
+      --progress-value: 95;
+    }
+  }
+  @keyframes css-progress {
+    to {
+      --progress-value: 80;
+    }
+  }
+  @keyframes js-progress {
+    to {
+      --progress-value: 73;
+    }
+  }
+}
+@media (min-width: 344px) {
+  .SKILLS {
+    display: block;
+    position: relative;
+    top: 2rem;
+    left: 2rem;
+  }
+  .SKILLS h4 {
+    width: 70%;
+  }
+  .skills-card {
+    position: relative;
+    top: -2rem;
+    right: 10rem;
+    height: 100vh;
+    width: 100%;
+  }
+  .card h2 {
+    position: relative;
+    left: 13rem;
+    top: 4rem;
+    font-size: 1.8rem;
+  }
+  .front-end {
+    position: relative;
+    left: -10rem;
+    height: 10px;
+    top: 6rem;
+  }
+  .front-end h3 {
+    position: relative;
+    top: -5rem;
+    left: 22rem;
+    font-size: 40px;
+    color: gold;
+    width: 90%;
+    text-decoration: dashed;
+  }
+
+  .front-end .front {
+    width: 1.5rem;
+    height: 1.5rem;
+    position: relative;
+    left: 19rem;
+    top: -11rem;
+    background: transparent;
+    padding: 8px 8px;
+    border: 2px solid white;
+    font-size: 1rem;
+  }
+  .front-end .front:hover {
+    box-shadow: 0 0 20px white 0 0 20px gold;
+    border: 0 0 10px white 0 0 10px gold;
+  }
+  .front-end h4 {
+    position: relative;
+    left: 25rem;
+    top: -13rem;
+  }
+  .html-stat {
+    position: relative;
+    left: 23rem;
+    top: -14rem;
+    width: 90%;
+    background: white;
+    border-radius: 15px;
+  }
+  .prog {
+    padding: 9px 10px;
+    width: 0;
+    height: 5px;
+    background-color: gold;
+    text-align: center;
+    line-height: 10px;
+    color: black;
+    font-weight: bold;
+    animation: progress 3s forwards;
+    border-radius: 15px;
+  }
+  .CSS-stat {
+    position: relative;
+    left: 23rem;
+    top: -14rem;
+    width: 90%;
+    background: white;
+    color: black;
+    border-radius: 15px;
+  }
+  .CSS-prog {
+    background-color: gold;
+    animation: slide forwards 3s;
+    border-radius: 15px;
+    padding: 0 1rem;
+  }
+  .React-stat {
+    position: relative;
+    left: 23rem;
+    top: -14rem;
+    width: 90%;
+    background: white;
+    color: black;
+    border-radius: 15px;
+  }
+  .React-prog {
+    background-color: gold;
+    animation: slide2 forwards 3s;
+    border-radius: 15px;
+    padding: 0 1rem;
+  }
+  .back {
+    width: 1.5rem;
+    height: 1.5rem;
+    position: relative;
+    left: 54rem;
+    top: -8rem;
+    background: transparent;
+    padding: 10px 10px;
+    border: 2px solid white;
+    font-size: 1rem;
+  }
+  .back-end {
+    position: relative;
+    right: 45rem;
+    top: 22rem;
+  }
+  .back-end h3 {
+    position: relative;
+    top: -3rem;
+    left: 58rem;
+    font-size: 35px;
+    width: 80%;
+    color: gold;
+    text-decoration: dashed;
+  }
+  .py-stat {
+    background-color: white;
+    width: 90%;
+    position: relative;
+    left: 58rem;
+    top: -13rem;
+    border-radius: 15px;
+  }
+  .py-prog {
+    color: black;
+    padding: 0 1rem;
+    animation: pyMove forwards 3s;
+    background: gold;
+    border-radius: 15px;
+  }
+  .py {
+    position: relative;
+    font-size: 25px;
+    left: 60rem;
+    top: -11rem;
+  }
+  .php-cont {
+    position: relative;
+    left: 60rem;
+    top: -14rem;
+  }
+  .php-4 {
+    font-size: 25px;
+  }
+  .php-stat {
+    background: white;
+    width: 90%;
+    position: relative;
+    right: 2rem;
+    border-radius: 15px;
+  }
+  .php-prog {
+    color: black;
+    padding: 0 1rem;
+    background: gold;
+    animation: 3s forwards phpSlide;
+    border-radius: 15px;
+  }
+  .soft-skills {
+    position: relative;
+    top: 38rem;
+    left: 12rem;
+    height: 100vh;
+  }
+  .SOFTS {
+    position: relative;
+  }
+  .soft-skills h2 {
+    font-size: 3rem;
+    position: relative;
+    left: 44rem;
+    top: -50rem;
+  }
+  .progress-bar-container h2 label {
+    position: relative;
+    left: -1rem;
+    top: -12rem;
+  }
+  .soft {
+    position: relative;
+    left: 40rem;
+    top: -58rem;
+    width: 5rem;
+    height: 5rem;
+  }
+  .comm {
+    position: relative;
+    left: 35rem;
+    top: -20rem;
+    font-size: 30px;
+  }
+  .comm-stat {
+    border-radius: 50%;
+    height: 2rem;
+    width: 2rem;
+    border: 10px solid red;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    animation: loading 3s;
+  }
+
+  @keyframes progress {
+    0% {
+      width: 20%;
+    }
+    50% {
+      width: 50%;
+    }
+    100% {
+      width: 70%;
+    }
+  }
+  @keyframes slide {
+    0% {
+      width: 30%;
+    }
+    50% {
+      width: 50%;
+    }
+    100% {
+      width: 50%;
+    }
+  }
+  @keyframes slide2 {
+    0% {
+      width: 20%;
+    }
+    50% {
+      width: 50%;
+    }
+    100% {
+      width: 60%;
+    }
+  }
+  @keyframes pyMove {
+    0% {
+      width: 20%;
+    }
+    40% {
+      width: 40%;
+    }
+    100% {
+      width: 45%;
+    }
+  }
+  @keyframes phpSlide {
+    0% {
+      width: 10%;
+    }
+    100% {
+      width: 40%;
+    }
+  }
+
+  /*----- Soft-Skills -----*/
+  .soft-skills label {
+    color: white;
+    font-size: 2rem;
+    position: relative;
+    top: -15rem;
+    right: 2rem;
+  }
+  .communicate {
+    position: relative;
+    left: 47rem;
+    top: -63rem;
+  }
+  .creativity {
+    position: relative;
+    left: 47rem;
+    top: -47rem;
+  }
+  .teamwork {
+    position: relative;
+    left: 59rem;
+    top: -27rem;
+  }
+  .teamwork label {
+    color: white;
+    font-size: 2rem;
+    position: relative;
+    right: 1rem;
+  }
+  .creativity label {
+    position: relative;
+    left: -21rem;
+    top: 7rem;
+  }
+  .creativity .create {
+    position: relative;
+    left: -2rem;
+    top: 0rem;
+  }
+  .progress-bar {
+    width: 100px;
+    height: 100px;
+    color: black;
+    border-radius: 50%;
+
+    /* to center the percentage value */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  progress {
+    visibility: hidden;
+    width: 0;
+    height: 0;
+  }
+  .html {
+    background: radial-gradient(closest-side, white 79%, transparent 80% 100%),
+      conic-gradient(gold calc(var(--progress-value) * 1%), black 0);
+    animation: html-progress 2s 1 forwards;
+  }
+  .html::before {
+    animation: html-progress 3s 1 forwards;
+  }
+  .css {
+    background: radial-gradient(
+        closest-side,
+        white 79%,
+        transparent 80% 100%,
+        black 0
+      ),
+      conic-gradient(gold calc(var(--progress-value) * 1%), black 0);
+    animation: css-progress 2s 1 forwards;
+  }
+
+  .css::before {
+    animation: css-progress 2s 1 forwards;
+  }
+  .js {
+    background: radial-gradient(
+        closest-side,
+        white 79%,
+        transparent 80% 100%,
+        black 0
+      ),
+      conic-gradient(gold calc(var(--progress-value) * 1%), black 0);
+    animation: js-progress 2s 1 forwards;
+  }
+
+  .js::before {
+    animation: js-progress 2s 1 forwards;
+  }
+  @property --progress-value {
+    syntax: "<integer>";
+    inherits: false;
+    initial-value: 0;
+  }
+
+  @keyframes html-progress {
+    to {
+      --progress-value: 95;
+    }
+  }
+  @keyframes css-progress {
+    to {
+      --progress-value: 80;
+    }
+  }
+  @keyframes js-progress {
+    to {
+      --progress-value: 73;
+    }
+  }
+}
+@media (min-width: 360px) {
+  .SKILLS {
+    display: block;
+    position: relative;
+    top: 8rem;
+    left: 2rem;
+  }
+  .SKILLS h4 {
+    width: 70%;
+  }
+  .skills-card {
+    position: relative;
+    top: -2rem;
+    right: 10rem;
+    height: 100vh;
+    width: 100%;
+  }
+  .card h2 {
+    position: relative;
+    left: 13rem;
+    top: 4rem;
+    font-size: 1.8rem;
+  }
+  .front-end {
+    position: relative;
+    left: -10rem;
+    height: 10px;
+    top: 6rem;
+  }
+  .front-end h3 {
+    position: relative;
+    top: -5rem;
+    left: 22rem;
+    font-size: 40px;
+    color: gold;
+    width: 90%;
+    text-decoration: dashed;
+  }
+
+  .front-end .front {
+    width: 1.5rem;
+    height: 1.5rem;
+    position: relative;
+    left: 19rem;
+    top: -11rem;
+    background: transparent;
+    padding: 8px 8px;
+    border: 2px solid white;
+    font-size: 1rem;
+  }
+  .front-end .front:hover {
+    box-shadow: 0 0 20px white 0 0 20px gold;
+    border: 0 0 10px white 0 0 10px gold;
+  }
+  .front-end h4 {
+    position: relative;
+    left: 25rem;
+    top: -13rem;
+  }
+  .html-stat {
+    position: relative;
+    left: 23rem;
+    top: -14rem;
+    width: 90%;
+    background: white;
+    border-radius: 15px;
+  }
+  .prog {
+    padding: 9px 10px;
+    width: 0;
+    height: 5px;
+    background-color: gold;
+    text-align: center;
+    line-height: 10px;
+    color: black;
+    font-weight: bold;
+    animation: progress 3s forwards;
+    border-radius: 15px;
+  }
+  .CSS-stat {
+    position: relative;
+    left: 23rem;
+    top: -14rem;
+    width: 90%;
+    background: white;
+    color: black;
+    border-radius: 15px;
+  }
+  .CSS-prog {
+    background-color: gold;
+    animation: slide forwards 3s;
+    border-radius: 15px;
+    padding: 0 1rem;
+  }
+  .React-stat {
+    position: relative;
+    left: 23rem;
+    top: -14rem;
+    width: 90%;
+    background: white;
+    color: black;
+    border-radius: 15px;
+  }
+  .React-prog {
+    background-color: gold;
+    animation: slide2 forwards 3s;
+    border-radius: 15px;
+    padding: 0 1rem;
+  }
+  .back {
+    width: 1.5rem;
+    height: 1.5rem;
+    position: relative;
+    left: 54rem;
+    top: -8rem;
+    background: transparent;
+    padding: 10px 10px;
+    border: 2px solid white;
+    font-size: 1rem;
+  }
+  .back-end {
+    position: relative;
+    right: 45rem;
+    top: 22rem;
+  }
+  .back-end h3 {
+    position: relative;
+    top: -3rem;
+    left: 58rem;
+    font-size: 35px;
+    width: 80%;
+    color: gold;
+    text-decoration: dashed;
+  }
+  .py-stat {
+    background-color: white;
+    width: 90%;
+    position: relative;
+    left: 58rem;
+    top: -13rem;
+    border-radius: 15px;
+  }
+  .py-prog {
+    color: black;
+    padding: 0 1rem;
+    animation: pyMove forwards 3s;
+    background: gold;
+    border-radius: 15px;
+  }
+  .py {
+    position: relative;
+    font-size: 25px;
+    left: 60rem;
+    top: -11rem;
+  }
+  .php-cont {
+    position: relative;
+    left: 60rem;
+    top: -14rem;
+  }
+  .php-4 {
+    font-size: 25px;
+  }
+  .php-stat {
+    background: white;
+    width: 90%;
+    position: relative;
+    right: 2rem;
+    border-radius: 15px;
+  }
+  .php-prog {
+    color: black;
+    padding: 0 1rem;
+    background: gold;
+    animation: 3s forwards phpSlide;
+    border-radius: 15px;
+  }
+  .soft-skills {
+    position: relative;
+    top: 38rem;
+    left: 12rem;
+    height: 100vh;
+  }
+  .SOFTS {
+    position: relative;
+  }
+  .soft-skills h2 {
+    font-size: 3rem;
+    position: relative;
+    left: 44rem;
+    top: -50rem;
+  }
+  .progress-bar-container h2 label {
+    position: relative;
+    left: -1rem;
+    top: -12rem;
+  }
+  .soft {
+    position: relative;
+    left: 40rem;
+    top: -58rem;
+    width: 5rem;
+    height: 5rem;
+  }
+  .comm {
+    position: relative;
+    left: 35rem;
+    top: -20rem;
+    font-size: 30px;
+  }
+  .comm-stat {
+    border-radius: 50%;
+    height: 2rem;
+    width: 2rem;
+    border: 10px solid red;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    animation: loading 3s;
+  }
+
+  @keyframes progress {
+    0% {
+      width: 20%;
+    }
+    50% {
+      width: 50%;
+    }
+    100% {
+      width: 70%;
+    }
+  }
+  @keyframes slide {
+    0% {
+      width: 30%;
+    }
+    50% {
+      width: 50%;
+    }
+    100% {
+      width: 50%;
+    }
+  }
+  @keyframes slide2 {
+    0% {
+      width: 20%;
+    }
+    50% {
+      width: 50%;
+    }
+    100% {
+      width: 60%;
+    }
+  }
+  @keyframes pyMove {
+    0% {
+      width: 20%;
+    }
+    40% {
+      width: 40%;
+    }
+    100% {
+      width: 45%;
+    }
+  }
+  @keyframes phpSlide {
+    0% {
+      width: 10%;
+    }
+    100% {
+      width: 40%;
+    }
+  }
+
+  /*----- Soft-Skills -----*/
+  .soft-skills label {
+    color: white;
+    font-size: 2rem;
+    position: relative;
+    top: -15rem;
+    right: 2rem;
+  }
+  .communicate {
+    position: relative;
+    left: 47rem;
+    top: -63rem;
+  }
+  .creativity {
+    position: relative;
+    left: 47rem;
+    top: -47rem;
+  }
+  .teamwork {
+    position: relative;
+    left: 59rem;
+    top: -27rem;
+  }
+  .teamwork label {
+    color: white;
+    font-size: 2rem;
+    position: relative;
+    right: 1rem;
+  }
+  .creativity label {
+    position: relative;
+    left: -21rem;
+    top: 7rem;
+  }
+  .creativity .create {
+    position: relative;
+    left: -2rem;
+    top: 0rem;
+  }
+  .progress-bar {
+    width: 100px;
+    height: 100px;
+    color: black;
+    border-radius: 50%;
+
+    /* to center the percentage value */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  progress {
+    visibility: hidden;
+    width: 0;
+    height: 0;
+  }
+  .html {
+    background: radial-gradient(closest-side, white 79%, transparent 80% 100%),
+      conic-gradient(gold calc(var(--progress-value) * 1%), black 0);
+    animation: html-progress 2s 1 forwards;
+  }
+  .html::before {
+    animation: html-progress 3s 1 forwards;
+  }
+  .css {
+    background: radial-gradient(
+        closest-side,
+        white 79%,
+        transparent 80% 100%,
+        black 0
+      ),
+      conic-gradient(gold calc(var(--progress-value) * 1%), black 0);
+    animation: css-progress 2s 1 forwards;
+  }
+
+  .css::before {
+    animation: css-progress 2s 1 forwards;
+  }
+  .js {
+    background: radial-gradient(
+        closest-side,
+        white 79%,
+        transparent 80% 100%,
+        black 0
+      ),
+      conic-gradient(gold calc(var(--progress-value) * 1%), black 0);
+    animation: js-progress 2s 1 forwards;
+  }
+
+  .js::before {
+    animation: js-progress 2s 1 forwards;
+  }
+  @property --progress-value {
+    syntax: "<integer>";
+    inherits: false;
+    initial-value: 0;
+  }
+
+  @keyframes html-progress {
+    to {
+      --progress-value: 95;
+    }
+  }
+  @keyframes css-progress {
+    to {
+      --progress-value: 80;
+    }
+  }
+  @keyframes js-progress {
+    to {
+      --progress-value: 73;
+    }
+  }
+}
+@media (min-width: 375px) {
+  .SKILLS {
+    display: block;
+    position: relative;
+    top: 5rem;
+    left: 2rem;
+  }
+  .SKILLS h4 {
+    width: 70%;
+  }
+  .skills-card {
+    position: relative;
+    top: -2rem;
+    right: 10rem;
+    height: 100vh;
+    width: 100%;
+  }
+  .card h2 {
+    position: relative;
+    left: 13rem;
+    top: 4rem;
+    font-size: 1.8rem;
+  }
+  .front-end {
+    position: relative;
+    left: -10rem;
+    height: 10px;
+    top: 6rem;
+  }
+  .front-end h3 {
+    position: relative;
+    top: -5rem;
+    left: 22rem;
+    font-size: 40px;
+    color: gold;
+    width: 90%;
+    text-decoration: dashed;
+  }
+
+  .front-end .front {
+    width: 1.5rem;
+    height: 1.5rem;
+    position: relative;
+    left: 19rem;
+    top: -11rem;
+    background: transparent;
+    padding: 8px 8px;
+    border: 2px solid white;
+    font-size: 1rem;
+  }
+  .front-end .front:hover {
+    box-shadow: 0 0 20px white 0 0 20px gold;
+    border: 0 0 10px white 0 0 10px gold;
+  }
+  .front-end h4 {
+    position: relative;
+    left: 25rem;
+    top: -13rem;
+  }
+  .html-stat {
+    position: relative;
+    left: 23rem;
+    top: -14rem;
+    width: 90%;
+    background: white;
+    border-radius: 15px;
+  }
+  .prog {
+    padding: 9px 10px;
+    width: 0;
+    height: 5px;
+    background-color: gold;
+    text-align: center;
+    line-height: 10px;
+    color: black;
+    font-weight: bold;
+    animation: progress 3s forwards;
+    border-radius: 15px;
+  }
+  .CSS-stat {
+    position: relative;
+    left: 23rem;
+    top: -14rem;
+    width: 90%;
+    background: white;
+    color: black;
+    border-radius: 15px;
+  }
+  .CSS-prog {
+    background-color: gold;
+    animation: slide forwards 3s;
+    border-radius: 15px;
+    padding: 0 1rem;
+  }
+  .React-stat {
+    position: relative;
+    left: 23rem;
+    top: -14rem;
+    width: 90%;
+    background: white;
+    color: black;
+    border-radius: 15px;
+  }
+  .React-prog {
+    background-color: gold;
+    animation: slide2 forwards 3s;
+    border-radius: 15px;
+    padding: 0 1rem;
+  }
+  .back {
+    width: 1.5rem;
+    height: 1.5rem;
+    position: relative;
+    left: 54rem;
+    top: -8rem;
+    background: transparent;
+    padding: 10px 10px;
+    border: 2px solid white;
+    font-size: 1rem;
+  }
+  .back-end {
+    position: relative;
+    right: 45rem;
+    top: 22rem;
+  }
+  .back-end h3 {
+    position: relative;
+    top: -3rem;
+    left: 58rem;
+    font-size: 35px;
+    width: 80%;
+    color: gold;
+    text-decoration: dashed;
+  }
+  .py-stat {
+    background-color: white;
+    width: 90%;
+    position: relative;
+    left: 58rem;
+    top: -13rem;
+    border-radius: 15px;
+  }
+  .py-prog {
+    color: black;
+    padding: 0 1rem;
+    animation: pyMove forwards 3s;
+    background: gold;
+    border-radius: 15px;
+  }
+  .py {
+    position: relative;
+    font-size: 25px;
+    left: 60rem;
+    top: -11rem;
+  }
+  .php-cont {
+    position: relative;
+    left: 60rem;
+    top: -14rem;
+  }
+  .php-4 {
+    font-size: 25px;
+  }
+  .php-stat {
+    background: white;
+    width: 90%;
+    position: relative;
+    right: 2rem;
+    border-radius: 15px;
+  }
+  .php-prog {
+    color: black;
+    padding: 0 1rem;
+    background: gold;
+    animation: 3s forwards phpSlide;
+    border-radius: 15px;
+  }
+  .soft-skills {
+    position: relative;
+    top: 38rem;
+    left: 12rem;
+    height: 100vh;
+  }
+  .SOFTS {
+    position: relative;
+  }
+  .soft-skills h2 {
+    font-size: 3rem;
+    position: relative;
+    left: 44rem;
+    top: -50rem;
+  }
+  .progress-bar-container h2 label {
+    position: relative;
+    left: -1rem;
+    top: -12rem;
+  }
+  .soft {
+    position: relative;
+    left: 40rem;
+    top: -58rem;
+    width: 5rem;
+    height: 5rem;
+  }
+  .comm {
+    position: relative;
+    left: 35rem;
+    top: -20rem;
+    font-size: 30px;
+  }
+  .comm-stat {
+    border-radius: 50%;
+    height: 2rem;
+    width: 2rem;
+    border: 10px solid red;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    animation: loading 3s;
+  }
+
+  @keyframes progress {
+    0% {
+      width: 20%;
+    }
+    50% {
+      width: 50%;
+    }
+    100% {
+      width: 70%;
+    }
+  }
+  @keyframes slide {
+    0% {
+      width: 30%;
+    }
+    50% {
+      width: 50%;
+    }
+    100% {
+      width: 50%;
+    }
+  }
+  @keyframes slide2 {
+    0% {
+      width: 20%;
+    }
+    50% {
+      width: 50%;
+    }
+    100% {
+      width: 60%;
+    }
+  }
+  @keyframes pyMove {
+    0% {
+      width: 20%;
+    }
+    40% {
+      width: 40%;
+    }
+    100% {
+      width: 45%;
+    }
+  }
+  @keyframes phpSlide {
+    0% {
+      width: 10%;
+    }
+    100% {
+      width: 40%;
+    }
+  }
+
+  /*----- Soft-Skills -----*/
+  .soft-skills label {
+    color: white;
+    font-size: 2rem;
+    position: relative;
+    top: -15rem;
+    right: 2rem;
+  }
+  .communicate {
+    position: relative;
+    left: 47rem;
+    top: -63rem;
+  }
+  .creativity {
+    position: relative;
+    left: 47rem;
+    top: -47rem;
+  }
+  .teamwork {
+    position: relative;
+    left: 58rem;
+    top: -25rem;
+  }
+  .teamwork label {
+    color: white;
+    font-size: 2rem;
+    position: relative;
+    right: 1rem;
+  }
+  .creativity label {
+    position: relative;
+    left: -21rem;
+    top: 7rem;
+  }
+  .creativity .create {
+    position: relative;
+    left: -2rem;
+    top: 0rem;
+  }
+  .progress-bar {
+    width: 100px;
+    height: 100px;
+    color: black;
+    border-radius: 50%;
+
+    /* to center the percentage value */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  progress {
+    visibility: hidden;
+    width: 0;
+    height: 0;
+  }
+  .html {
+    background: radial-gradient(closest-side, white 79%, transparent 80% 100%),
+      conic-gradient(gold calc(var(--progress-value) * 1%), black 0);
+    animation: html-progress 2s 1 forwards;
+  }
+  .html::before {
+    animation: html-progress 3s 1 forwards;
+  }
+  .css {
+    background: radial-gradient(
+        closest-side,
+        white 79%,
+        transparent 80% 100%,
+        black 0
+      ),
+      conic-gradient(gold calc(var(--progress-value) * 1%), black 0);
+    animation: css-progress 2s 1 forwards;
+  }
+
+  .css::before {
+    animation: css-progress 2s 1 forwards;
+  }
+  .js {
+    background: radial-gradient(
+        closest-side,
+        white 79%,
+        transparent 80% 100%,
+        black 0
+      ),
+      conic-gradient(gold calc(var(--progress-value) * 1%), black 0);
+    animation: js-progress 2s 1 forwards;
+  }
+
+  .js::before {
+    animation: js-progress 2s 1 forwards;
+  }
+  @property --progress-value {
+    syntax: "<integer>";
+    inherits: false;
+    initial-value: 0;
+  }
+
+  @keyframes html-progress {
+    to {
+      --progress-value: 95;
+    }
+  }
+  @keyframes css-progress {
+    to {
+      --progress-value: 80;
+    }
+  }
+  @keyframes js-progress {
+    to {
+      --progress-value: 73;
+    }
+  }
+}
+@media (min-width: 390px) {
+  .SKILLS {
+    position: relative;
+    top: 12rem;
+  }
+}
+@media (min-width: 414px) {
+  .SKILLS {
+    position: relative;
+    top: 12rem;
+  }
+}
+@media (min-width: 425px) {
+  .SKILLS {
+    display: block;
+    position: relative;
+    top: 2rem;
+    left: 2rem;
+  }
+  .SKILLS h4 {
+    width: 70%;
+  }
+  .skills-card {
+    position: relative;
+    top: -2rem;
+    right: 10rem;
+    height: 100vh;
+    width: 100%;
+  }
+  .card h2 {
+    position: relative;
+    left: 13rem;
+    top: 4rem;
+    font-size: 1.8rem;
+  }
+  .front-end {
+    position: relative;
+    left: -10rem;
+    height: 10px;
+    top: 6rem;
+  }
+  .front-end h3 {
+    position: relative;
+    top: -5rem;
+    left: 25rem;
+    font-size: 40px;
+    color: gold;
+    width: 90%;
+    text-decoration: dashed;
+  }
+
+  .front-end .front {
+    width: 1.5rem;
+    height: 1.5rem;
+    position: relative;
+    left: 19rem;
+    top: -11rem;
+    background: transparent;
+    padding: 8px 8px;
+    border: 2px solid white;
+    font-size: 1rem;
+  }
+  .front-end .front:hover {
+    box-shadow: 0 0 20px white 0 0 20px gold;
+    border: 0 0 10px white 0 0 10px gold;
+  }
+  .front-end h4 {
+    position: relative;
+    left: 25rem;
+    top: -13rem;
+  }
+  .html-stat {
+    position: relative;
+    left: 23rem;
+    top: -14rem;
+    width: 90%;
+    background: white;
+    border-radius: 15px;
+  }
+  .prog {
+    padding: 9px 10px;
+    width: 0;
+    height: 5px;
+    background-color: gold;
+    text-align: center;
+    line-height: 10px;
+    color: black;
+    font-weight: bold;
+    animation: progress 3s forwards;
+    border-radius: 15px;
+  }
+  .CSS-stat {
+    position: relative;
+    left: 23rem;
+    top: -14rem;
+    width: 90%;
+    background: white;
+    color: black;
+    border-radius: 15px;
+  }
+  .CSS-prog {
+    background-color: gold;
+    animation: slide forwards 3s;
+    border-radius: 15px;
+    padding: 0 1rem;
+  }
+  .React-stat {
+    position: relative;
+    left: 23rem;
+    top: -14rem;
+    width: 90%;
+    background: white;
+    color: black;
+    border-radius: 15px;
+  }
+  .React-prog {
+    background-color: gold;
+    animation: slide2 forwards 3s;
+    border-radius: 15px;
+    padding: 0 1rem;
+  }
+  .back {
+    width: 1.5rem;
+    height: 1.5rem;
+    position: relative;
+    left: 54rem;
+    top: -8rem;
+    background: transparent;
+    padding: 10px 10px;
+    border: 2px solid white;
+    font-size: 1rem;
+  }
+  .back-end {
+    position: relative;
+    right: 45rem;
+    top: 22rem;
+  }
+  .back-end h3 {
+    position: relative;
+    top: -3rem;
+    left: 58rem;
+    font-size: 35px;
+    width: 80%;
+    color: gold;
+    text-decoration: dashed;
+  }
+  .py-stat {
+    background-color: white;
+    width: 90%;
+    position: relative;
+    left: 58rem;
+    top: -13rem;
+    border-radius: 15px;
+  }
+  .py-prog {
+    color: black;
+    padding: 0 1rem;
+    animation: pyMove forwards 3s;
+    background: gold;
+    border-radius: 15px;
+  }
+  .py {
+    position: relative;
+    font-size: 25px;
+    left: 60rem;
+    top: -11rem;
+  }
+  .php-cont {
+    position: relative;
+    left: 60rem;
+    top: -14rem;
+  }
+  .php-4 {
+    font-size: 25px;
+  }
+  .php-stat {
+    background: white;
+    width: 90%;
+    position: relative;
+    right: 2rem;
+    border-radius: 15px;
+  }
+  .php-prog {
+    color: black;
+    padding: 0 1rem;
+    background: gold;
+    animation: 3s forwards phpSlide;
+    border-radius: 15px;
+  }
+  .soft-skills {
+    position: relative;
+    top: 38rem;
+    left: 12rem;
+    height: 100vh;
+  }
+  .SOFTS {
+    position: relative;
+    left: 2rem;
+  }
+  .soft-skills h2 {
+    font-size: 3rem;
+    position: relative;
+    left: 44rem;
+    top: -50rem;
+  }
+  .progress-bar-container h2 label {
+    position: relative;
+    left: -1rem;
+    top: -12rem;
+  }
+  .soft {
+    position: relative;
+    left: 39rem;
+    top: -57rem;
+    width: 5rem;
+    height: 5rem;
+  }
+  .comm {
+    position: relative;
+    left: 35rem;
+    top: -20rem;
+    font-size: 30px;
+  }
+  .comm-stat {
+    border-radius: 50%;
+    height: 2rem;
+    width: 2rem;
+    border: 10px solid red;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    animation: loading 3s;
+  }
+
+  @keyframes progress {
+    0% {
+      width: 20%;
+    }
+    50% {
+      width: 50%;
+    }
+    100% {
+      width: 70%;
+    }
+  }
+  @keyframes slide {
+    0% {
+      width: 30%;
+    }
+    50% {
+      width: 50%;
+    }
+    100% {
+      width: 50%;
+    }
+  }
+  @keyframes slide2 {
+    0% {
+      width: 20%;
+    }
+    50% {
+      width: 50%;
+    }
+    100% {
+      width: 60%;
+    }
+  }
+  @keyframes pyMove {
+    0% {
+      width: 20%;
+    }
+    40% {
+      width: 40%;
+    }
+    100% {
+      width: 45%;
+    }
+  }
+  @keyframes phpSlide {
+    0% {
+      width: 10%;
+    }
+    100% {
+      width: 40%;
+    }
+  }
+
+  /*----- Soft-Skills -----*/
+  .soft-skills label {
+    color: white;
+    font-size: 2rem;
+    position: relative;
+    top: -15rem;
+    right: 2rem;
+  }
+  .communicate {
+    position: relative;
+    left: 47rem;
+    top: -63rem;
+  }
+  .creativity {
+    position: relative;
+    left: 47rem;
+    top: -47rem;
+  }
+  .teamwork {
+    position: relative;
+    left: 58rem;
+    top: -25rem;
+  }
+  .teamwork label {
+    color: white;
+    font-size: 2rem;
+    position: relative;
+    right: 1rem;
+  }
+  .creativity label {
+    position: relative;
+    left: -21rem;
+    top: 7rem;
+  }
+  .creativity .create {
+    position: relative;
+    left: -2rem;
+    top: 0rem;
+  }
+  .progress-bar {
+    width: 100px;
+    height: 100px;
+    color: black;
+    border-radius: 50%;
+
+    /* to center the percentage value */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  progress {
+    visibility: hidden;
+    width: 0;
+    height: 0;
+  }
+  .html {
+    background: radial-gradient(closest-side, white 79%, transparent 80% 100%),
+      conic-gradient(gold calc(var(--progress-value) * 1%), black 0);
+    animation: html-progress 2s 1 forwards;
+  }
+  .html::before {
+    animation: html-progress 3s 1 forwards;
+  }
+  .css {
+    background: radial-gradient(
+        closest-side,
+        white 79%,
+        transparent 80% 100%,
+        black 0
+      ),
+      conic-gradient(gold calc(var(--progress-value) * 1%), black 0);
+    animation: css-progress 2s 1 forwards;
+  }
+
+  .css::before {
+    animation: css-progress 2s 1 forwards;
+  }
+  .js {
+    background: radial-gradient(
+        closest-side,
+        white 79%,
+        transparent 80% 100%,
+        black 0
+      ),
+      conic-gradient(gold calc(var(--progress-value) * 1%), black 0);
+    animation: js-progress 2s 1 forwards;
+  }
+
+  .js::before {
+    animation: js-progress 2s 1 forwards;
+  }
+  @property --progress-value {
+    syntax: "<integer>";
+    inherits: false;
+    initial-value: 0;
+  }
+
+  @keyframes html-progress {
+    to {
+      --progress-value: 95;
+    }
+  }
+  @keyframes css-progress {
+    to {
+      --progress-value: 80;
+    }
+  }
+  @keyframes js-progress {
+    to {
+      --progress-value: 73;
+    }
+  }
+}
+@media (min-width: 600px) {
+  .SKILLS {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 1rem;
+    left: 8rem;
+  }
+  .SKILLS h4 {
+    width: 70%;
+  }
+  .skills-card {
+    position: relative;
+    top: -2rem;
+    right: 10rem;
+    height: 100vh;
+    width: 100%;
+  }
+  .card h2 {
+    position: relative;
+    left: 13rem;
+    top: 4rem;
+    font-size: 1.8rem;
+  }
+  .front-end {
+    position: relative;
+    left: -10rem;
+    height: 10px;
+    top: 6rem;
+  }
+  .front-end h3 {
+    position: relative;
+    top: -5rem;
+    left: 25rem;
+    font-size: 40px;
+    color: gold;
+    width: 90%;
+    text-decoration: dashed;
+  }
+
+  .front-end .front {
+    width: 1.5rem;
+    height: 1.5rem;
+    position: relative;
+    left: 19rem;
+    top: -11rem;
+    background: transparent;
+    padding: 8px 8px;
+    border: 2px solid white;
+    font-size: 1rem;
+  }
+  .front-end .front:hover {
+    box-shadow: 0 0 20px white 0 0 20px gold;
+    border: 0 0 10px white 0 0 10px gold;
+  }
+  .front-end h4 {
+    position: relative;
+    left: 25rem;
+    top: -13rem;
+  }
+  .html-stat {
+    position: relative;
+    left: 23rem;
+    top: -14rem;
+    width: 90%;
+    background: white;
+    border-radius: 15px;
+  }
+  .prog {
+    padding: 9px 10px;
+    width: 0;
+    height: 5px;
+    background-color: gold;
+    text-align: center;
+    line-height: 10px;
+    color: black;
+    font-weight: bold;
+    animation: progress 3s forwards;
+    border-radius: 15px;
+  }
+  .CSS-stat {
+    position: relative;
+    left: 23rem;
+    top: -14rem;
+    width: 90%;
+    background: white;
+    color: black;
+    border-radius: 15px;
+  }
+  .CSS-prog {
+    background-color: gold;
+    animation: slide forwards 3s;
+    border-radius: 15px;
+    padding: 0 1rem;
+  }
+  .React-stat {
+    position: relative;
+    left: 23rem;
+    top: -14rem;
+    width: 90%;
+    background: white;
+    color: black;
+    border-radius: 15px;
+  }
+  .React-prog {
+    background-color: gold;
+    animation: slide2 forwards 3s;
+    border-radius: 15px;
+    padding: 0 1rem;
+  }
+  .back {
+    width: 1.5rem;
+    height: 1.5rem;
+    position: relative;
+    left: 54rem;
+    top: -8rem;
+    background: transparent;
+    padding: 10px 10px;
+    border: 2px solid white;
+    font-size: 1rem;
+  }
+  .back-end {
+    position: relative;
+    right: 45rem;
+    top: 22rem;
+  }
+  .back-end h3 {
+    position: relative;
+    top: -3rem;
+    left: 58rem;
+    font-size: 35px;
+    width: 80%;
+    color: gold;
+    text-decoration: dashed;
+  }
+  .py-stat {
+    background-color: white;
+    width: 90%;
+    position: relative;
+    left: 58rem;
+    top: -13rem;
+    border-radius: 15px;
+  }
+  .py-prog {
+    color: black;
+    padding: 0 1rem;
+    animation: pyMove forwards 3s;
+    background: gold;
+    border-radius: 15px;
+  }
+  .py {
+    position: relative;
+    font-size: 25px;
+    left: 60rem;
+    top: -11rem;
+  }
+  .php-cont {
+    position: relative;
+    left: 60rem;
+    top: -14rem;
+  }
+  .php-4 {
+    font-size: 25px;
+  }
+  .php-stat {
+    background: white;
+    width: 90%;
+    position: relative;
+    right: 2rem;
+    border-radius: 15px;
+  }
+  .php-prog {
+    color: black;
+    padding: 0 1rem;
+    background: gold;
+    animation: 3s forwards phpSlide;
+    border-radius: 15px;
+  }
+  .soft-skills {
+    position: relative;
+    top: 38rem;
+    left: 12rem;
+    height: 100vh;
+  }
+  .SOFTS {
+    position: relative;
+    left: 2rem;
+  }
+  .soft-skills h2 {
+    font-size: 3rem;
+    position: relative;
+    left: 44rem;
+    top: -50rem;
+  }
+  .progress-bar-container h2 label {
+    position: relative;
+    left: -1rem;
+    top: -12rem;
+  }
+  .soft {
+    position: relative;
+    left: 39rem;
+    top: -57rem;
+    width: 5rem;
+    height: 5rem;
+  }
+  .comm {
+    position: relative;
+    left: 35rem;
+    top: -20rem;
+    font-size: 30px;
+  }
+  .comm-stat {
+    border-radius: 50%;
+    height: 2rem;
+    width: 2rem;
+    border: 10px solid red;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    animation: loading 3s;
+  }
+
+  @keyframes progress {
+    0% {
+      width: 20%;
+    }
+    50% {
+      width: 50%;
+    }
+    100% {
+      width: 70%;
+    }
+  }
+  @keyframes slide {
+    0% {
+      width: 30%;
+    }
+    50% {
+      width: 50%;
+    }
+    100% {
+      width: 50%;
+    }
+  }
+  @keyframes slide2 {
+    0% {
+      width: 20%;
+    }
+    50% {
+      width: 50%;
+    }
+    100% {
+      width: 60%;
+    }
+  }
+  @keyframes pyMove {
+    0% {
+      width: 20%;
+    }
+    40% {
+      width: 40%;
+    }
+    100% {
+      width: 45%;
+    }
+  }
+  @keyframes phpSlide {
+    0% {
+      width: 10%;
+    }
+    100% {
+      width: 40%;
+    }
+  }
+
+  /*----- Soft-Skills -----*/
+  .soft-skills label {
+    color: white;
+    font-size: 2rem;
+    position: relative;
+    top: -15rem;
+    right: 2rem;
+  }
+  .communicate {
+    position: relative;
+    left: 47rem;
+    top: -63rem;
+  }
+  .at-600px {
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
+    display: block;
+  }
+
+  .creativity {
+    position: relative;
+    left: 47rem;
+    top: -50rem;
+  }
+  .teamwork {
+    position: relative;
+    left: 58rem;
+    top: -35rem;
+  }
+  .teamwork label {
+    color: white;
+    font-size: 2rem;
+    position: relative;
+    right: 1rem;
+  }
+  .creativity label {
+    position: relative;
+    left: -21rem;
+    top: 7rem;
+  }
+  .creativity .create {
+    position: relative;
+    left: -2rem;
+    top: 0rem;
+  }
+  .progress-bar {
+    width: 100px;
+    height: 100px;
+    color: black;
+    border-radius: 50%;
+
+    /* to center the percentage value */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  progress {
+    visibility: hidden;
+    width: 0;
+    height: 0;
+  }
+  .html {
+    background: radial-gradient(closest-side, white 79%, transparent 80% 100%),
+      conic-gradient(gold calc(var(--progress-value) * 1%), black 0);
+    animation: html-progress 2s 1 forwards;
+  }
+  .html::before {
+    animation: html-progress 3s 1 forwards;
+  }
+  .css {
+    background: radial-gradient(
+        closest-side,
+        white 79%,
+        transparent 80% 100%,
+        black 0
+      ),
+      conic-gradient(gold calc(var(--progress-value) * 1%), black 0);
+    animation: css-progress 2s 1 forwards;
+  }
+
+  .css::before {
+    animation: css-progress 2s 1 forwards;
+  }
+  .js {
+    background: radial-gradient(
+        closest-side,
+        white 79%,
+        transparent 80% 100%,
+        black 0
+      ),
+      conic-gradient(gold calc(var(--progress-value) * 1%), black 0);
+    animation: js-progress 2s 1 forwards;
+  }
+
+  .js::before {
+    animation: js-progress 2s 1 forwards;
+  }
+  @property --progress-value {
+    syntax: "<integer>";
+    inherits: false;
+    initial-value: 0;
+  }
+
+  @keyframes html-progress {
+    to {
+      --progress-value: 95;
+    }
+  }
+  @keyframes css-progress {
+    to {
+      --progress-value: 80;
+    }
+  }
+  @keyframes js-progress {
+    to {
+      --progress-value: 73;
+    }
+  }
+}
+@media (min-height: 667px) {
+  .teamwork {
+    position: absolute;
+    top: 4rem;
+  }
+}
+@media (min-width: 768px) {
+  .SKILLS {
+    display: block;
+    position: absolute;
+    top: 2rem;
+    left: 12rem;
+  }
+  .SKILLS h4 {
+    width: 70%;
+  }
+  .skills-card {
+    position: relative;
+    top: -2rem;
+    right: 10rem;
+    height: 100vh;
+    width: 100%;
+  }
+  .card h2 {
+    position: relative;
+    left: 13rem;
+    top: 4rem;
+    font-size: 1.8rem;
+  }
+  .front-end {
+    position: relative;
+    left: -10rem;
+    height: 10px;
+    top: 6rem;
+  }
+  .front-end h3 {
+    position: relative;
+    top: -5rem;
+    left: 25rem;
+    font-size: 40px;
+    color: gold;
+    width: 90%;
+    text-decoration: dashed;
+  }
+
+  .front-end .front {
+    width: 1.5rem;
+    height: 1.5rem;
+    position: relative;
+    left: 19rem;
+    top: -11rem;
+    background: transparent;
+    padding: 8px 8px;
+    border: 2px solid white;
+    font-size: 1rem;
+  }
+  .front-end .front:hover {
+    box-shadow: 0 0 20px white 0 0 20px gold;
+    border: 0 0 10px white 0 0 10px gold;
+  }
+  .front-end h4 {
+    position: relative;
+    left: 25rem;
+    top: -13rem;
+  }
+  .html-stat {
+    position: relative;
+    left: 23rem;
+    top: -14rem;
+    width: 120%;
+    background: white;
+    border-radius: 15px;
+  }
+  .prog {
+    padding: 9px 10px;
+    width: 0;
+    height: 5px;
+    background-color: gold;
+    text-align: center;
+    line-height: 10px;
+    color: black;
+    font-weight: bold;
+    animation: progress 3s forwards;
+    border-radius: 15px;
+  }
+  .CSS-stat {
+    position: relative;
+    left: 23rem;
+    top: -14rem;
+    width: 120%;
+    background: white;
+    color: black;
+    border-radius: 15px;
+  }
+  .CSS-prog {
+    background-color: gold;
+    animation: slide forwards 3s;
+    border-radius: 15px;
+    padding: 0 1rem;
+  }
+  .React-stat {
+    position: relative;
+    left: 23rem;
+    top: -14rem;
+    width: 120%;
+    background: white;
+    color: black;
+    border-radius: 15px;
+  }
+  .React-prog {
+    background-color: gold;
+    animation: slide2 forwards 3s;
+    border-radius: 15px;
+    padding: 0 1rem;
+  }
+  .back {
+    width: 1.5rem;
+    height: 1.5rem;
+    position: relative;
+    left: 54rem;
+    top: -8rem;
+    background: transparent;
+    padding: 10px 10px;
+    border: 2px solid white;
+    font-size: 1rem;
+  }
+  .back-end {
+    position: relative;
+    right: 45rem;
+    top: 22rem;
+  }
+  .back-end h3 {
+    position: relative;
+    top: -3rem;
+    left: 58rem;
+    font-size: 35px;
+    width: 80%;
+    color: gold;
+    text-decoration: dashed;
+  }
+  .py-stat {
+    background-color: white;
+    width: 120%;
+    position: relative;
+    left: 58rem;
+    top: -13rem;
+    border-radius: 15px;
+  }
+  .py-prog {
+    color: black;
+    padding: 0 1rem;
+    animation: pyMove forwards 3s;
+    background: gold;
+    border-radius: 15px;
+  }
+  .py {
+    position: relative;
+    font-size: 25px;
+    left: 60rem;
+    top: -11rem;
+  }
+  .php-cont {
+    position: relative;
+    left: 60rem;
+    top: -14rem;
+  }
+  .php-4 {
+    font-size: 25px;
+  }
+  .php-stat {
+    background: white;
+    width: 120%;
+    position: relative;
+    right: 2rem;
+    border-radius: 15px;
+  }
+  .php-prog {
+    color: black;
+    padding: 0 1rem;
+    background: gold;
+    animation: 3s forwards phpSlide;
+    border-radius: 15px;
+  }
+  .soft-skills {
+    position: relative;
+    top: 38rem;
+    left: 12rem;
+    height: 100vh;
+  }
+  .SOFTS {
+    position: relative;
+    left: 2rem;
+  }
+  .soft-skills h2 {
+    font-size: 3rem;
+    position: relative;
+    left: 44rem;
+    top: -50rem;
+  }
+  .progress-bar-container h2 label {
+    position: relative;
+    left: -10rem;
+    top: -12rem;
+  }
+  .soft {
+    position: relative;
+    left: 39rem;
+    top: -57rem;
+    width: 5rem;
+    height: 5rem;
+  }
+  .comm {
+    position: relative;
+    left: 39rem;
+    top: -20rem;
+    font-size: 30px;
+  }
+  .comm-stat {
+    border-radius: 50%;
+    height: 2rem;
+    width: 2rem;
+    border: 10px solid red;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    animation: loading 3s;
+  }
+
+  @keyframes progress {
+    0% {
+      width: 20%;
+    }
+    50% {
+      width: 50%;
+    }
+    100% {
+      width: 70%;
+    }
+  }
+  @keyframes slide {
+    0% {
+      width: 30%;
+    }
+    50% {
+      width: 50%;
+    }
+    100% {
+      width: 50%;
+    }
+  }
+  @keyframes slide2 {
+    0% {
+      width: 20%;
+    }
+    50% {
+      width: 50%;
+    }
+    100% {
+      width: 60%;
+    }
+  }
+  @keyframes pyMove {
+    0% {
+      width: 20%;
+    }
+    40% {
+      width: 40%;
+    }
+    100% {
+      width: 45%;
+    }
+  }
+  @keyframes phpSlide {
+    0% {
+      width: 10%;
+    }
+    100% {
+      width: 40%;
+    }
+  }
+
+  /*----- Soft-Skills -----*/
+  .soft-skills label {
+    color: white;
+    font-size: 2rem;
+    position: relative;
+    top: -15rem;
+    right: 2rem;
+  }
+  .communicate {
+    position: relative;
+    left: 38rem;
+    top: -63rem;
+  }
+  .creativity {
+    position: relative;
+    left: 47rem;
+    top: -60rem;
+  }
+  .teamwork {
+    position: relative;
+    left: 70rem;
+    top: -38.7rem;
+  }
+  .teamwork label {
+    color: white;
+    font-size: 2rem;
+    position: relative;
+    right: 1rem;
+  }
+  .creativity label {
+    position: relative;
+    left: -21rem;
+    top: 7rem;
+  }
+  .creativity .create {
+    position: relative;
+    left: -2rem;
+    top: 0rem;
+  }
+  .progress-bar {
+    width: 140px;
+    height: 140px;
+    color: black;
+    border-radius: 50%;
+
+    /* to center the percentage value */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  progress {
+    visibility: hidden;
+    width: 0;
+    height: 0;
+  }
+  .html {
+    background: radial-gradient(closest-side, white 79%, transparent 80% 100%),
+      conic-gradient(gold calc(var(--progress-value) * 1%), black 0);
+    animation: html-progress 2s 1 forwards;
+  }
+  .html::before {
+    animation: html-progress 3s 1 forwards;
+  }
+  .css {
+    background: radial-gradient(
+        closest-side,
+        white 79%,
+        transparent 80% 100%,
+        black 0
+      ),
+      conic-gradient(gold calc(var(--progress-value) * 1%), black 0);
+    animation: css-progress 2s 1 forwards;
+  }
+
+  .css::before {
+    animation: css-progress 2s 1 forwards;
+  }
+  .js {
+    background: radial-gradient(
+        closest-side,
+        white 79%,
+        transparent 80% 100%,
+        black 0
+      ),
+      conic-gradient(gold calc(var(--progress-value) * 1%), black 0);
+    animation: js-progress 2s 1 forwards;
+  }
+
+  .js::before {
+    animation: js-progress 2s 1 forwards;
+  }
+  @property --progress-value {
+    syntax: "<integer>";
+    inherits: false;
+    initial-value: 0;
+  }
+
+  @keyframes html-progress {
+    to {
+      --progress-value: 95;
+    }
+  }
+  @keyframes css-progress {
+    to {
+      --progress-value: 80;
+    }
+  }
+  @keyframes js-progress {
+    to {
+      --progress-value: 73;
+    }
+  }
+}
+@media (min-height: 914px) {
+  .SKILLS {
+    position: relative;
+    top: 13rem;
+  }
+}
+@media (min-width: 1024px) {
+  .SKILLS {
+    display: block;
+    position: relative;
+    top: 2rem;
+    left: 12rem;
+  }
+  .SKILLS h4 {
+    width: 70%;
+  }
+  .skills-card {
+    position: relative;
+    top: -2rem;
+    right: 10rem;
+    height: 100vh;
+    width: 100%;
+  }
+  .card h2 {
+    position: relative;
+    left: 25rem;
+    top: 4rem;
+    font-size: 3rem;
+  }
+  .front-end {
+    position: relative;
+    left: -18rem;
+    height: 10px;
+    top: 6rem;
+  }
+  .front-end h3 {
+    position: relative;
+    top: -5rem;
+    left: 25rem;
+    font-size: 40px;
+    color: gold;
+    width: 90%;
+    text-decoration: dashed;
+  }
+
+  .front-end .front {
+    width: 1.5rem;
+    height: 1.5rem;
+    position: relative;
+    left: 19rem;
+    top: -11rem;
+    background: transparent;
+    padding: 8px 8px;
+    border: 2px solid white;
+    font-size: 1rem;
+  }
+  .front-end .front:hover {
+    box-shadow: 0 0 20px white 0 0 20px gold;
+    border: 0 0 10px white 0 0 10px gold;
+  }
+  .front-end h4 {
+    position: relative;
+    left: 25rem;
+    top: -13rem;
+  }
+  .html-stat {
+    position: relative;
+    left: 23rem;
+    top: -14rem;
+    width: 120%;
+    background: white;
+    border-radius: 15px;
+  }
+  .prog {
+    padding: 9px 10px;
+    width: 0;
+    height: 5px;
+    background-color: gold;
+    text-align: center;
+    line-height: 10px;
+    color: black;
+    font-weight: bold;
+    animation: progress 3s forwards;
+    border-radius: 15px;
+  }
+  .CSS-stat {
+    position: relative;
+    left: 23rem;
+    top: -14rem;
+    width: 120%;
+    background: white;
+    color: black;
+    border-radius: 15px;
+  }
+  .CSS-prog {
+    background-color: gold;
+    animation: slide forwards 3s;
+    border-radius: 15px;
+    padding: 0 1rem;
+  }
+  .React-stat {
+    position: relative;
+    left: 23rem;
+    top: -14rem;
+    width: 120%;
+    background: white;
+    color: black;
+    border-radius: 15px;
+  }
+  .React-prog {
+    background-color: gold;
+    animation: slide2 forwards 3s;
+    border-radius: 15px;
+    padding: 0 1rem;
+  }
+  .back {
+    width: 1.5rem;
+    height: 1.5rem;
+    position: relative;
+    left: 54rem;
+    top: -8rem;
+    background: transparent;
+    padding: 10px 10px;
+    border: 2px solid white;
+    font-size: 1rem;
+  }
+  .back-end {
+    position: relative;
+    right: 15rem;
+    top: 1.5rem;
+  }
+  .back-end h3 {
+    position: relative;
+    top: -3rem;
+    left: 58rem;
+    font-size: 35px;
+    width: 80%;
+    color: gold;
+    text-decoration: dashed;
+  }
+  .py-stat {
+    background-color: white;
+    width: 120%;
+    position: relative;
+    left: 58rem;
+    top: -13rem;
+    border-radius: 15px;
+  }
+  .py-prog {
+    color: black;
+    padding: 0 1rem;
+    animation: pyMove forwards 3s;
+    background: gold;
+    border-radius: 15px;
+  }
+  .py {
+    position: relative;
+    font-size: 25px;
+    left: 60rem;
+    top: -11rem;
+  }
+  .php-cont {
+    position: relative;
+    left: 60rem;
+    top: -14rem;
+  }
+  .php-4 {
+    font-size: 25px;
+  }
+  .php-stat {
+    background: white;
+    width: 120%;
+    position: relative;
+    right: 2rem;
+    border-radius: 15px;
+  }
+  .php-prog {
+    color: black;
+    padding: 0 1rem;
+    background: gold;
+    animation: 3s forwards phpSlide;
+    border-radius: 15px;
+  }
+  .soft-skills {
+    position: relative;
+    top: 38rem;
+    left: 12rem;
+    height: 80vh;
+  }
+  .SOFTS {
+    position: relative;
+    left: 2rem;
+  }
+  .soft-skills h2 {
+    font-size: 3rem;
+    position: relative;
+    left: 27rem;
+    top: -40rem;
+  }
+  .progress-bar-container h2 label {
+    position: relative;
+    left: -16rem;
+    top: -12rem;
+  }
+  .soft {
+    position: relative;
+    left: 14rem;
+    top: -47.4rem;
+    width: 5rem;
+    height: 5rem;
+  }
+  .comm {
+    position: relative;
+    left: 39rem;
+    top: -20rem;
+    font-size: 30px;
+  }
+  .comm-stat {
+    border-radius: 50%;
+    height: 2rem;
+    width: 2rem;
+    border: 10px solid red;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    animation: loading 3s;
+  }
+
+  @keyframes progress {
+    0% {
+      width: 20%;
+    }
+    50% {
+      width: 50%;
+    }
+    100% {
+      width: 70%;
+    }
+  }
+  @keyframes slide {
+    0% {
+      width: 30%;
+    }
+    50% {
+      width: 50%;
+    }
+    100% {
+      width: 50%;
+    }
+  }
+  @keyframes slide2 {
+    0% {
+      width: 20%;
+    }
+    50% {
+      width: 50%;
+    }
+    100% {
+      width: 60%;
+    }
+  }
+  @keyframes pyMove {
+    0% {
+      width: 20%;
+    }
+    40% {
+      width: 40%;
+    }
+    100% {
+      width: 45%;
+    }
+  }
+  @keyframes phpSlide {
+    0% {
+      width: 10%;
+    }
+    100% {
+      width: 40%;
+    }
+  }
+
+  /*----- Soft-Skills -----*/
+  .soft-skills label {
+    color: white;
+    font-size: 2rem;
+    position: relative;
+    top: -15rem;
+    right: 3rem;
+  }
+  .communicate {
+    position: relative;
+    left: 12rem;
+    top: -55rem;
+  }
+  .creativity {
+    position: relative;
+    left: 30rem;
+    top: -53rem;
+  }
+  .teamwork {
+    position: relative;
+    left: 53rem;
+    top: -30rem;
+  }
+  .teamwork label {
+    color: white;
+    font-size: 2rem;
+    position: relative;
+    right: 1rem;
+  }
+  .creativity label {
+    position: relative;
+    left: -21rem;
+    top: 7rem;
+  }
+  .creativity .create {
+    position: relative;
+    left: -2rem;
+    top: 0rem;
+  }
+  .progress-bar {
+    width: 160px;
+    height: 160px;
+    color: black;
+    border-radius: 50%;
+
+    /* to center the percentage value */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  progress {
+    visibility: hidden;
+    width: 0;
+    height: 0;
+  }
+  .html {
+    background: radial-gradient(closest-side, white 79%, transparent 80% 100%),
+      conic-gradient(gold calc(var(--progress-value) * 1%), black 0);
+    animation: html-progress 2s 1 forwards;
+  }
+  .html::before {
+    animation: html-progress 3s 1 forwards;
+  }
+  .css {
+    background: radial-gradient(
+        closest-side,
+        white 79%,
+        transparent 80% 100%,
+        black 0
+      ),
+      conic-gradient(gold calc(var(--progress-value) * 1%), black 0);
+    animation: css-progress 2s 1 forwards;
+  }
+
+  .css::before {
+    animation: css-progress 2s 1 forwards;
+  }
+  .js {
+    background: radial-gradient(
+        closest-side,
+        white 79%,
+        transparent 80% 100%,
+        black 0
+      ),
+      conic-gradient(gold calc(var(--progress-value) * 1%), black 0);
+    animation: js-progress 2s 1 forwards;
+  }
+
+  .js::before {
+    animation: js-progress 2s 1 forwards;
+  }
+  @property --progress-value {
+    syntax: "<integer>";
+    inherits: false;
+    initial-value: 0;
+  }
+
+  @keyframes html-progress {
+    to {
+      --progress-value: 95;
+    }
+  }
+  @keyframes css-progress {
+    to {
+      --progress-value: 80;
+    }
+  }
+  @keyframes js-progress {
+    to {
+      --progress-value: 73;
+    }
+  }
+}
+@media (min-width: 1440px) {
+  .SKILLS {
+    display: block;
+    position: relative;
+    top: 2rem;
+    left: 12rem;
+  }
+  .SKILLS h4 {
+    width: 70%;
+  }
+  .skills-card {
+    position: relative;
+    top: -2rem;
+    right: 10rem;
+    height: 100vh;
+    width: 100%;
+  }
+  .card h2 {
+    position: relative;
+    left: 25rem;
+    top: 4rem;
+    font-size: 3rem;
+  }
+  .front-end {
+    position: relative;
+    left: -18rem;
+    height: 10px;
+    top: 6rem;
+  }
+  .front-end h3 {
+    position: relative;
+    top: -5rem;
+    left: 25rem;
+    font-size: 40px;
+    color: gold;
+    width: 90%;
+    text-decoration: dashed;
+  }
+
+  .front-end .front {
+    width: 1.5rem;
+    height: 1.5rem;
+    position: relative;
+    left: 19rem;
+    top: -11rem;
+    background: transparent;
+    padding: 8px 8px;
+    border: 2px solid white;
+    font-size: 1rem;
+  }
+  .front-end .front:hover {
+    box-shadow: 0 0 20px white 0 0 20px gold;
+    border: 0 0 10px white 0 0 10px gold;
+  }
+  .front-end h4 {
+    position: relative;
+    left: 25rem;
+    top: -13rem;
+  }
+  .html-stat {
+    position: relative;
+    left: 23rem;
+    top: -14rem;
+    width: 120%;
+    background: white;
+    border-radius: 15px;
+  }
+  .prog {
+    padding: 9px 10px;
+    width: 0;
+    height: 5px;
+    background-color: gold;
+    text-align: center;
+    line-height: 10px;
+    color: black;
+    font-weight: bold;
+    animation: progress 3s forwards;
+    border-radius: 15px;
+  }
+  .CSS-stat {
+    position: relative;
+    left: 23rem;
+    top: -14rem;
+    width: 120%;
+    background: white;
+    color: black;
+    border-radius: 15px;
+  }
+  .CSS-prog {
+    background-color: gold;
+    animation: slide forwards 3s;
+    border-radius: 15px;
+    padding: 0 1rem;
+  }
+  .React-stat {
+    position: relative;
+    left: 23rem;
+    top: -14rem;
+    width: 120%;
+    background: white;
+    color: black;
+    border-radius: 15px;
+  }
+  .React-prog {
+    background-color: gold;
+    animation: slide2 forwards 3s;
+    border-radius: 15px;
+    padding: 0 1rem;
+  }
+  .back {
+    width: 1.5rem;
+    height: 1.5rem;
+    position: relative;
+    left: 54rem;
+    top: -8rem;
+    background: transparent;
+    padding: 10px 10px;
+    border: 2px solid white;
+    font-size: 1rem;
+  }
+  .back-end {
+    position: relative;
+    right: 15rem;
+    top: 1.5rem;
+  }
+  .back-end h3 {
+    position: relative;
+    top: -3rem;
+    left: 58rem;
+    font-size: 35px;
+    width: 80%;
+    color: gold;
+    text-decoration: dashed;
+  }
+  .py-stat {
+    background-color: white;
+    width: 120%;
+    position: relative;
+    left: 58rem;
+    top: -13rem;
+    border-radius: 15px;
+  }
+  .py-prog {
+    color: black;
+    padding: 0 1rem;
+    animation: pyMove forwards 3s;
+    background: gold;
+    border-radius: 15px;
+  }
+  .py {
+    position: relative;
+    font-size: 25px;
+    left: 60rem;
+    top: -11rem;
+  }
+  .php-cont {
+    position: relative;
+    left: 60rem;
+    top: -14rem;
+  }
+  .php-4 {
+    font-size: 25px;
+  }
+  .php-stat {
+    background: white;
+    width: 120%;
+    position: relative;
+    right: 2rem;
+    border-radius: 15px;
+  }
+  .php-prog {
+    color: black;
+    padding: 0 1rem;
+    background: gold;
+    animation: 3s forwards phpSlide;
+    border-radius: 15px;
+  }
+  .soft-skills {
+    position: relative;
+    top: 38rem;
+    left: 12rem;
+    height: 100vh;
+  }
+  .SOFTS {
+    position: relative;
+    left: 2rem;
+  }
+  .soft-skills h2 {
+    font-size: 3rem;
+    position: relative;
+    left: 27rem;
+    top: -40rem;
+  }
+  .progress-bar-container h2 label {
+    position: relative;
+    left: -16rem;
+    top: -12rem;
+  }
+  .soft {
+    position: relative;
+    left: 14rem;
+    top: -47.4rem;
+    width: 5rem;
+    height: 5rem;
+  }
+  .comm {
+    position: relative;
+    left: 39rem;
+    top: -20rem;
+    font-size: 30px;
+  }
+  .comm-stat {
+    border-radius: 50%;
+    height: 2rem;
+    width: 2rem;
+    border: 10px solid red;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    animation: loading 3s;
+  }
+
+  @keyframes progress {
+    0% {
+      width: 20%;
+    }
+    50% {
+      width: 50%;
+    }
+    100% {
+      width: 70%;
+    }
+  }
+  @keyframes slide {
+    0% {
+      width: 30%;
+    }
+    50% {
+      width: 50%;
+    }
+    100% {
+      width: 50%;
+    }
+  }
+  @keyframes slide2 {
+    0% {
+      width: 20%;
+    }
+    50% {
+      width: 50%;
+    }
+    100% {
+      width: 60%;
+    }
+  }
+  @keyframes pyMove {
+    0% {
+      width: 20%;
+    }
+    40% {
+      width: 40%;
+    }
+    100% {
+      width: 45%;
+    }
+  }
+  @keyframes phpSlide {
+    0% {
+      width: 10%;
+    }
+    100% {
+      width: 40%;
+    }
+  }
+
+  /*----- Soft-Skills -----*/
+  .soft-skills label {
+    color: white;
+    font-size: 2rem;
+    position: relative;
+    top: -15rem;
+    right: 3rem;
+  }
+  .communicate {
+    position: relative;
+    left: 12rem;
+    top: -55rem;
+  }
+  .creativity {
+    position: relative;
+    left: 30rem;
+    top: -53rem;
+  }
+  .teamwork {
+    position: relative;
+    left: 53rem;
+    top: -34rem;
+  }
+  .teamwork label {
+    color: white;
+    font-size: 2rem;
+    position: relative;
+    right: 1rem;
+  }
+  .creativity label {
+    position: relative;
+    left: -21rem;
+    top: 7rem;
+  }
+  .creativity .create {
+    position: relative;
+    left: -2rem;
+    top: 0rem;
+  }
+  .progress-bar {
+    width: 160px;
+    height: 160px;
+    color: black;
+    border-radius: 50%;
+
+    /* to center the percentage value */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  progress {
+    visibility: hidden;
+    width: 0;
+    height: 0;
+  }
+  .html {
+    background: radial-gradient(closest-side, white 79%, transparent 80% 100%),
+      conic-gradient(gold calc(var(--progress-value) * 1%), black 0);
+    animation: html-progress 2s 1 forwards;
+  }
+  .html::before {
+    animation: html-progress 3s 1 forwards;
+  }
+  .css {
+    background: radial-gradient(
+        closest-side,
+        white 79%,
+        transparent 80% 100%,
+        black 0
+      ),
+      conic-gradient(gold calc(var(--progress-value) * 1%), black 0);
+    animation: css-progress 2s 1 forwards;
+  }
+
+  .css::before {
+    animation: css-progress 2s 1 forwards;
+  }
+  .js {
+    background: radial-gradient(
+        closest-side,
+        white 79%,
+        transparent 80% 100%,
+        black 0
+      ),
+      conic-gradient(gold calc(var(--progress-value) * 1%), black 0);
+    animation: js-progress 2s 1 forwards;
+  }
+
+  .js::before {
+    animation: js-progress 2s 1 forwards;
+  }
+  @property --progress-value {
+    syntax: "<integer>";
+    inherits: false;
+    initial-value: 0;
+  }
+
+  @keyframes html-progress {
+    to {
+      --progress-value: 95;
+    }
+  }
+  @keyframes css-progress {
+    to {
+      --progress-value: 80;
+    }
+  }
+  @keyframes js-progress {
+    to {
+      --progress-value: 73;
+    }
+  }
+}

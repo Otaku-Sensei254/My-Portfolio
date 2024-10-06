@@ -1,0 +1,126 @@
+* {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 1.3rem 10%;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 50%;
+}
+
+.Logo {
+  position: absolute;
+  top: 10px;
+  left: 2px;
+  margin: 0;
+  size: 10px;
+  color: white;
+  text-decoration: none;
+  width: 25%;
+  height: auto;
+}
+.Logo:hover {
+  color: gold;
+}
+.links {
+  position: absolute;
+  top: 10px;
+  right: 20rem;
+  display: flex;
+  justify-content: space-between;
+}
+.Hire-btn:hover {
+  border: 2px gold solid;
+}
+@media (max-width: 320px) {
+  .links {
+    display: none;
+  }
+  .header {
+    display: none0;
+  }
+}
+.links a {
+  position: relative;
+  top: 1rem;
+  right: 2rem;
+  left: 3rem;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  font-weight: 600;
+  text-decoration: none;
+  margin-left: 2.5rem;
+}
+.links .Hire-btn {
+  position: absolute;
+  top: 10px;
+  left: 400px;
+  width: 20%;
+}
+.navbar a:hover {
+  color: gold;
+}
+.Hire-btn {
+  background-color: black;
+  color: black;
+  width: 40%;
+  position: absolute;
+  align-items: center;
+  right: 2rem;
+  top: 10px;
+  padding: 0.5rem 1rem;
+  border: none;
+  outline: none;
+  border-radius: 20px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: scale 0.5s ease-in-out;
+}
+.Hire-btn:hover {
+  color: Gold;
+  scale: 1.05;
+}
+.Hire-btn:active {
+  scale: 0.95s;
+}
+
+.hamburger-btn {
+  color: white;
+  position: absolute;
+  top: 30px;
+  right: 20px;
+  display: none;
+}
+.hidden-links a {
+  color: white;
+  list-style: none;
+  display: none;
+}
+.menu-btn {
+  color: red;
+}
+
+/*Mobile Menu*/
+
+/* Disappear Bar*/
+
+@media (max-width: 992px) {
+  .links {
+    display: none;
+  }
+  .links.Hire-btn {
+    display: block;
+    position: absolute;
+    width: 100px;
+  }
+
+  .menu-btn {
+    display: block;
+  }
+}

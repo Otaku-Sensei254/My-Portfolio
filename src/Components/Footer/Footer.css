@@ -1,0 +1,784 @@
+.footer-container {
+  position: relative;
+  top: 15rem;
+  background: gold;
+  overflow: hidden;
+}
+.left-side1 {
+  position: relative;
+  right: 3rem;
+}
+.footer-img {
+  position: absolute;
+  width: 15%;
+  height: 55%;
+  top: -6rem;
+  left: 10rem;
+}
+.footer-img:hover {
+  transform: scale(1.1);
+  transition: 2s ease-in-out;
+}
+.footer-1 h5 {
+  color: black;
+  text-align: center;
+  font-size: 2rem;
+}
+.footer-1 h4 {
+  color: black;
+  font-size: 20px;
+  position: relative;
+  left: 5rem;
+  top: 6rem;
+}
+
+.footer-1 li {
+  position: relative;
+  left: 5rem;
+  top: 5rem;
+  color: black;
+  list-style: none;
+  overflow: hidden;
+}
+
+.footer-1 li:hover {
+  color: white;
+}
+.footer-centre {
+  display: block;
+  position: relative;
+  left: 20rem;
+  top: -13rem;
+  width: 60%;
+}
+.footer-centre textarea {
+  width: 80%;
+  height: 40%;
+  background: white;
+}
+.footer-centre input {
+  background: white;
+  position: relative;
+  right: 4rem;
+  border: 2px black solid;
+}
+.footer-centre form {
+  position: relative;
+  top: 3rem;
+  height: 10%;
+  padding: 4px 10px;
+  width: 100%;
+}
+.footer-centre .sub-btn1 {
+  position: relative;
+  left: 12rem;
+  top: 2rem;
+}
+.footer-centre .sub-btn1:hover {
+  border: 2px white;
+}
+.footer-right {
+  position: absolute;
+  right: 2rem;
+  top: 2rem;
+}
+.footer-right .socials {
+  position: relative;
+  top: 23rem;
+  justify-content: space-between;
+}
+.footer-right .socials p {
+  color: black;
+}
+.socials li {
+  font-size: 49px;
+  text-align: justify;
+  display: inline-flex;
+  flex-direction: row;
+}
+.whts {
+  position: relative;
+  right: 4rem;
+  color: green;
+  background: transparent;
+}
+.whts:hover {
+  transform: translatey(-1.5rem);
+  transition: 0.56s ease-in-out;
+  box-shadow: 0 0 10px black, 0 0 20px green;
+}
+.fbck {
+  position: relative;
+  right: 2rem;
+  color: rgb(0, 153, 255);
+}
+.fbck:hover {
+  transform: translatey(-1.5rem);
+  transition: 0.56s ease-in-out;
+  box-shadow: 0 0 10px black, 0 0 20px rgb(0, 153, 255);
+}
+.insta {
+  position: relative;
+  right: 0rem;
+  color: rgb(130, 0, 67);
+}
+.insta:hover {
+  transform: translatey(-1.5rem);
+  transition: 0.56s ease-in-out;
+  box-shadow: 0 0 10px black, 0 0 20px rgb(130, 0, 67);
+}
+.git {
+  position: relative;
+  left: 1rem;
+  font-size: 3rem;
+}
+.git:hover {
+  transform: translatey(-1.5rem);
+  transition: 0.56s ease-in-out;
+  box-shadow: 0 0 10px black, 0 0 20px rgb(135, 27, 212);
+}
+.copyright .cpy {
+  text-align: center;
+  color: black;
+}
+@media (max-width: 321px) {
+  .footer-centre .span1 {
+    color: red;
+    position: relative;
+    top: 4rem;
+    display: block;
+    left: 4rem;
+  }
+  .footer-container {
+    overflow: hidden;
+    position: relative;
+    top: 56rem;
+    left: -0.5rem;
+    width: 100%;
+    height: 250vh;
+    justify-content: center;
+    display: block;
+  }
+  .footer-img {
+    position: absolute;
+    width: 50%;
+    top: -9rem;
+    justify-content: center;
+    align-items: center;
+    left: 7rem;
+  }
+  .footer-1 li {
+    width: 90%;
+  }
+  .footer-1 h5 {
+    position: relative;
+    top: 3rem;
+    right: 1rem;
+  }
+  .footer-centre {
+    position: relative;
+    left: 0rem;
+    width: 100%;
+    padding: 4px 10px;
+  }
+  .footer-centre textarea {
+    width: 60%;
+    position: relative;
+    left: 4rem;
+    display: block;
+  }
+  .footer-centre input {
+    position: relative;
+    left: 3rem;
+    width: 70%;
+  }
+  .footer-centre form {
+    position: relative;
+    right: 1rem;
+    top: 20rem;
+  }
+  .footer-centre .sub-btn1 {
+    position: relative;
+    left: 5rem;
+  }
+  .footer-right {
+    position: absolute;
+    left: 7rem;
+    top: 20rem;
+  }
+  .copyright {
+    position: relative;
+    top: 19rem;
+    left: -0.5rem;
+  }
+}
+@media (min-width: 344px) {
+  .container {
+    position: relative;
+    top: 0rem;
+  }
+  .footer-centre .span1 {
+    color: red;
+    position: relative;
+    top: 4rem;
+    display: block;
+    left: 5rem;
+  }
+  .footer-container {
+    z-index: 1;
+    overflow: hidden;
+    position: relative;
+    top: 45rem;
+    left: -0.5rem;
+    width: 105%;
+    height: 250vh;
+    justify-content: center;
+    display: block;
+  }
+  .footer-img {
+    position: absolute;
+    width: 50%;
+    top: -9rem;
+    justify-content: center;
+    align-items: center;
+    left: 7rem;
+  }
+  .footer-1 li {
+    width: 90%;
+  }
+  .footer-1 h5 {
+    position: relative;
+    top: 3rem;
+    right: 1rem;
+  }
+  .footer-centre {
+    position: relative;
+    left: 0rem;
+    width: 100%;
+  }
+  .footer-centre textarea {
+    width: 60%;
+    position: relative;
+    left: 4rem;
+    display: block;
+  }
+  .footer-centre input {
+    position: relative;
+    left: 3rem;
+    width: 70%;
+    color: black;
+    padding: 2px 4px;
+    border-radius: 4px;
+  }
+  .footer-centre textarea {
+    position: relative;
+    top: 1rem;
+    height: 5rem;
+  }
+  .footer-centre form {
+    position: relative;
+    right: 1rem;
+    top: 20rem;
+  }
+  .footer-centre .sub-btn1 {
+    position: relative;
+    left: 7rem;
+  }
+  .footer-right {
+    position: absolute;
+    left: -6rem;
+    top: 20rem;
+  }
+  .copyright {
+    position: relative;
+    top: 22rem;
+    left: 0rem;
+    width: 90%;
+  }
+  .footer-centre .socials {
+    position: relative;
+  }
+}
+@media (min-width: 360px) {
+  .container {
+    position: relative;
+    top: 0rem;
+  }
+  .footer-centre .span1 {
+    color: red;
+    position: relative;
+    top: 4rem;
+    display: block;
+    left: 5rem;
+  }
+  .footer-container {
+    z-index: 1;
+    overflow: hidden;
+    position: relative;
+    top: 45rem;
+    left: -0.5rem;
+    width: 105%;
+    height: 250vh;
+    justify-content: center;
+    display: block;
+  }
+  .footer-img {
+    position: absolute;
+    width: 50%;
+    top: -9rem;
+    justify-content: center;
+    align-items: center;
+    left: 7rem;
+  }
+  .footer-1 li {
+    width: 90%;
+  }
+  .footer-1 h5 {
+    position: relative;
+    top: 3rem;
+    right: 1rem;
+  }
+  .footer-centre {
+    position: relative;
+    left: 0rem;
+    width: 100%;
+  }
+  .footer-centre textarea {
+    width: 60%;
+    position: relative;
+    left: 4rem;
+    display: block;
+  }
+  .footer-centre input {
+    position: relative;
+    left: 3rem;
+    width: 70%;
+    color: black;
+    padding: 2px 4px;
+    border-radius: 4px;
+  }
+  .footer-centre textarea {
+    position: relative;
+    top: 1rem;
+    height: 5rem;
+  }
+  .footer-centre form {
+    position: relative;
+    right: 1rem;
+    top: 20rem;
+  }
+  .footer-centre .sub-btn1 {
+    position: relative;
+    left: 7rem;
+  }
+  .footer-right {
+    position: absolute;
+    left: 9rem;
+    top: 20rem;
+  }
+  .copyright {
+    position: relative;
+    top: 22rem;
+    left: 0rem;
+    width: 90%;
+  }
+  .footer-centre .socials {
+    position: relative;
+  }
+}
+@media (min-width: 375px) {
+  .footer-centre .span1 {
+    color: red;
+    position: relative;
+    top: 4rem;
+    display: block;
+    left: 5rem;
+  }
+  .footer-container {
+    overflow: hidden;
+    position: relative;
+    top: 45rem;
+    left: -0.5rem;
+    width: 105%;
+    height: 250vh;
+    justify-content: center;
+    display: block;
+  }
+  .footer-img {
+    position: absolute;
+    width: 50%;
+    top: -9rem;
+    justify-content: center;
+    align-items: center;
+    left: 7rem;
+  }
+  .footer-1 li {
+    width: 90%;
+  }
+  .footer-1 h5 {
+    position: relative;
+    top: 3rem;
+    right: 1rem;
+  }
+  .footer-centre {
+    position: relative;
+    left: 0rem;
+    width: 100%;
+  }
+  .footer-centre textarea {
+    width: 60%;
+    position: relative;
+    left: 4rem;
+    display: block;
+  }
+  .footer-centre input {
+    position: relative;
+    left: 2rem;
+    width: 70%;
+  }
+  .footer-centre form {
+    position: relative;
+    right: 1rem;
+    top: 20rem;
+  }
+  .footer-centre .sub-btn1 {
+    position: relative;
+    left: 7rem;
+  }
+  .footer-right {
+    position: absolute;
+    left: 9rem;
+    top: 20rem;
+  }
+  .copyright {
+    position: relative;
+    top: 19rem;
+    left: 0rem;
+    width: 90%;
+  }
+}
+@media (min-width: 414px) {
+  .footer-container {
+    position: relative;
+    top: 55rem;
+  }
+  .footer-right {
+    position: absolute;
+    left: -5rem;
+  }
+}
+@media (min-width: 425px) {
+  .footer-container {
+    width: 120%;
+  }
+}
+
+@media (width: 480px) {
+  .footer-container {
+    width: 130%;
+    display: block;
+    position: relative;
+    left: 0rem;
+  }
+}
+
+@media (min-width: 600px) {
+  .footer-container {
+    position: relative;
+    width: 120%;
+    height: 90rem;
+  }
+  .footer-1 img {
+    position: absolute;
+    height: 100%;
+    left: 15rem;
+  }
+  .footer-1 h5 {
+    position: relative;
+    top: 10rem;
+    right: 0rem;
+  }
+  .footer-1 li {
+    position: relative;
+    font-size: 20px;
+    top: 10rem;
+  }
+  .footer-1 h4 {
+    position: relative;
+    top: 10rem;
+  }
+  .copyright {
+    position: relative;
+    top: 37rem;
+  }
+  .footer-right .socials {
+    position: relative;
+    top: 46rem;
+    left: 20rem;
+  }
+  .footer-centre form {
+    display: inline-block;
+    position: relative;
+    top: 32rem;
+    left: 0rem;
+  }
+  .footer-centre textarea {
+    height: 150px;
+  }
+  .footer-centre input {
+    width: 50%;
+    position: relative;
+    left: 6rem;
+  }
+  .footer-centre .sub-btn1 {
+    position: relative;
+    left: 13rem;
+  }
+  .copyright {
+    position: relative;
+    top: 35rem;
+    left: 1rem;
+  }
+  .footer-centre .span1 {
+    color: red;
+    position: relative;
+    top: 4rem;
+    left: 2rem;
+  }
+}
+@media (min-width: 768px) {
+  .footer-container {
+    width: 100%;
+  }
+  .footer-centre {
+    position: relative;
+    left: 0rem;
+    width: 90%;
+    background: transparent;
+  }
+  .footer-centre .span1 {
+    color: red;
+    position: relative;
+    top: 4rem;
+    display: block;
+    left: 5rem;
+  }
+  .footer-1 img {
+    position: absolute;
+    height: 100%;
+    left: 15rem;
+  }
+  .footer-1 h5 {
+    position: relative;
+    top: 10rem;
+    right: 0rem;
+  }
+  .footer-1 li {
+    position: relative;
+    font-size: 20px;
+    top: 10rem;
+  }
+  .footer-1 h4 {
+    position: relative;
+    top: 10rem;
+  }
+  .copyright {
+    position: relative;
+    top: 37rem;
+  }
+  .footer-right .socials {
+    position: relative;
+    top: 40rem;
+    left: 23rem;
+  }
+  .footer-centre form {
+    position: relative;
+    top: 32rem;
+    left: 0rem;
+  }
+  .footer-centre textarea {
+    height: 150px;
+  }
+  .footer-centre input {
+    width: 50%;
+    position: relative;
+    right: 5rem;
+  }
+  .footer-centre .sub-btn1 {
+    position: relative;
+    left: 13rem;
+  }
+  .copyright {
+    position: relative;
+    top: 32rem;
+  }
+}
+@media (min-height: 882px) {
+  .footer-container {
+    width: 100%;
+  }
+  .footer-centre {
+    position: relative;
+    left: 0rem;
+    width: 90%;
+    background: transparent;
+  }
+  .footer-centre .span1 {
+    color: red;
+    position: relative;
+    top: 4rem;
+    display: block;
+    left: 5rem;
+  }
+  .footer-1 img {
+    position: absolute;
+    height: 100%;
+    width: 90%;
+    left: 4rem;
+  }
+  .footer-1 h5 {
+    position: relative;
+    top: 10rem;
+    right: 0rem;
+  }
+  .footer-1 li {
+    position: relative;
+    font-size: 20px;
+    top: 10rem;
+  }
+  .footer-1 h4 {
+    position: relative;
+    top: 10rem;
+  }
+  .copyright {
+    position: relative;
+    top: 37rem;
+  }
+  .footer-right .socials {
+    position: relative;
+    top: 40rem;
+    left: 12rem;
+  }
+  .footer-centre form {
+    position: relative;
+    top: 32rem;
+    left: 0rem;
+  }
+  .footer-centre textarea {
+    height: 150px;
+  }
+  .footer-centre input {
+    width: 50%;
+    position: relative;
+    right: 5rem;
+  }
+  .footer-centre .sub-btn1 {
+    position: relative;
+    left: 4rem;
+  }
+  .copyright {
+    position: relative;
+    top: 32rem;
+  }
+}
+@media (min-height: 914px) {
+  .footer-1 img {
+    width: 90%;
+    position: absolute;
+    left: 4rem;
+  }
+  .footer-container {
+    width: 110%;
+  }
+  .footer-right {
+    position: absolute;
+    left: -4rem;
+  }
+  .footer-centre .sub-btn1 {
+    position: relative;
+    left: 6rem;
+  }
+  .footer-centre input {
+    position: relative;
+    left: 4rem;
+  }
+}
+@media (min-height: 932px) {
+  .footer-1 img {
+    width: 90%;
+    position: absolute;
+    left: 4rem;
+  }
+  .footer-container {
+    width: 110%;
+  }
+  .footer-right {
+    position: absolute;
+    left: -4rem;
+  }
+  .footer-centre .sub-btn1 {
+    position: relative;
+    left: 6rem;
+  }
+}
+@media (min-width: 1024px) {
+  .footer-container {
+    top: 30rem;
+    position: absolute;
+    width: 120%;
+  }
+  .copyright {
+    position: relative;
+    top: 38rem;
+    font-size: 2.5rem;
+  }
+  .footer-right {
+    position: absolute;
+    top: 23rem;
+    left: 23rem;
+    font-size: 2rem;
+  }
+  .socials p {
+    position: relative;
+    right: 3rem;
+  }
+  .footer-centre form {
+    position: relative;
+    left: 12rem;
+  }
+  .footer-centre input {
+    position: relative;
+    left: 12rem;
+  }
+  .footer-centre textarea {
+    position: relative;
+    left: 10rem;
+  }
+  .footer-centre .sub-btn1 {
+    position: relative;
+    left: 23rem;
+  }
+  .footer-centre .span1 {
+    color: red;
+    position: relative;
+    top: 4rem;
+    left: 2rem;
+  }
+  .footer-centre {
+    position: relative;
+    width: 70%;
+    align-items: center;
+    justify-content: center;
+    left: -1rem;
+  }
+  .footer-right .socials {
+    position: relative;
+    left: 8rem;
+  }
+}
+@media (min-height: 1024px) {
+  .footer-right {
+    position: absolute;
+    left: 4rem;
+  }
+}

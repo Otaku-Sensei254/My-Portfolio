@@ -1,0 +1,4658 @@
+body {
+  overflow-x: hidden;
+  padding: 0 0;
+}
+@media (max-width: 320px) {
+  .about-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .top-h1 {
+    position: absolute;
+    top: 2rem;
+    left: 4rem;
+    text-decoration: underline;
+    font-size: 30px;
+  }
+  .me-p {
+    position: absolute;
+    width: 90%;
+    font-size: 23px;
+    left: 0.5rem;
+    padding: 8px 2px;
+    top: 20rem;
+  }
+  .me-pic {
+    position: absolute;
+    top: 7rem;
+    left: 3rem;
+    width: 70%;
+    height: 47%;
+    border-radius: 50%;
+  }
+  .me-pic:hover {
+    box-shadow: 0 0 10px white, 0 0 20px gold;
+    transition: 0.65s ease-out;
+    transform: translateY(-0.5rem);
+  }
+  .contact-me {
+    position: relative;
+    top: 37rem;
+    left: 5rem;
+    background: white;
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 30px;
+  }
+  .contact-me:hover {
+    transform: translateX(0.5rem);
+    transition: 0.65s ease-in-out;
+    box-shadow: 0 0 10px white, 0 0 20px gold;
+    background: gold;
+  }
+  .projects {
+    position: relative;
+    top: 43rem;
+    height: 100vh;
+    width: 85%;
+  }
+  .projects-h1 {
+    position: relative;
+    left: 3rem;
+    text-decoration: underline;
+    width: 80%;
+    top: -5rem;
+    font-size: 2rem;
+    justify-content: center;
+    align-items: center;
+  }
+  .projects-p {
+    position: absolute;
+    left: 1rem;
+    top: -2rem;
+    font-size: 22px;
+    width: 100%;
+  }
+  .project-cards {
+    position: relative;
+    left: 0.5rem;
+    top: 5rem;
+    padding: 2px 10px;
+    align-items: center;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 2rem;
+    flex-wrap: wrap;
+  }
+
+  .card1 {
+    display: block;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.952);
+    position: relative;
+    height: 100%;
+    border-radius: 10px;
+  }
+  .card1:hover {
+    box-shadow: 0 0 10px white, 0 0 20px gold;
+    transform: translateY(-0.5rem);
+    transition: 0.86s ease-in-out;
+  }
+  .card1 h2 {
+    width: 55%;
+    position: relative;
+    right: 5rem;
+  }
+  .card1 img {
+    width: 90%;
+    position: relative;
+    left: 1em;
+    top: -1rem;
+    height: 50%;
+  }
+  .card1 h4 {
+    color: black;
+    text-align: justify;
+    position: relative;
+    left: 1rem;
+    top: -2rem;
+    width: 90%;
+  }
+  .card1 .web-link {
+    position: relative;
+    top: -4rem;
+    left: 5rem;
+  }
+  .card2 {
+    display: block;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.952);
+    position: relative;
+    height: 100%;
+    border-radius: 10px;
+  }
+  .card2:hover {
+    box-shadow: 0 0 10px white, 0 0 20px gold;
+    transform: translateY(-0.5rem);
+    transition: 0.86s ease-in-out;
+  }
+  .card2 h2 {
+    width: 65%;
+    position: relative;
+    right: 5rem;
+    font-size: 1.2rem;
+  }
+  .card2 img {
+    width: 90%;
+    position: relative;
+    left: 1em;
+    top: -1rem;
+    height: 50%;
+  }
+  .card2 h4 {
+    color: black;
+    text-align: justify;
+    position: relative;
+    left: 1rem;
+    top: -2rem;
+    width: 90%;
+  }
+  .card2 .web-link {
+    position: relative;
+    top: -3.4rem;
+    left: 5rem;
+  }
+  .card3 {
+    display: block;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.952);
+    position: relative;
+    height: 100%;
+    border-radius: 10px;
+  }
+  .card3:hover {
+    box-shadow: 0 0 10px white, 0 0 20px gold;
+    transform: translateY(-0.5rem);
+    transition: 0.86s ease-in-out;
+  }
+  .card3 h2 {
+    width: 60%;
+    position: relative;
+    right: 5rem;
+    top: -1rem;
+  }
+  .card3 img {
+    width: 90%;
+    position: relative;
+    left: 1em;
+    top: -2rem;
+    height: 50%;
+  }
+  .card3 h4 {
+    color: black;
+    text-align: justify;
+    position: relative;
+    left: 1rem;
+    top: -4rem;
+    width: 90%;
+  }
+  .card3 .web-link {
+    position: relative;
+    top: -5rem;
+    left: 5rem;
+  }
+  .card4 {
+    display: block;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.952);
+    position: relative;
+    height: 100%;
+    border-radius: 10px;
+  }
+  .card4:hover {
+    box-shadow: 0 0 10px white, 0 0 20px gold;
+    transform: translateY(-0.5rem);
+    transition: 0.86s ease-in-out;
+  }
+  .card4 h2 {
+    padding: 0 0;
+    width: 64%;
+    position: relative;
+    right: 5rem;
+    font-size: 1.2rem;
+  }
+  .card4 img {
+    width: 90%;
+    position: relative;
+    left: 1em;
+    top: -1rem;
+    height: 50%;
+  }
+  .card4 h4 {
+    color: black;
+    text-align: justify;
+    position: relative;
+    left: 1rem;
+    top: -2rem;
+    width: 90%;
+  }
+  .card4 .web-link {
+    position: relative;
+    top: -4.5rem;
+    left: 6rem;
+  }
+  .project-cards h2 {
+    color: black;
+    padding: 0 6rem;
+  }
+  .project-cards a {
+    position: relative;
+    font-size: 18px;
+    color: white;
+    background: rgba(0, 0, 0, 0.505);
+    border-radius: 5px;
+    top: -1rem;
+    left: 7rem;
+    padding: 2px 10px;
+  }
+  .project-cards a:hover {
+    background: gold;
+    transition: 0.65s ease-in-out;
+    box-shadow: 0 0 10px white, 0 0 20px gold;
+    transform: translateX(0.5rem);
+    color: black;
+  }
+
+  .search {
+    position: relative;
+    left: 20rem;
+  }
+  .search label {
+    color: black;
+    font-size: 18px;
+    font-weight: 600;
+  }
+  .search input {
+    font-size: 20px;
+    margin: 10px;
+    border-radius: 20px;
+    padding: 4px 20px;
+    width: 25rem;
+    color: white;
+  }
+  form button {
+    padding: 4px 10px;
+    font-size: 20px;
+  }
+  form button:hover {
+    background: gold;
+    box-shadow: 0 0 10px white, 0 0 20px gold;
+    transform: translateX(0.5rem);
+    color: black;
+    transition: 0.58s ease-in-out;
+  }
+  .search h5 {
+    position: relative;
+    top: 11rem;
+    left: -18rem;
+    color: black;
+    font-size: 19px;
+  }
+  ul {
+    position: relative;
+    top: -5rem;
+    left: -20rem;
+    color: black;
+    font-weight: 600;
+    font-size: 18px;
+  }
+  ul li {
+    list-style: outside;
+  }
+  .about-ft {
+    position: absolute;
+    background: white;
+    top: 150rem;
+    text-align: center;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+  .ft {
+    text-align: center;
+    position: absolute;
+    background: white;
+    display: flex;
+    top: 72rem;
+  }
+  .ft text {
+    color: black;
+  }
+  .ft .call-1 {
+    color: black;
+  }
+  .abt-ft {
+    position: absolute;
+    top: 160rem;
+    left: 0rem;
+    width: 100%;
+  }
+}
+@media (min-width: 344px) {
+  .about-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .top-h1 {
+    position: absolute;
+    top: 2rem;
+    left: 4rem;
+    text-decoration: underline;
+    font-size: 30px;
+  }
+  .me-p {
+    position: absolute;
+    width: 90%;
+    font-size: 23px;
+    left: 0.5rem;
+    padding: 8px 2px;
+    top: 20rem;
+  }
+  .me-pic {
+    position: absolute;
+    top: 6rem;
+    left: 3rem;
+    width: 70%;
+    height: 40%;
+    border-radius: 50%;
+  }
+  .me-pic:hover {
+    box-shadow: 0 0 10px white, 0 0 20px gold;
+    transition: 0.65s ease-out;
+    transform: translateY(-0.5rem);
+  }
+  .contact-me {
+    position: relative;
+    top: 37rem;
+    left: 5rem;
+    background: white;
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 30px;
+  }
+  .contact-me:hover {
+    transform: translateX(0.5rem);
+    transition: 0.65s ease-in-out;
+    box-shadow: 0 0 10px white, 0 0 20px gold;
+    background: gold;
+  }
+  .projects {
+    position: relative;
+    top: 44rem;
+    height: 100vh;
+    width: 85%;
+  }
+  .projects-h1 {
+    position: relative;
+    left: 3rem;
+    text-decoration: underline;
+    width: 80%;
+    top: -5rem;
+    font-size: 2rem;
+    justify-content: center;
+    align-items: center;
+  }
+  .projects-p {
+    position: absolute;
+    left: 1rem;
+    top: -2rem;
+    font-size: 22px;
+    width: 100%;
+  }
+  .project-cards {
+    position: relative;
+    left: 0.5rem;
+    top: 5rem;
+    padding: 2px 10px;
+    align-items: center;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 2rem;
+    flex-wrap: wrap;
+  }
+
+  .card1 {
+    display: block;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.952);
+    position: relative;
+    height: 100%;
+    border-radius: 10px;
+  }
+  .card1:hover {
+    box-shadow: 0 0 10px white, 0 0 20px gold;
+    transform: translateY(-0.5rem);
+    transition: 0.86s ease-in-out;
+  }
+  .card1 h2 {
+    width: 55%;
+    position: relative;
+    right: 5rem;
+  }
+  .card1 img {
+    width: 90%;
+    position: relative;
+    left: 1em;
+    top: -1rem;
+    height: 50%;
+  }
+  .card1 h4 {
+    color: black;
+    text-align: justify;
+    position: relative;
+    left: 1rem;
+    top: -2rem;
+    width: 90%;
+  }
+  .card1 .web-link {
+    position: relative;
+    top: -4rem;
+    left: 5rem;
+  }
+  .card2 {
+    display: block;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.952);
+    position: relative;
+    height: 100%;
+    border-radius: 10px;
+  }
+  .card2:hover {
+    box-shadow: 0 0 10px white, 0 0 20px gold;
+    transform: translateY(-0.5rem);
+    transition: 0.86s ease-in-out;
+  }
+  .card2 h2 {
+    width: 65%;
+    position: relative;
+    right: 5rem;
+    font-size: 1.2rem;
+  }
+  .card2 img {
+    width: 90%;
+    position: relative;
+    left: 1em;
+    top: -1rem;
+    height: 50%;
+  }
+  .card2 h4 {
+    color: black;
+    text-align: justify;
+    position: relative;
+    left: 1rem;
+    top: -2rem;
+    width: 90%;
+  }
+  .card2 .web-link {
+    position: relative;
+    top: -3.4rem;
+    left: 5rem;
+  }
+  .card3 {
+    display: block;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.952);
+    position: relative;
+    height: 100%;
+    border-radius: 10px;
+  }
+  .card3:hover {
+    box-shadow: 0 0 10px white, 0 0 20px gold;
+    transform: translateY(-0.5rem);
+    transition: 0.86s ease-in-out;
+  }
+  .card3 h2 {
+    width: 60%;
+    position: relative;
+    right: 5rem;
+    top: -1rem;
+  }
+  .card3 img {
+    width: 90%;
+    position: relative;
+    left: 1em;
+    top: -2rem;
+    height: 50%;
+  }
+  .card3 h4 {
+    color: black;
+    text-align: justify;
+    position: relative;
+    left: 1rem;
+    top: -4rem;
+    width: 90%;
+  }
+  .card3 .web-link {
+    position: relative;
+    top: -5rem;
+    left: 5rem;
+  }
+  .card4 {
+    display: block;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.952);
+    position: relative;
+    height: 100%;
+    border-radius: 10px;
+  }
+  .card4:hover {
+    box-shadow: 0 0 10px white, 0 0 20px gold;
+    transform: translateY(-0.5rem);
+    transition: 0.86s ease-in-out;
+  }
+  .card4 h2 {
+    padding: 0 0;
+    width: 64%;
+    position: relative;
+    right: 5rem;
+    font-size: 1.2rem;
+  }
+  .card4 img {
+    width: 90%;
+    position: relative;
+    left: 1em;
+    top: -1rem;
+    height: 50%;
+  }
+  .card4 h4 {
+    color: black;
+    text-align: justify;
+    position: relative;
+    left: 1rem;
+    top: -2rem;
+    width: 90%;
+  }
+  .card4 .web-link {
+    position: relative;
+    top: -4.5rem;
+    left: 6rem;
+  }
+  .project-cards h2 {
+    color: black;
+    padding: 0 6rem;
+  }
+  .project-cards a {
+    position: relative;
+    font-size: 18px;
+    color: white;
+    background: rgba(0, 0, 0, 0.505);
+    border-radius: 5px;
+    top: -1rem;
+    left: 7rem;
+    padding: 2px 10px;
+  }
+  .project-cards a:hover {
+    background: gold;
+    transition: 0.65s ease-in-out;
+    box-shadow: 0 0 10px white, 0 0 20px gold;
+    transform: translateX(0.5rem);
+    color: black;
+  }
+  .footer {
+    position: absolute;
+    bottom: -110rem;
+    background-color: white;
+    width: 100%;
+    height: 70%;
+  }
+  .search {
+    position: relative;
+    left: 20rem;
+  }
+  .search label {
+    color: black;
+    font-size: 18px;
+    font-weight: 600;
+  }
+  .search input {
+    font-size: 20px;
+    margin: 10px;
+    border-radius: 20px;
+    padding: 4px 20px;
+    width: 25rem;
+    color: white;
+  }
+  form button {
+    padding: 4px 10px;
+    font-size: 20px;
+  }
+  form button:hover {
+    background: gold;
+    box-shadow: 0 0 10px white, 0 0 20px gold;
+    transform: translateX(0.5rem);
+    color: black;
+    transition: 0.58s ease-in-out;
+  }
+  .search h5 {
+    position: relative;
+    top: 11rem;
+    left: -18rem;
+    color: black;
+    font-size: 19px;
+  }
+  ul {
+    position: relative;
+    top: -5rem;
+    left: -20rem;
+    color: black;
+    font-weight: 600;
+    font-size: 18px;
+  }
+  ul li {
+    list-style: outside;
+  }
+  .about-ft {
+    position: absolute;
+    background: white;
+    bottom: -72rem;
+    text-align: center;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+  .ft {
+    text-align: center;
+    position: absolute;
+    background: white;
+    display: flex;
+    top: 55rem;
+  }
+  .ft text {
+    color: black;
+  }
+  .ft .call-1 {
+    color: black;
+  }
+  .abt-ft {
+    position: absolute;
+    top: 155rem;
+  }
+}
+@media (min-width: 360px) {
+  .about-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .top-h1 {
+    position: absolute;
+    top: 2rem;
+    left: 4rem;
+    text-decoration: underline;
+    font-size: 30px;
+  }
+  .me-p {
+    position: absolute;
+    width: 90%;
+    font-size: 23px;
+    left: 0.5rem;
+    padding: 8px 2px;
+    top: 20rem;
+  }
+  .me-pic {
+    position: absolute;
+    top: 6rem;
+    left: 3rem;
+    width: 70%;
+    height: 40%;
+    border-radius: 50%;
+  }
+  .me-pic:hover {
+    box-shadow: 0 0 10px white, 0 0 20px gold;
+    transition: 0.65s ease-out;
+    transform: translateY(-0.5rem);
+  }
+  .contact-me {
+    position: relative;
+    top: 37rem;
+    left: 5rem;
+    background: white;
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 30px;
+  }
+  .contact-me:hover {
+    transform: translateX(0.5rem);
+    transition: 0.65s ease-in-out;
+    box-shadow: 0 0 10px white, 0 0 20px gold;
+    background: gold;
+  }
+  .projects {
+    position: relative;
+    top: 44rem;
+    height: 100vh;
+    width: 85%;
+  }
+  .projects-h1 {
+    position: relative;
+    left: 3rem;
+    text-decoration: underline;
+    width: 80%;
+    top: -5rem;
+    font-size: 2rem;
+    justify-content: center;
+    align-items: center;
+  }
+  .projects-p {
+    position: absolute;
+    left: 1rem;
+    top: -2rem;
+    font-size: 22px;
+    width: 100%;
+  }
+  .project-cards {
+    position: relative;
+    left: 0.5rem;
+    top: 5rem;
+    padding: 2px 10px;
+    align-items: center;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 2rem;
+    flex-wrap: wrap;
+  }
+
+  .card1 {
+    display: block;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.952);
+    position: relative;
+    height: 100%;
+    border-radius: 10px;
+  }
+  .card1:hover {
+    box-shadow: 0 0 10px white, 0 0 20px gold;
+    transform: translateY(-0.5rem);
+    transition: 0.86s ease-in-out;
+  }
+  .card1 h2 {
+    width: 55%;
+    position: relative;
+    right: 5rem;
+  }
+  .card1 img {
+    width: 90%;
+    position: relative;
+    left: 1em;
+    top: -1rem;
+    height: 50%;
+  }
+  .card1 h4 {
+    color: black;
+    text-align: justify;
+    position: relative;
+    left: 1rem;
+    top: -2rem;
+    width: 90%;
+  }
+  .card1 .web-link {
+    position: relative;
+    top: -4rem;
+    left: 5rem;
+  }
+  .card2 {
+    display: block;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.952);
+    position: relative;
+    height: 100%;
+    border-radius: 10px;
+  }
+  .card2:hover {
+    box-shadow: 0 0 10px white, 0 0 20px gold;
+    transform: translateY(-0.5rem);
+    transition: 0.86s ease-in-out;
+  }
+  .card2 h2 {
+    width: 65%;
+    position: relative;
+    right: 5rem;
+    font-size: 1.2rem;
+  }
+  .card2 img {
+    width: 90%;
+    position: relative;
+    left: 1em;
+    top: -1rem;
+    height: 50%;
+  }
+  .card2 h4 {
+    color: black;
+    text-align: justify;
+    position: relative;
+    left: 1rem;
+    top: -2rem;
+    width: 90%;
+  }
+  .card2 .web-link {
+    position: relative;
+    top: -3.4rem;
+    left: 5rem;
+  }
+  .card3 {
+    display: block;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.952);
+    position: relative;
+    height: 100%;
+    border-radius: 10px;
+  }
+  .card3:hover {
+    box-shadow: 0 0 10px white, 0 0 20px gold;
+    transform: translateY(-0.5rem);
+    transition: 0.86s ease-in-out;
+  }
+  .card3 h2 {
+    width: 60%;
+    position: relative;
+    right: 5rem;
+    top: -1rem;
+  }
+  .card3 img {
+    width: 90%;
+    position: relative;
+    left: 1em;
+    top: -2rem;
+    height: 50%;
+  }
+  .card3 h4 {
+    color: black;
+    text-align: justify;
+    position: relative;
+    left: 1rem;
+    top: -4rem;
+    width: 90%;
+  }
+  .card3 .web-link {
+    position: relative;
+    top: -5rem;
+    left: 5rem;
+  }
+  .card4 {
+    display: block;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.952);
+    position: relative;
+    height: 100%;
+    border-radius: 10px;
+  }
+  .card4:hover {
+    box-shadow: 0 0 10px white, 0 0 20px gold;
+    transform: translateY(-0.5rem);
+    transition: 0.86s ease-in-out;
+  }
+  .card4 h2 {
+    padding: 0 0;
+    width: 64%;
+    position: relative;
+    right: 5rem;
+    font-size: 1.2rem;
+  }
+  .card4 img {
+    width: 90%;
+    position: relative;
+    left: 1em;
+    top: -1rem;
+    height: 50%;
+  }
+  .card4 h4 {
+    color: black;
+    text-align: justify;
+    position: relative;
+    left: 1rem;
+    top: -2rem;
+    width: 90%;
+  }
+  .card4 .web-link {
+    position: relative;
+    top: -4.5rem;
+    left: 6rem;
+  }
+  .project-cards h2 {
+    color: black;
+    padding: 0 6rem;
+  }
+  .project-cards a {
+    position: relative;
+    font-size: 18px;
+    color: white;
+    background: rgba(0, 0, 0, 0.505);
+    border-radius: 5px;
+    top: -1rem;
+    left: 7rem;
+    padding: 2px 10px;
+  }
+  .project-cards a:hover {
+    background: gold;
+    transition: 0.65s ease-in-out;
+    box-shadow: 0 0 10px white, 0 0 20px gold;
+    transform: translateX(0.5rem);
+    color: black;
+  }
+  .footer {
+    position: absolute;
+    bottom: -110rem;
+    background-color: white;
+    width: 100%;
+    height: 70%;
+  }
+  .search {
+    position: relative;
+    left: 20rem;
+  }
+  .search label {
+    color: black;
+    font-size: 18px;
+    font-weight: 600;
+  }
+  .search input {
+    font-size: 20px;
+    margin: 10px;
+    border-radius: 20px;
+    padding: 4px 20px;
+    width: 25rem;
+    color: white;
+  }
+  form button {
+    padding: 4px 10px;
+    font-size: 20px;
+  }
+  form button:hover {
+    background: gold;
+    box-shadow: 0 0 10px white, 0 0 20px gold;
+    transform: translateX(0.5rem);
+    color: black;
+    transition: 0.58s ease-in-out;
+  }
+  .search h5 {
+    position: relative;
+    top: 11rem;
+    left: -18rem;
+    color: black;
+    font-size: 19px;
+  }
+  ul {
+    position: relative;
+    top: -5rem;
+    left: -20rem;
+    color: black;
+    font-weight: 600;
+    font-size: 18px;
+  }
+  ul li {
+    list-style: outside;
+  }
+  .about-ft {
+    position: absolute;
+    background: white;
+    bottom: -72rem;
+    text-align: center;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+  .ft {
+    text-align: center;
+    position: absolute;
+    background: white;
+    display: flex;
+    top: 55rem;
+  }
+  .ft text {
+    color: black;
+  }
+  .ft .call-1 {
+    color: black;
+  }
+  .abt-ft {
+    position: absolute;
+    top: 120rem;
+  }
+}
+@media (min-height: 533px) {
+  .me-pic {
+    height: 45%;
+    width: 80%;
+    position: absolute;
+    left: 1.5rem;
+  }
+}
+@media (min-height: 667px) {
+  .me-pic {
+    height: 38%;
+  }
+  .about-ft {
+    position: relative;
+    top: 48rem;
+  }
+}
+@media (min-height: 740px) {
+  .me-pic {
+    height: 33%;
+  }
+}
+@media (min-width: 375px) {
+  .about-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .top-h1 {
+    position: absolute;
+    top: 2rem;
+    left: 4rem;
+    text-decoration: underline;
+    font-size: 30px;
+  }
+  .me-p {
+    position: absolute;
+    width: 90%;
+    font-size: 23px;
+    left: 0.5rem;
+    padding: 8px 2px;
+    top: 20rem;
+  }
+  .me-pic {
+    position: absolute;
+    top: 6rem;
+    left: 3rem;
+    width: 68%;
+    height: 50%;
+    border-radius: 50%;
+  }
+  .me-pic:hover {
+    box-shadow: 0 0 10px white, 0 0 20px gold;
+    transition: 0.65s ease-out;
+    transform: translateY(-0.5rem);
+  }
+  .contact-me {
+    position: relative;
+    top: 35rem;
+    left: 5rem;
+    background: white;
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 30px;
+  }
+  .contact-me:hover {
+    transform: translateX(0.5rem);
+    transition: 0.65s ease-in-out;
+    box-shadow: 0 0 10px white, 0 0 20px gold;
+    background: gold;
+  }
+  .projects {
+    position: relative;
+    top: 43rem;
+    height: 100vh;
+    width: 85%;
+  }
+  .projects-h1 {
+    position: relative;
+    left: 3rem;
+    text-decoration: underline;
+    width: 80%;
+    top: -5rem;
+    font-size: 2rem;
+    justify-content: center;
+    align-items: center;
+  }
+  .projects-p {
+    position: absolute;
+    left: 1rem;
+    top: -2rem;
+    font-size: 22px;
+    width: 100%;
+  }
+  .project-cards {
+    position: relative;
+    left: 0.5rem;
+    top: 5rem;
+    padding: 2px 10px;
+    align-items: center;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 2rem;
+    flex-wrap: wrap;
+  }
+
+  .card1 {
+    display: block;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.952);
+    position: relative;
+    height: 100%;
+    border-radius: 10px;
+  }
+  .card1:hover {
+    box-shadow: 0 0 10px white, 0 0 20px gold;
+    transform: translateY(-0.5rem);
+    transition: 0.86s ease-in-out;
+  }
+  .card1 h2 {
+    width: 55%;
+    position: relative;
+    right: 5rem;
+  }
+  .card1 img {
+    width: 90%;
+    position: relative;
+    left: 1em;
+    top: -1rem;
+    height: 50%;
+  }
+  .card1 h4 {
+    color: black;
+    text-align: justify;
+    position: relative;
+    left: 1rem;
+    top: -2rem;
+    width: 90%;
+  }
+  .card1 .web-link {
+    position: relative;
+    top: -4rem;
+    left: 5rem;
+  }
+  .card2 {
+    display: block;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.952);
+    position: relative;
+    height: 100%;
+    border-radius: 10px;
+  }
+  .card2:hover {
+    box-shadow: 0 0 10px white, 0 0 20px gold;
+    transform: translateY(-0.5rem);
+    transition: 0.86s ease-in-out;
+  }
+  .card2 h2 {
+    width: 65%;
+    position: relative;
+    right: 5rem;
+    font-size: 1.2rem;
+  }
+  .card2 img {
+    width: 90%;
+    position: relative;
+    left: 1em;
+    top: -1rem;
+    height: 50%;
+  }
+  .card2 h4 {
+    color: black;
+    text-align: justify;
+    position: relative;
+    left: 1rem;
+    top: -2rem;
+    width: 90%;
+  }
+  .card2 .web-link {
+    position: relative;
+    top: -3.4rem;
+    left: 5rem;
+  }
+  .card3 {
+    display: block;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.952);
+    position: relative;
+    height: 100%;
+    border-radius: 10px;
+  }
+  .card3:hover {
+    box-shadow: 0 0 10px white, 0 0 20px gold;
+    transform: translateY(-0.5rem);
+    transition: 0.86s ease-in-out;
+  }
+  .card3 h2 {
+    width: 60%;
+    position: relative;
+    right: 5rem;
+    top: -1rem;
+  }
+  .card3 img {
+    width: 90%;
+    position: relative;
+    left: 1em;
+    top: -2rem;
+    height: 50%;
+  }
+  .card3 h4 {
+    color: black;
+    text-align: justify;
+    position: relative;
+    left: 1rem;
+    top: -4rem;
+    width: 90%;
+  }
+  .card3 .web-link {
+    position: relative;
+    top: -5rem;
+    left: 5rem;
+  }
+  .card4 {
+    display: block;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.952);
+    position: relative;
+    height: 100%;
+    border-radius: 10px;
+  }
+  .card4:hover {
+    box-shadow: 0 0 10px white, 0 0 20px gold;
+    transform: translateY(-0.5rem);
+    transition: 0.86s ease-in-out;
+  }
+  .card4 h2 {
+    padding: 0 0;
+    width: 64%;
+    position: relative;
+    right: 5rem;
+    font-size: 1.2rem;
+  }
+  .card4 img {
+    width: 90%;
+    position: relative;
+    left: 1em;
+    top: -1rem;
+    height: 50%;
+  }
+  .card4 h4 {
+    color: black;
+    text-align: justify;
+    position: relative;
+    left: 1rem;
+    top: -2rem;
+    width: 90%;
+  }
+  .card4 .web-link {
+    position: relative;
+    top: -4.5rem;
+    left: 6rem;
+  }
+  .project-cards h2 {
+    color: black;
+    padding: 0 6rem;
+  }
+  .project-cards a {
+    position: relative;
+    font-size: 18px;
+    color: white;
+    background: rgba(0, 0, 0, 0.505);
+    border-radius: 5px;
+    top: -1rem;
+    left: 7rem;
+    padding: 2px 10px;
+  }
+  .project-cards a:hover {
+    background: gold;
+    transition: 0.65s ease-in-out;
+    box-shadow: 0 0 10px white, 0 0 20px gold;
+    transform: translateX(0.5rem);
+    color: black;
+  }
+  .footer {
+    position: absolute;
+    bottom: -110rem;
+    background-color: white;
+    width: 100%;
+    height: 70%;
+  }
+  .search {
+    position: relative;
+    left: 20rem;
+  }
+  .search label {
+    color: black;
+    font-size: 18px;
+    font-weight: 600;
+  }
+  .search input {
+    font-size: 20px;
+    margin: 10px;
+    border-radius: 20px;
+    padding: 4px 20px;
+    width: 25rem;
+    color: white;
+  }
+  form button {
+    padding: 4px 10px;
+    font-size: 20px;
+  }
+  form button:hover {
+    background: gold;
+    box-shadow: 0 0 10px white, 0 0 20px gold;
+    transform: translateX(0.5rem);
+    color: black;
+    transition: 0.58s ease-in-out;
+  }
+  .search h5 {
+    position: relative;
+    top: 11rem;
+    left: -18rem;
+    color: black;
+    font-size: 19px;
+  }
+  ul {
+    position: relative;
+    top: -5rem;
+    left: -20rem;
+    color: black;
+    font-weight: 600;
+    font-size: 18px;
+  }
+  ul li {
+    list-style: outside;
+  }
+  .about-ft {
+    position: absolute;
+    background: white;
+    bottom: -72rem;
+    text-align: center;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+  .ft {
+    text-align: center;
+    position: absolute;
+    background: white;
+    display: flex;
+    top: 70rem;
+  }
+  .ft text {
+    color: black;
+  }
+  .ft .call-1 {
+    color: black;
+  }
+  .abt-ft {
+    position: absolute;
+    top: 120rem;
+  }
+}
+
+@media (width: 412px) {
+  .about-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .top-h1 {
+    position: absolute;
+    top: 2rem;
+    left: 4rem;
+    text-decoration: underline;
+    font-size: 30px;
+  }
+  .me-p {
+    position: absolute;
+    width: 90%;
+    font-size: 23px;
+    left: 0.5rem;
+    padding: 8px 2px;
+    top: 20rem;
+  }
+  .me-pic {
+    position: absolute;
+    top: 6rem;
+    left: 3rem;
+    width: 65%;
+    height: 35%;
+    border-radius: 50%;
+  }
+  .me-pic:hover {
+    box-shadow: 0 0 10px white, 0 0 20px gold;
+    transition: 0.65s ease-out;
+    transform: translateY(-0.5rem);
+  }
+  .contact-me {
+    position: relative;
+    top: 34rem;
+    left: 5rem;
+    background: white;
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 30px;
+  }
+  .contact-me:hover {
+    transform: translateX(0.5rem);
+    transition: 0.65s ease-in-out;
+    box-shadow: 0 0 10px white, 0 0 20px gold;
+    background: gold;
+  }
+  .projects {
+    position: relative;
+    top: 39rem;
+    height: 100vh;
+    width: 85%;
+  }
+  .projects-h1 {
+    position: relative;
+    left: 3rem;
+    text-decoration: underline;
+    width: 80%;
+    top: -5rem;
+    font-size: 2rem;
+    justify-content: center;
+    align-items: center;
+  }
+  .projects-p {
+    position: absolute;
+    left: 1rem;
+    top: -2rem;
+    font-size: 22px;
+    width: 100%;
+  }
+  .project-cards {
+    position: relative;
+    left: 0.5rem;
+    top: 5rem;
+    padding: 2px 10px;
+    align-items: center;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 2rem;
+    flex-wrap: wrap;
+  }
+
+  .card1 {
+    display: block;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.952);
+    position: relative;
+    height: 100%;
+    border-radius: 10px;
+  }
+  .card1:hover {
+    box-shadow: 0 0 10px white, 0 0 20px gold;
+    transform: translateY(-0.5rem);
+    transition: 0.86s ease-in-out;
+  }
+  .card1 h2 {
+    width: 55%;
+    position: relative;
+    right: 5rem;
+  }
+  .card1 img {
+    width: 90%;
+    position: relative;
+    left: 1em;
+    top: -1rem;
+    height: 50%;
+  }
+  .card1 h4 {
+    color: black;
+    text-align: justify;
+    position: relative;
+    left: 1rem;
+    top: -2rem;
+    width: 90%;
+  }
+  .card1 .web-link {
+    position: relative;
+    top: -4rem;
+    left: 5rem;
+  }
+  .card2 {
+    display: block;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.952);
+    position: relative;
+    height: 100%;
+    border-radius: 10px;
+  }
+  .card2:hover {
+    box-shadow: 0 0 10px white, 0 0 20px gold;
+    transform: translateY(-0.5rem);
+    transition: 0.86s ease-in-out;
+  }
+  .card2 h2 {
+    width: 65%;
+    position: relative;
+    right: 5rem;
+    font-size: 1.2rem;
+  }
+  .card2 img {
+    width: 90%;
+    position: relative;
+    left: 1em;
+    top: -1rem;
+    height: 50%;
+  }
+  .card2 h4 {
+    color: black;
+    text-align: justify;
+    position: relative;
+    left: 1rem;
+    top: -2rem;
+    width: 90%;
+  }
+  .card2 .web-link {
+    position: relative;
+    top: -3.4rem;
+    left: 5rem;
+  }
+  .card3 {
+    display: block;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.952);
+    position: relative;
+    height: 100%;
+    border-radius: 10px;
+  }
+  .card3:hover {
+    box-shadow: 0 0 10px white, 0 0 20px gold;
+    transform: translateY(-0.5rem);
+    transition: 0.86s ease-in-out;
+  }
+  .card3 h2 {
+    width: 60%;
+    position: relative;
+    right: 5rem;
+    top: -1rem;
+  }
+  .card3 img {
+    width: 90%;
+    position: relative;
+    left: 1em;
+    top: -2rem;
+    height: 50%;
+  }
+  .card3 h4 {
+    color: black;
+    text-align: justify;
+    position: relative;
+    left: 1rem;
+    top: -4rem;
+    width: 90%;
+  }
+  .card3 .web-link {
+    position: relative;
+    top: -5rem;
+    left: 5rem;
+  }
+  .card4 {
+    display: block;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.952);
+    position: relative;
+    height: 100%;
+    border-radius: 10px;
+  }
+  .card4:hover {
+    box-shadow: 0 0 10px white, 0 0 20px gold;
+    transform: translateY(-0.5rem);
+    transition: 0.86s ease-in-out;
+  }
+  .card4 h2 {
+    padding: 0 0;
+    width: 64%;
+    position: relative;
+    right: 5rem;
+    font-size: 1.2rem;
+  }
+  .card4 img {
+    width: 90%;
+    position: relative;
+    left: 1em;
+    top: -1rem;
+    height: 50%;
+  }
+  .card4 h4 {
+    color: black;
+    text-align: justify;
+    position: relative;
+    left: 1rem;
+    top: -2rem;
+    width: 90%;
+  }
+  .card4 .web-link {
+    position: relative;
+    top: -4.5rem;
+    left: 6rem;
+  }
+  .project-cards h2 {
+    color: black;
+    padding: 0 6rem;
+  }
+  .project-cards a {
+    position: relative;
+    font-size: 18px;
+    color: white;
+    background: rgba(0, 0, 0, 0.505);
+    border-radius: 5px;
+    top: -1rem;
+    left: 7rem;
+    padding: 2px 10px;
+  }
+  .project-cards a:hover {
+    background: gold;
+    transition: 0.65s ease-in-out;
+    box-shadow: 0 0 10px white, 0 0 20px gold;
+    transform: translateX(0.5rem);
+    color: black;
+  }
+  .footer {
+    position: absolute;
+    bottom: -110rem;
+    background-color: white;
+    width: 100%;
+    height: 70%;
+  }
+  .search {
+    position: relative;
+    left: 20rem;
+  }
+  .search label {
+    color: black;
+    font-size: 18px;
+    font-weight: 600;
+  }
+  .search input {
+    font-size: 20px;
+    margin: 10px;
+    border-radius: 20px;
+    padding: 4px 20px;
+    width: 25rem;
+    color: white;
+  }
+  form button {
+    padding: 4px 10px;
+    font-size: 20px;
+  }
+  form button:hover {
+    background: gold;
+    box-shadow: 0 0 10px white, 0 0 20px gold;
+    transform: translateX(0.5rem);
+    color: black;
+    transition: 0.58s ease-in-out;
+  }
+  .search h5 {
+    position: relative;
+    top: 11rem;
+    left: -18rem;
+    color: black;
+    font-size: 19px;
+  }
+  ul {
+    position: relative;
+    top: -5rem;
+    left: -20rem;
+    color: black;
+    font-weight: 600;
+    font-size: 18px;
+  }
+  ul li {
+    list-style: outside;
+  }
+  .about-ft {
+    position: absolute;
+    background: white;
+    bottom: -72rem;
+    text-align: center;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+  .ft {
+    text-align: center;
+    position: absolute;
+    background: white;
+    display: flex;
+    top: 55rem;
+  }
+  .ft text {
+    color: black;
+  }
+  .ft .call-1 {
+    color: black;
+  }
+  .abt-ft {
+    position: absolute;
+    top: 120rem;
+  }
+}
+
+@media (min-width: 425px) {
+  .about-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .top-h1 {
+    position: absolute;
+    top: 2rem;
+    left: 8rem;
+    text-decoration: underline;
+    font-size: 30px;
+  }
+  .me-p {
+    position: absolute;
+    width: 100%;
+    font-size: 25px;
+    left: 0.5rem;
+    padding: 8px 2px;
+    top: 25rem;
+  }
+  .me-pic {
+    position: absolute;
+    top: 7rem;
+    left: 3rem;
+    width: 70%;
+    height: 60%;
+    border-radius: 50%;
+  }
+  .me-pic:hover {
+    box-shadow: 0 0 10px white, 0 0 20px gold;
+    transition: 0.65s ease-out;
+    transform: translateY(-0.5rem);
+  }
+  .contact-me {
+    position: relative;
+    top: 40rem;
+    left: 5rem;
+    background: white;
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 30px;
+  }
+  .contact-me:hover {
+    transform: translateX(0.5rem);
+    transition: 0.65s ease-in-out;
+    box-shadow: 0 0 10px white, 0 0 20px gold;
+    background: gold;
+  }
+  .projects {
+    position: relative;
+    top: 45rem;
+    height: 100vh;
+    width: 85%;
+  }
+  .projects-h1 {
+    position: relative;
+    left: 3rem;
+    text-decoration: underline;
+    width: 80%;
+    top: -5rem;
+    font-size: 2rem;
+    justify-content: center;
+    align-items: center;
+  }
+  .projects-p {
+    position: absolute;
+    left: 1rem;
+    top: -2rem;
+    font-size: 24px;
+    width: 100%;
+  }
+  .project-cards {
+    position: relative;
+    left: 0.5rem;
+    top: 5rem;
+    padding: 2px 10px;
+    align-items: center;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 2rem;
+    flex-wrap: wrap;
+  }
+
+  .card1 {
+    display: block;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.952);
+    position: relative;
+    height: 100%;
+    border-radius: 10px;
+  }
+  .card1:hover {
+    box-shadow: 0 0 10px white, 0 0 20px gold;
+    transform: translateY(-0.5rem);
+    transition: 0.86s ease-in-out;
+  }
+  .card1 h2 {
+    width: 55%;
+    position: relative;
+    right: 5rem;
+  }
+  .card1 img {
+    width: 90%;
+    position: relative;
+    left: 1em;
+    top: -1rem;
+    height: 50%;
+  }
+  .card1 h4 {
+    color: black;
+    text-align: justify;
+    position: relative;
+    left: 1rem;
+    top: -2rem;
+    width: 90%;
+  }
+  .card1 .web-link {
+    position: relative;
+    top: -4rem;
+    left: 5rem;
+  }
+  .card2 {
+    display: block;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.952);
+    position: relative;
+    height: 100%;
+    border-radius: 10px;
+  }
+  .card2:hover {
+    box-shadow: 0 0 10px white, 0 0 20px gold;
+    transform: translateY(-0.5rem);
+    transition: 0.86s ease-in-out;
+  }
+  .card2 h2 {
+    width: 65%;
+    position: relative;
+    right: 5rem;
+    font-size: 1.2rem;
+  }
+  .card2 img {
+    width: 90%;
+    position: relative;
+    left: 1em;
+    top: -1rem;
+    height: 50%;
+  }
+  .card2 h4 {
+    color: black;
+    text-align: justify;
+    position: relative;
+    left: 1rem;
+    top: -2rem;
+    width: 90%;
+  }
+  .card2 .web-link {
+    position: relative;
+    top: -3.4rem;
+    left: 5rem;
+  }
+  .card3 {
+    display: block;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.952);
+    position: relative;
+    height: 100%;
+    border-radius: 10px;
+  }
+  .card3:hover {
+    box-shadow: 0 0 10px white, 0 0 20px gold;
+    transform: translateY(-0.5rem);
+    transition: 0.86s ease-in-out;
+  }
+  .card3 h2 {
+    width: 60%;
+    position: relative;
+    right: 5rem;
+    top: -1rem;
+  }
+  .card3 img {
+    width: 90%;
+    position: relative;
+    left: 1em;
+    top: -2rem;
+    height: 50%;
+  }
+  .card3 h4 {
+    color: black;
+    text-align: justify;
+    position: relative;
+    left: 1rem;
+    top: -4rem;
+    width: 90%;
+  }
+  .card3 .web-link {
+    position: relative;
+    top: -5rem;
+    left: 5rem;
+  }
+  .card4 {
+    display: block;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.952);
+    position: relative;
+    height: 100%;
+    border-radius: 10px;
+  }
+  .card4:hover {
+    box-shadow: 0 0 10px white, 0 0 20px gold;
+    transform: translateY(-0.5rem);
+    transition: 0.86s ease-in-out;
+  }
+  .card4 h2 {
+    padding: 0 0;
+    width: 64%;
+    position: relative;
+    right: 5rem;
+    font-size: 1.2rem;
+  }
+  .card4 img {
+    width: 90%;
+    position: relative;
+    left: 1em;
+    top: -1rem;
+    height: 50%;
+  }
+  .card4 h4 {
+    color: black;
+    text-align: justify;
+    position: relative;
+    left: 1rem;
+    top: -2rem;
+    width: 90%;
+  }
+  .card4 .web-link {
+    position: relative;
+    top: -4.5rem;
+    left: 10rem;
+  }
+  .project-cards h2 {
+    color: black;
+    padding: 0 6rem;
+  }
+  .project-cards a {
+    position: relative;
+    font-size: 18px;
+    color: white;
+    background: rgba(0, 0, 0, 0.505);
+    border-radius: 5px;
+    top: -1rem;
+    left: 7rem;
+    padding: 2px 10px;
+  }
+  .project-cards a:hover {
+    background: gold;
+    transition: 0.65s ease-in-out;
+    box-shadow: 0 0 10px white, 0 0 20px gold;
+    transform: translateX(0.5rem);
+    color: black;
+  }
+  .footer {
+    position: absolute;
+    bottom: -110rem;
+    background-color: white;
+    width: 100%;
+    height: 70%;
+  }
+  .search {
+    position: relative;
+    left: 20rem;
+  }
+  .search label {
+    color: black;
+    font-size: 18px;
+    font-weight: 600;
+  }
+  .search input {
+    font-size: 20px;
+    margin: 10px;
+    border-radius: 20px;
+    padding: 4px 20px;
+    width: 25rem;
+    color: white;
+  }
+  form button {
+    padding: 4px 10px;
+    font-size: 20px;
+  }
+  form button:hover {
+    background: gold;
+    box-shadow: 0 0 10px white, 0 0 20px gold;
+    transform: translateX(0.5rem);
+    color: black;
+    transition: 0.58s ease-in-out;
+  }
+  .search h5 {
+    position: relative;
+    top: 11rem;
+    left: -18rem;
+    color: black;
+    font-size: 19px;
+  }
+  ul {
+    position: relative;
+    top: -5rem;
+    left: -20rem;
+    color: black;
+    font-weight: 600;
+    font-size: 18px;
+  }
+  ul li {
+    list-style: outside;
+  }
+  .about-ft {
+    position: absolute;
+    background: white;
+    bottom: -72rem;
+    text-align: center;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+  .ft {
+    text-align: center;
+    position: absolute;
+    background: white;
+    display: flex;
+    top: 70rem;
+  }
+  .ft text {
+    color: black;
+  }
+  .ft .call-1 {
+    color: black;
+  }
+  .abt-ft {
+    position: absolute;
+    top: 120rem;
+  }
+}
+@media (min-width: 430px) {
+  .about-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .top-h1 {
+    position: absolute;
+    top: 2rem;
+    left: 8rem;
+    text-decoration: underline;
+    font-size: 30px;
+  }
+  .me-p {
+    position: absolute;
+    width: 100%;
+    font-size: 25px;
+    left: 0.5rem;
+    padding: 8px 2px;
+    top: 25rem;
+  }
+  .me-pic {
+    position: absolute;
+    top: 7rem;
+    left: 3rem;
+    width: 70%;
+    height: 60%;
+    border-radius: 50%;
+  }
+  .me-pic:hover {
+    box-shadow: 0 0 10px white, 0 0 20px gold;
+    transition: 0.65s ease-out;
+    transform: translateY(-0.5rem);
+  }
+  .contact-me {
+    position: relative;
+    top: 40rem;
+    left: 5rem;
+    background: white;
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 30px;
+  }
+  .contact-me:hover {
+    transform: translateX(0.5rem);
+    transition: 0.65s ease-in-out;
+    box-shadow: 0 0 10px white, 0 0 20px gold;
+    background: gold;
+  }
+  .projects {
+    position: relative;
+    top: 48rem;
+    height: 100vh;
+    width: 85%;
+  }
+  .projects-h1 {
+    position: relative;
+    left: 3rem;
+    text-decoration: underline;
+    width: 80%;
+    top: -5rem;
+    font-size: 2rem;
+    justify-content: center;
+    align-items: center;
+  }
+  .projects-p {
+    position: absolute;
+    left: 1rem;
+    top: -2rem;
+    font-size: 24px;
+    width: 100%;
+  }
+  .project-cards {
+    position: relative;
+    left: 0.5rem;
+    top: 5rem;
+    padding: 2px 10px;
+    align-items: center;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 2rem;
+    flex-wrap: wrap;
+  }
+
+  .card1 {
+    display: block;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.952);
+    position: relative;
+    height: 100%;
+    border-radius: 10px;
+  }
+  .card1:hover {
+    box-shadow: 0 0 10px white, 0 0 20px gold;
+    transform: translateY(-0.5rem);
+    transition: 0.86s ease-in-out;
+  }
+  .card1 h2 {
+    width: 55%;
+    position: relative;
+    right: 5rem;
+  }
+  .card1 img {
+    width: 90%;
+    position: relative;
+    left: 1em;
+    top: -1rem;
+    height: 50%;
+  }
+  .card1 h4 {
+    color: black;
+    text-align: justify;
+    position: relative;
+    left: 1rem;
+    top: -2rem;
+    width: 90%;
+  }
+  .card1 .web-link {
+    position: relative;
+    top: -4rem;
+    left: 5rem;
+  }
+  .card2 {
+    display: block;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.952);
+    position: relative;
+    height: 100%;
+    border-radius: 10px;
+  }
+  .card2:hover {
+    box-shadow: 0 0 10px white, 0 0 20px gold;
+    transform: translateY(-0.5rem);
+    transition: 0.86s ease-in-out;
+  }
+  .card2 h2 {
+    width: 65%;
+    position: relative;
+    right: 5rem;
+    font-size: 1.2rem;
+  }
+  .card2 img {
+    width: 90%;
+    position: relative;
+    left: 1em;
+    top: -1rem;
+    height: 50%;
+  }
+  .card2 h4 {
+    color: black;
+    text-align: justify;
+    position: relative;
+    left: 1rem;
+    top: -2rem;
+    width: 90%;
+  }
+  .card2 .web-link {
+    position: relative;
+    top: -3.4rem;
+    left: 5rem;
+  }
+  .card3 {
+    display: block;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.952);
+    position: relative;
+    height: 100%;
+    border-radius: 10px;
+  }
+  .card3:hover {
+    box-shadow: 0 0 10px white, 0 0 20px gold;
+    transform: translateY(-0.5rem);
+    transition: 0.86s ease-in-out;
+  }
+  .card3 h2 {
+    width: 60%;
+    position: relative;
+    right: 5rem;
+    top: -1rem;
+  }
+  .card3 img {
+    width: 90%;
+    position: relative;
+    left: 1em;
+    top: -2rem;
+    height: 50%;
+  }
+  .card3 h4 {
+    color: black;
+    text-align: justify;
+    position: relative;
+    left: 1rem;
+    top: -4rem;
+    width: 90%;
+  }
+  .card3 .web-link {
+    position: relative;
+    top: -5rem;
+    left: 5rem;
+  }
+  .card4 {
+    display: block;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.952);
+    position: relative;
+    height: 100%;
+    border-radius: 10px;
+  }
+  .card4:hover {
+    box-shadow: 0 0 10px white, 0 0 20px gold;
+    transform: translateY(-0.5rem);
+    transition: 0.86s ease-in-out;
+  }
+  .card4 h2 {
+    padding: 0 0;
+    width: 64%;
+    position: relative;
+    right: 5rem;
+    font-size: 1.2rem;
+  }
+  .card4 img {
+    width: 90%;
+    position: relative;
+    left: 1em;
+    top: -1rem;
+    height: 50%;
+  }
+  .card4 h4 {
+    color: black;
+    text-align: justify;
+    position: relative;
+    left: 1rem;
+    top: -2rem;
+    width: 90%;
+  }
+  .card4 .web-link {
+    position: relative;
+    top: -4.5rem;
+    left: 10rem;
+  }
+  .project-cards h2 {
+    color: black;
+    padding: 0 6rem;
+  }
+  .project-cards a {
+    position: relative;
+    font-size: 18px;
+    color: white;
+    background: rgba(0, 0, 0, 0.505);
+    border-radius: 5px;
+    top: -1rem;
+    left: 7rem;
+    padding: 2px 10px;
+  }
+  .project-cards a:hover {
+    background: gold;
+    transition: 0.65s ease-in-out;
+    box-shadow: 0 0 10px white, 0 0 20px gold;
+    transform: translateX(0.5rem);
+    color: black;
+  }
+  .footer {
+    position: absolute;
+    bottom: -110rem;
+    background-color: white;
+    width: 100%;
+    height: 70%;
+  }
+  .search {
+    position: relative;
+    left: 20rem;
+  }
+  .search label {
+    color: black;
+    font-size: 18px;
+    font-weight: 600;
+  }
+  .search input {
+    font-size: 20px;
+    margin: 10px;
+    border-radius: 20px;
+    padding: 4px 20px;
+    width: 25rem;
+    color: white;
+  }
+  form button {
+    padding: 4px 10px;
+    font-size: 20px;
+  }
+  form button:hover {
+    background: gold;
+    box-shadow: 0 0 10px white, 0 0 20px gold;
+    transform: translateX(0.5rem);
+    color: black;
+    transition: 0.58s ease-in-out;
+  }
+  .search h5 {
+    position: relative;
+    top: 11rem;
+    left: -18rem;
+    color: black;
+    font-size: 19px;
+  }
+  ul {
+    position: relative;
+    top: -5rem;
+    left: -20rem;
+    color: black;
+    font-weight: 600;
+    font-size: 18px;
+  }
+  ul li {
+    list-style: outside;
+  }
+  .about-ft {
+    position: absolute;
+    background: white;
+    bottom: -72rem;
+    text-align: center;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+  .ft {
+    text-align: center;
+    position: absolute;
+    background: white;
+    display: flex;
+    top: 70rem;
+  }
+  .ft text {
+    color: black;
+  }
+  .ft .call-1 {
+    color: black;
+  }
+  .abt-ft {
+    position: absolute;
+    top: 120rem;
+  }
+}
+@media (min-width: 480px) {
+  .about-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .top-h1 {
+    position: absolute;
+    top: 2rem;
+    left: 8rem;
+    text-decoration: underline;
+    font-size: 30px;
+  }
+  .me-p {
+    position: absolute;
+    width: 100%;
+    font-size: 25px;
+    left: 0.5rem;
+    padding: 8px 2px;
+    top: 23rem;
+  }
+  .me-pic {
+    position: absolute;
+    top: 7rem;
+    left: 3rem;
+    width: 52%;
+    height: 30%;
+    border-radius: 50%;
+  }
+  .me-pic:hover {
+    box-shadow: 0 0 10px white, 0 0 20px gold;
+    transition: 0.65s ease-out;
+    transform: translateY(-0.5rem);
+  }
+  .contact-me {
+    position: relative;
+    top: 25rem;
+    left: 5rem;
+    background: white;
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 30px;
+  }
+  .contact-me:hover {
+    transform: translateX(0.5rem);
+    transition: 0.65s ease-in-out;
+    box-shadow: 0 0 10px white, 0 0 20px gold;
+    background: gold;
+  }
+  .projects {
+    position: relative;
+    top: 33rem;
+    height: 100vh;
+    width: 85%;
+  }
+  .projects-h1 {
+    position: relative;
+    left: 3rem;
+    text-decoration: underline;
+    width: 80%;
+    top: -5rem;
+    font-size: 2rem;
+    justify-content: center;
+    align-items: center;
+  }
+  .projects-p {
+    position: absolute;
+    left: 1rem;
+    top: -2rem;
+    font-size: 24px;
+    width: 100%;
+  }
+  .project-cards {
+    position: relative;
+    left: 0.5rem;
+    top: 5rem;
+    padding: 2px 10px;
+    align-items: center;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 2rem;
+    flex-wrap: wrap;
+  }
+
+  .card1 {
+    display: block;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.952);
+    position: relative;
+    height: 100%;
+    border-radius: 10px;
+  }
+  .card1:hover {
+    box-shadow: 0 0 10px white, 0 0 20px gold;
+    transform: translateY(-0.5rem);
+    transition: 0.86s ease-in-out;
+  }
+  .card1 h2 {
+    width: 55%;
+    position: relative;
+    right: 5rem;
+  }
+  .card1 img {
+    width: 90%;
+    position: relative;
+    left: 1em;
+    top: -1rem;
+    height: 50%;
+  }
+  .card1 h4 {
+    color: black;
+    text-align: justify;
+    position: relative;
+    left: 1rem;
+    top: -2rem;
+    width: 90%;
+  }
+  .card1 .web-link {
+    position: relative;
+    top: -4rem;
+    left: 5rem;
+  }
+  .card2 {
+    display: block;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.952);
+    position: relative;
+    height: 100%;
+    border-radius: 10px;
+  }
+  .card2:hover {
+    box-shadow: 0 0 10px white, 0 0 20px gold;
+    transform: translateY(-0.5rem);
+    transition: 0.86s ease-in-out;
+  }
+  .card2 h2 {
+    width: 65%;
+    position: relative;
+    right: 5rem;
+    font-size: 1.2rem;
+  }
+  .card2 img {
+    width: 90%;
+    position: relative;
+    left: 1em;
+    top: -1rem;
+    height: 50%;
+  }
+  .card2 h4 {
+    color: black;
+    text-align: justify;
+    position: relative;
+    left: 1rem;
+    top: -2rem;
+    width: 90%;
+  }
+  .card2 .web-link {
+    position: relative;
+    top: -3.4rem;
+    left: 5rem;
+  }
+  .card3 {
+    display: block;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.952);
+    position: relative;
+    height: 100%;
+    border-radius: 10px;
+  }
+  .card3:hover {
+    box-shadow: 0 0 10px white, 0 0 20px gold;
+    transform: translateY(-0.5rem);
+    transition: 0.86s ease-in-out;
+  }
+  .card3 h2 {
+    width: 60%;
+    position: relative;
+    right: 5rem;
+    top: -1rem;
+  }
+  .card3 img {
+    width: 90%;
+    position: relative;
+    left: 1em;
+    top: -2rem;
+    height: 50%;
+  }
+  .card3 h4 {
+    color: black;
+    text-align: justify;
+    position: relative;
+    left: 1rem;
+    top: -4rem;
+    width: 90%;
+  }
+  .card3 .web-link {
+    position: relative;
+    top: -5rem;
+    left: 5rem;
+  }
+  .card4 {
+    z-index: 1;
+    display: block;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.952);
+    position: relative;
+    height: 100%;
+    border-radius: 10px;
+  }
+  .card4:hover {
+    box-shadow: 0 0 10px white, 0 0 20px gold;
+    transform: translateY(-0.5rem);
+    transition: 0.86s ease-in-out;
+  }
+  .card4 h2 {
+    padding: 0 0;
+    width: 64%;
+    position: relative;
+    right: 5rem;
+    font-size: 1.2rem;
+  }
+  .card4 img {
+    width: 90%;
+    position: relative;
+    left: 1em;
+    top: -1rem;
+    height: 50%;
+  }
+  .card4 h4 {
+    color: black;
+    text-align: justify;
+    position: relative;
+    left: 1rem;
+    top: -2rem;
+    width: 90%;
+  }
+  .card4 .web-link {
+    position: relative;
+    top: -4.5rem;
+    left: 10rem;
+  }
+  .project-cards h2 {
+    color: black;
+    padding: 0 6rem;
+  }
+  .project-cards a {
+    position: relative;
+    font-size: 18px;
+    color: white;
+    background: rgba(0, 0, 0, 0.505);
+    border-radius: 5px;
+    top: -1rem;
+    left: 7rem;
+    padding: 2px 10px;
+  }
+  .about-ft .ft {
+    position: absolute;
+    top: 40rem;
+  }
+  .project-cards a:hover {
+    background: gold;
+    transition: 0.65s ease-in-out;
+    box-shadow: 0 0 10px white, 0 0 20px gold;
+    transform: translateX(0.5rem);
+    color: black;
+  }
+  .footer {
+    position: absolute;
+    bottom: -110rem;
+    background-color: white;
+    width: 100%;
+    height: 70%;
+  }
+  .search {
+    position: relative;
+    left: 20rem;
+  }
+  .search label {
+    color: black;
+    font-size: 18px;
+    font-weight: 600;
+  }
+  .search input {
+    font-size: 20px;
+    margin: 10px;
+    border-radius: 20px;
+    padding: 4px 20px;
+    width: 25rem;
+    color: white;
+  }
+  form button {
+    padding: 4px 10px;
+    font-size: 20px;
+  }
+  form button:hover {
+    background: gold;
+    box-shadow: 0 0 10px white, 0 0 20px gold;
+    transform: translateX(0.5rem);
+    color: black;
+    transition: 0.58s ease-in-out;
+  }
+  .search h5 {
+    position: relative;
+    top: 11rem;
+    left: -18rem;
+    color: black;
+    font-size: 19px;
+  }
+  ul {
+    position: relative;
+    top: -5rem;
+    left: -20rem;
+    color: black;
+    font-weight: 600;
+    font-size: 18px;
+  }
+  ul li {
+    list-style: outside;
+  }
+  .about-ft {
+    position: absolute;
+    background: white;
+    bottom: -72rem;
+    text-align: center;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+  .ft {
+    text-align: center;
+    position: absolute;
+    background: white;
+    display: flex;
+    top: 70rem;
+  }
+  .ft text {
+    color: black;
+  }
+  .ft .call-1 {
+    color: black;
+  }
+  .abt-ft {
+    position: absolute;
+    top: 120rem;
+  }
+}
+
+@media (min-width: 600px) {
+  .about-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .top-h1 {
+    position: absolute;
+    top: 2rem;
+    left: 8rem;
+    text-decoration: underline;
+    font-size: 30px;
+  }
+  .me-p {
+    position: absolute;
+    width: 98%;
+    height: 80%;
+    font-size: 25px;
+    left: 0.5rem;
+    padding: 8px 2px;
+    top: 25rem;
+  }
+  .me-pic {
+    position: absolute;
+    top: 7rem;
+    left: 3rem;
+    width: 55%;
+    height: 50%;
+    border-radius: 50%;
+  }
+  .me-pic:hover {
+    box-shadow: 0 0 10px white, 0 0 20px gold;
+    transition: 0.65s ease-out;
+    transform: translateY(-0.5rem);
+  }
+  .contact-me {
+    position: relative;
+    top: 37rem;
+    left: 5rem;
+    background: white;
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 30px;
+  }
+  .contact-me:hover {
+    transform: translateX(0.5rem);
+    transition: 0.65s ease-in-out;
+    box-shadow: 0 0 10px white, 0 0 20px gold;
+    background: gold;
+  }
+  .projects {
+    position: relative;
+    top: 45rem;
+    height: 100vh;
+    width: 85%;
+  }
+  .projects-h1 {
+    position: relative;
+    left: 3rem;
+    text-decoration: underline;
+    width: 80%;
+    top: -5rem;
+    font-size: 2rem;
+    justify-content: center;
+    align-items: center;
+  }
+  .projects-p {
+    position: absolute;
+    left: 1rem;
+    top: -2rem;
+    font-size: 24px;
+    width: 100%;
+  }
+  .project-cards {
+    position: relative;
+    left: 0.5rem;
+    top: 5rem;
+    padding: 2px 10px;
+    align-items: center;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    flex-wrap: wrap;
+  }
+
+  .card1 {
+    display: block;
+    width: 98%;
+    background: rgba(255, 255, 255, 0.952);
+    position: relative;
+    height: 90%;
+    border-radius: 10px;
+    left: 1rem;
+  }
+  .card1:hover {
+    box-shadow: 0 0 10px white, 0 0 20px gold;
+    transform: translateY(-0.5rem);
+    transition: 0.86s ease-in-out;
+  }
+  .card1 h2 {
+    width: 70%;
+    position: relative;
+    right: 5rem;
+  }
+  .card1 img {
+    width: 90%;
+    position: relative;
+    left: 1em;
+    top: -1rem;
+    height: 40%;
+  }
+  .card1 h4 {
+    color: black;
+    text-align: justify;
+    position: relative;
+    left: 1rem;
+    top: -2rem;
+    width: 90%;
+  }
+  .card1 .web-link {
+    position: relative;
+    top: -4rem;
+    left: 5rem;
+  }
+  .card2 {
+    display: block;
+    width: 98%;
+    background: rgba(255, 255, 255, 0.952);
+    position: relative;
+    height: 90%;
+    border-radius: 10px;
+    right: 0.5rem;
+  }
+  .card2:hover {
+    box-shadow: 0 0 10px white, 0 0 20px gold;
+    transform: translateY(-0.5rem);
+    transition: 0.86s ease-in-out;
+  }
+  .card2 h2 {
+    width: 65%;
+    position: relative;
+    right: 5rem;
+    font-size: 1.2rem;
+  }
+  .card2 img {
+    width: 90%;
+    position: relative;
+    left: 1em;
+    top: -1rem;
+    height: 40%;
+  }
+  .card2 h4 {
+    color: black;
+    text-align: justify;
+    position: relative;
+    left: 1rem;
+    top: -2rem;
+    width: 90%;
+  }
+  .card2 .web-link {
+    position: relative;
+    top: -3.4rem;
+    left: 5rem;
+  }
+  .card3 {
+    display: block;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.952);
+    position: relative;
+    height: 90%;
+    left: 2rem;
+    border-radius: 10px;
+  }
+  .card3:hover {
+    box-shadow: 0 0 10px white, 0 0 20px gold;
+    transform: translateY(-0.5rem);
+    transition: 0.86s ease-in-out;
+  }
+  .card3 h2 {
+    width: 70%;
+    position: relative;
+    right: 5rem;
+    top: -1rem;
+  }
+  .card3 img {
+    width: 80%;
+    position: relative;
+    left: 1em;
+    top: -2rem;
+    height: 40%;
+  }
+  .card3 h4 {
+    color: black;
+    text-align: justify;
+    position: relative;
+    left: 1rem;
+    top: -4rem;
+    width: 90%;
+  }
+  .card3 .web-link {
+    position: relative;
+    top: -5rem;
+    left: 5rem;
+  }
+  .card4 {
+    display: block;
+    width: 90%;
+    background: rgba(255, 255, 255, 0.952);
+    position: relative;
+    height: 90%;
+    left: 1rem;
+    border-radius: 10px;
+  }
+  .card4:hover {
+    box-shadow: 0 0 10px white, 0 0 20px gold;
+    transform: translateY(-0.5rem);
+    transition: 0.86s ease-in-out;
+  }
+  .card4 h2 {
+    padding: 0 0;
+    width: 65%;
+    position: relative;
+    right: 5rem;
+    font-size: 15px;
+  }
+  .card4 img {
+    width: 80%;
+    position: relative;
+    left: 2em;
+    top: -1rem;
+    height: 40%;
+  }
+  .card4 h4 {
+    color: black;
+    text-align: justify;
+    position: relative;
+    left: 1rem;
+    top: -2rem;
+    width: 90%;
+  }
+  .card4 .web-link {
+    position: relative;
+    top: -4.5rem;
+    left: 10rem;
+  }
+  .project-cards h2 {
+    color: black;
+    padding: 0 6rem;
+  }
+  .project-cards a {
+    position: relative;
+    font-size: 18px;
+    color: white;
+    background: rgba(0, 0, 0, 0.505);
+    border-radius: 5px;
+    top: -1rem;
+    left: 7rem;
+    padding: 2px 10px;
+  }
+  .project-cards a:hover {
+    background: gold;
+    transition: 0.65s ease-in-out;
+    box-shadow: 0 0 10px white, 0 0 20px gold;
+    transform: translateX(0.5rem);
+    color: black;
+  }
+  .footer {
+    position: absolute;
+    bottom: -110rem;
+    background-color: white;
+    width: 100%;
+    height: 70%;
+  }
+  .search {
+    position: relative;
+    left: 20rem;
+  }
+  .search label {
+    color: black;
+    font-size: 18px;
+    font-weight: 600;
+  }
+  .search input {
+    font-size: 20px;
+    margin: 10px;
+    border-radius: 20px;
+    padding: 4px 20px;
+    width: 25rem;
+    color: white;
+  }
+  form button {
+    padding: 4px 10px;
+    font-size: 20px;
+  }
+  form button:hover {
+    background: gold;
+    box-shadow: 0 0 10px white, 0 0 20px gold;
+    transform: translateX(0.5rem);
+    color: black;
+    transition: 0.58s ease-in-out;
+  }
+  .search h5 {
+    position: relative;
+    top: 11rem;
+    left: -18rem;
+    color: black;
+    font-size: 19px;
+  }
+  ul {
+    position: relative;
+    top: -5rem;
+    left: -20rem;
+    color: black;
+    font-weight: 600;
+    font-size: 18px;
+  }
+  ul li {
+    list-style: outside;
+  }
+  .about-ft {
+    display: none;
+    position: absolute;
+    background: white;
+    bottom: -72rem;
+    text-align: center;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+  .ft {
+    text-align: center;
+    position: absolute;
+    background: white;
+    display: flex;
+    top: 70rem;
+  }
+  .ft text {
+    color: black;
+  }
+  .ft .call-1 {
+    color: black;
+  }
+  .abt-ft {
+    position: absolute;
+    width: 80%;
+    top: 120rem;
+  }
+}
+@media (min-height: 640px) {
+  .me-pic {
+    height: 40%;
+  }
+  .about-ft {
+    z-index: -1;
+    top: 108rem;
+    background: transparent;
+  }
+  .abt-ft {
+    z-index: -1;
+  }
+}
+@media (min-height: 667px) {
+  .me-pic {
+    height: 38%;
+  }
+  .contact-me {
+    position: relative;
+    top: 39rem;
+  }
+  .projects {
+    position: relative;
+    top: 45rem;
+  }
+}
+/*@media (min-width: 600px) {
+  .about-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .top-h1 {
+    position: absolute;
+    top: 2rem;
+    left: 8rem;
+    text-decoration: underline;
+    font-size: 30px;
+  }
+  .me-p {
+    position: absolute;
+    width: 98%;
+    height: 80%;
+    font-size: 25px;
+    left: 0.5rem;
+    padding: 8px 2px;
+    top: 25rem;
+  }
+  .me-pic {
+    position: absolute;
+    top: 7rem;
+    left: 3rem;
+    width: 55%;
+    height: 30%;
+    border-radius: 50%;
+  }
+  .me-pic:hover {
+    box-shadow: 0 0 10px white, 0 0 20px gold;
+    transition: 0.65s ease-out;
+    transform: translateY(-0.5rem);
+  }
+  .contact-me {
+    position: relative;
+    top: 37rem;
+    left: 5rem;
+    background: white;
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 30px;
+  }
+  .contact-me:hover {
+    transform: translateX(0.5rem);
+    transition: 0.65s ease-in-out;
+    box-shadow: 0 0 10px white, 0 0 20px gold;
+    background: gold;
+  }
+  .projects {
+    position: relative;
+    top: 45rem;
+    height: 100vh;
+    width: 85%;
+  }
+  .projects-h1 {
+    position: relative;
+    left: 3rem;
+    text-decoration: underline;
+    width: 80%;
+    top: -5rem;
+    font-size: 2rem;
+    justify-content: center;
+    align-items: center;
+  }
+  .projects-p {
+    position: absolute;
+    left: 1rem;
+    top: -2rem;
+    font-size: 24px;
+    width: 100%;
+  }
+  .project-cards {
+    position: relative;
+    left: 0.5rem;
+    top: 5rem;
+    padding: 2px 10px;
+    align-items: center;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    flex-wrap: wrap;
+  }
+
+  .card1 {
+    display: block;
+    width: 98%;
+    background: rgba(255, 255, 255, 0.952);
+    position: relative;
+    height: 90%;
+    border-radius: 10px;
+    left: 1rem;
+  }
+  .card1:hover {
+    box-shadow: 0 0 10px white, 0 0 20px gold;
+    transform: translateY(-0.5rem);
+    transition: 0.86s ease-in-out;
+  }
+  .card1 h2 {
+    width: 70%;
+    position: relative;
+    right: 5rem;
+  }
+  .card1 img {
+    width: 90%;
+    position: relative;
+    left: 1em;
+    top: -1rem;
+    height: 40%;
+  }
+  .card1 h4 {
+    color: black;
+    text-align: justify;
+    position: relative;
+    left: 1rem;
+    top: -2rem;
+    width: 90%;
+  }
+  .card1 .web-link {
+    position: relative;
+    top: -4rem;
+    left: 5rem;
+  }
+  .card2 {
+    display: block;
+    width: 98%;
+    background: rgba(255, 255, 255, 0.952);
+    position: relative;
+    height: 90%;
+    border-radius: 10px;
+    right: 0.5rem;
+  }
+  .card2:hover {
+    box-shadow: 0 0 10px white, 0 0 20px gold;
+    transform: translateY(-0.5rem);
+    transition: 0.86s ease-in-out;
+  }
+  .card2 h2 {
+    width: 65%;
+    position: relative;
+    right: 5rem;
+    font-size: 1.2rem;
+  }
+  .card2 img {
+    width: 90%;
+    position: relative;
+    left: 1em;
+    top: -1rem;
+    height: 40%;
+  }
+  .card2 h4 {
+    color: black;
+    text-align: justify;
+    position: relative;
+    left: 1rem;
+    top: -2rem;
+    width: 90%;
+  }
+  .card2 .web-link {
+    position: relative;
+    top: -3.4rem;
+    left: 5rem;
+  }
+  .card3 {
+    display: block;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.952);
+    position: relative;
+    height: 90%;
+    left: 2rem;
+    border-radius: 10px;
+  }
+  .card3:hover {
+    box-shadow: 0 0 10px white, 0 0 20px gold;
+    transform: translateY(-0.5rem);
+    transition: 0.86s ease-in-out;
+  }
+  .card3 h2 {
+    width: 70%;
+    position: relative;
+    right: 5rem;
+    top: -1rem;
+  }
+  .card3 img {
+    width: 80%;
+    position: relative;
+    left: 1em;
+    top: -2rem;
+    height: 40%;
+  }
+  .card3 h4 {
+    color: black;
+    text-align: justify;
+    position: relative;
+    left: 1rem;
+    top: -4rem;
+    width: 90%;
+  }
+  .card3 .web-link {
+    position: relative;
+    top: -5rem;
+    left: 5rem;
+  }
+  .card4 {
+    display: block;
+    width: 90%;
+    background: rgba(255, 255, 255, 0.952);
+    position: relative;
+    height: 90%;
+    left: 1rem;
+    border-radius: 10px;
+  }
+  .card4:hover {
+    box-shadow: 0 0 10px white, 0 0 20px gold;
+    transform: translateY(-0.5rem);
+    transition: 0.86s ease-in-out;
+  }
+  .card4 h2 {
+    padding: 0 0;
+    width: 65%;
+    position: relative;
+    right: 5rem;
+    font-size: 15px;
+  }
+  .card4 img {
+    width: 80%;
+    position: relative;
+    left: 2em;
+    top: -1rem;
+    height: 40%;
+  }
+  .card4 h4 {
+    color: black;
+    text-align: justify;
+    position: relative;
+    left: 1rem;
+    top: -2rem;
+    width: 90%;
+  }
+  .card4 .web-link {
+    position: relative;
+    top: -4.5rem;
+    left: 10rem;
+  }
+  .project-cards h2 {
+    color: black;
+    padding: 0 6rem;
+  }
+  .project-cards a {
+    position: relative;
+    font-size: 18px;
+    color: white;
+    background: rgba(0, 0, 0, 0.505);
+    border-radius: 5px;
+    top: -1rem;
+    left: 7rem;
+    padding: 2px 10px;
+  }
+  .project-cards a:hover {
+    background: gold;
+    transition: 0.65s ease-in-out;
+    box-shadow: 0 0 10px white, 0 0 20px gold;
+    transform: translateX(0.5rem);
+    color: black;
+  }
+  .footer {
+    position: absolute;
+    bottom: -110rem;
+    background-color: white;
+    width: 100%;
+    height: 70%;
+  }
+  .search {
+    position: relative;
+    left: 20rem;
+  }
+  .search label {
+    color: black;
+    font-size: 18px;
+    font-weight: 600;
+  }
+  .search input {
+    font-size: 20px;
+    margin: 10px;
+    border-radius: 20px;
+    padding: 4px 20px;
+    width: 25rem;
+    color: white;
+  }
+  form button {
+    padding: 4px 10px;
+    font-size: 20px;
+  }
+  form button:hover {
+    background: gold;
+    box-shadow: 0 0 10px white, 0 0 20px gold;
+    transform: translateX(0.5rem);
+    color: black;
+    transition: 0.58s ease-in-out;
+  }
+  .search h5 {
+    position: relative;
+    top: 11rem;
+    left: -18rem;
+    color: black;
+    font-size: 19px;
+  }
+  ul {
+    position: relative;
+    top: -5rem;
+    left: -20rem;
+    color: black;
+    font-weight: 600;
+    font-size: 18px;
+  }
+  ul li {
+    list-style: outside;
+  }
+  .about-ft {
+    display: none;
+    position: absolute;
+    background: white;
+    bottom: -72rem;
+    text-align: center;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+  .ft {
+    text-align: center;
+    position: absolute;
+    background: white;
+    display: flex;
+    top: 70rem;
+  }
+  .ft text {
+    color: black;
+  }
+  .ft .call-1 {
+    color: black;
+  }
+  .abt-ft {
+    position: absolute;
+    width: 80%;
+    top: 120rem;
+  }
+}*/
+@media (min-height: 740px) {
+  .me-pic {
+    height: 35%;
+  }
+  .projects {
+    position: relative;
+    top: 50rem;
+  }
+  .contact-me {
+    position: relative;
+    top: 44rem;
+  }
+}
+@media (min-width: 768px) {
+  .about-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .top-h1 {
+    position: absolute;
+    top: 3rem;
+    left: 20rem;
+    text-decoration: underline;
+    font-size: 30px;
+  }
+  .me-p {
+    position: absolute;
+    width: 100%;
+    font-size: 25px;
+    left: 0.5rem;
+    padding: 8px 2px;
+    top: 25rem;
+  }
+  .me-pic {
+    position: absolute;
+    top: 7rem;
+    left: 3rem;
+    width: 40%;
+    height: 60%;
+    border-radius: 50%;
+  }
+  .me-pic:hover {
+    box-shadow: 0 0 10px white, 0 0 20px gold;
+    transition: 0.65s ease-out;
+    transform: translateY(-0.5rem);
+  }
+  .contact-me {
+    position: relative;
+    top: 35rem;
+    left: 20rem;
+    background: white;
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 30px;
+  }
+  .contact-me:hover {
+    transform: translateX(0.5rem);
+    transition: 0.65s ease-in-out;
+    box-shadow: 0 0 10px white, 0 0 20px gold;
+    background: gold;
+  }
+  .projects {
+    position: relative;
+    top: 43rem;
+    height: 100vh;
+    width: 85%;
+  }
+  .projects-h1 {
+    position: relative;
+    left: 18rem;
+    text-decoration: underline;
+    width: 80%;
+    top: -8rem;
+    font-size: 2rem;
+    justify-content: center;
+    align-items: center;
+  }
+  .projects-p {
+    position: absolute;
+    left: 1rem;
+    top: -4rem;
+    font-size: 28px;
+    width: 100%;
+  }
+  .project-cards {
+    position: relative;
+    left: 2rem;
+    top: 5rem;
+    padding: 2px 10px;
+    align-items: center;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem 10rem;
+    flex-wrap: wrap;
+  }
+
+  .card1 {
+    display: block;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.952);
+    position: relative;
+    height: 100%;
+    border-radius: 10px;
+  }
+  .card1:hover {
+    box-shadow: 0 0 10px white, 0 0 20px gold;
+    transform: translateY(-0.5rem);
+    transition: 0.86s ease-in-out;
+  }
+  .card1 h2 {
+    width: 55%;
+    position: relative;
+    right: 5rem;
+  }
+  .card1 img {
+    width: 90%;
+    position: relative;
+    left: 1em;
+    top: -1rem;
+    height: 50%;
+  }
+  .card1 h4 {
+    color: black;
+    text-align: justify;
+    position: relative;
+    left: 1rem;
+    top: -2rem;
+    width: 90%;
+  }
+  .card1 .web-link {
+    position: relative;
+    top: -4rem;
+    left: 5rem;
+  }
+  .card2 {
+    display: block;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.952);
+    position: relative;
+    height: 100%;
+    border-radius: 10px;
+  }
+  .card2:hover {
+    box-shadow: 0 0 10px white, 0 0 20px gold;
+    transform: translateY(-0.5rem);
+    transition: 0.86s ease-in-out;
+  }
+  .card2 h2 {
+    width: 65%;
+    position: relative;
+    right: 5rem;
+    font-size: 1.2rem;
+  }
+  .card2 img {
+    width: 90%;
+    position: relative;
+    left: 1em;
+    top: -1rem;
+    height: 50%;
+  }
+  .card2 h4 {
+    color: black;
+    text-align: justify;
+    position: relative;
+    left: 1rem;
+    top: -2rem;
+    width: 90%;
+  }
+  .card2 .web-link {
+    position: relative;
+    top: -3.4rem;
+    left: 5rem;
+  }
+  .card3 {
+    display: block;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.952);
+    position: relative;
+    height: 100%;
+    border-radius: 10px;
+  }
+  .card3:hover {
+    box-shadow: 0 0 10px white, 0 0 20px gold;
+    transform: translateY(-0.5rem);
+    transition: 0.86s ease-in-out;
+  }
+  .card3 h2 {
+    width: 60%;
+    position: relative;
+    right: 5rem;
+    top: -1rem;
+  }
+  .card3 img {
+    width: 90%;
+    position: relative;
+    left: 1em;
+    top: -2rem;
+    height: 50%;
+  }
+  .card3 h4 {
+    color: black;
+    text-align: justify;
+    position: relative;
+    left: 1rem;
+    top: -4rem;
+    width: 90%;
+  }
+  .card3 .web-link {
+    position: relative;
+    top: -5rem;
+    left: 5rem;
+  }
+  .card4 {
+    display: block;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.952);
+    position: relative;
+    height: 100%;
+    border-radius: 10px;
+  }
+  .card4:hover {
+    box-shadow: 0 0 10px white, 0 0 20px gold;
+    transform: translateY(-0.5rem);
+    transition: 0.86s ease-in-out;
+  }
+  .card4 h2 {
+    padding: 0 0;
+    width: 64%;
+    position: relative;
+    right: 5rem;
+    font-size: 1.2rem;
+  }
+  .card4 img {
+    width: 90%;
+    position: relative;
+    left: 1em;
+    top: -1rem;
+    height: 50%;
+  }
+  .card4 h4 {
+    color: black;
+    text-align: justify;
+    position: relative;
+    left: 1rem;
+    top: -2rem;
+    width: 90%;
+  }
+  .card4 .web-link {
+    position: relative;
+    top: -4.5rem;
+    left: 10rem;
+  }
+  .project-cards h2 {
+    color: black;
+    padding: 0 6rem;
+  }
+  .project-cards a {
+    position: relative;
+    font-size: 18px;
+    color: white;
+    background: rgba(0, 0, 0, 0.505);
+    border-radius: 5px;
+    top: -1rem;
+    left: 7rem;
+    padding: 2px 10px;
+  }
+  .project-cards a:hover {
+    background: gold;
+    transition: 0.65s ease-in-out;
+    box-shadow: 0 0 10px white, 0 0 20px gold;
+    transform: translateX(0.5rem);
+    color: black;
+  }
+  .footer {
+    position: absolute;
+    bottom: -110rem;
+    background-color: white;
+    width: 100%;
+    height: 70%;
+  }
+  .search {
+    position: relative;
+    left: 20rem;
+  }
+  .search label {
+    color: black;
+    font-size: 18px;
+    font-weight: 600;
+  }
+  .search input {
+    font-size: 20px;
+    margin: 10px;
+    border-radius: 20px;
+    padding: 4px 20px;
+    width: 25rem;
+    color: white;
+  }
+  form button {
+    padding: 4px 10px;
+    font-size: 20px;
+  }
+  form button:hover {
+    background: gold;
+    box-shadow: 0 0 10px white, 0 0 20px gold;
+    transform: translateX(0.5rem);
+    color: black;
+    transition: 0.58s ease-in-out;
+  }
+  .search h5 {
+    position: relative;
+    top: 11rem;
+    left: -18rem;
+    color: black;
+    font-size: 19px;
+  }
+  ul {
+    position: relative;
+    top: -5rem;
+    left: -20rem;
+    color: black;
+    font-weight: 600;
+    font-size: 18px;
+  }
+  ul li {
+    list-style: outside;
+  }
+  .about-ft {
+    position: absolute;
+    background: white;
+    bottom: -72rem;
+    text-align: center;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+  .ft {
+    text-align: center;
+    position: absolute;
+    background: white;
+    display: flex;
+    top: 70rem;
+  }
+  .ft text {
+    color: black;
+  }
+  .ft .call-1 {
+    color: black;
+  }
+  .abt-ft {
+    display: none;
+    position: absolute;
+    top: 120rem;
+  }
+}
+@media (min-height: 844px) {
+  .me-pic {
+    height: 30%;
+    width: 70%;
+  }
+  .about-ft {
+    z-index: -1;
+    position: relative;
+    top: 82rem;
+    background: transparent;
+    width: 100%;
+    position: absolute;
+  }
+  .abt-ft {
+    z-index: -1;
+  }
+  .projects {
+    position: relative;
+    top: 52rem;
+  }
+  .contact-me {
+    position: relative;
+    top: 46rem;
+  }
+}
+@media (min-height: 854px) {
+  .me-pic {
+    height: 35%;
+    width: 70%;
+    position: absolute;
+    left: 3rem;
+    top: 6rem;
+  }
+  .contact-me {
+    position: relative;
+    top: 39rem;
+  }
+  .projects {
+    position: relative;
+    top: 45rem;
+  }
+}
+@media (min-height: 882px) {
+  .me-pic {
+    height: 27%;
+    width: 70%;
+    position: absolute;
+    left: 3rem;
+    top: 6rem;
+  }
+  .contact-me {
+    position: relative;
+    top: 39rem;
+  }
+  .projects {
+    position: relative;
+    top: 45rem;
+  }
+}
+@media (min-height: 896px) {
+  .me-pic {
+    height: 27%;
+    width: 70%;
+    position: absolute;
+    left: 3rem;
+    top: 6rem;
+  }
+  .contact-me {
+    position: relative;
+    top: 45rem;
+  }
+  .projects {
+    position: relative;
+    top: 49rem;
+  }
+  .card4 .web-link {
+    position: relative;
+    top: -3.7rem;
+  }
+  .abt-ft {
+    width: 100%;
+  }
+}
+@media (min-height: 912px) {
+  .about-ft {
+    position: relative;
+    top: 48rem;
+  }
+  .card4 .web-link {
+    position: relative;
+    top: -3.5rem;
+  }
+}
+@media (min-height: 914px) {
+  .projects {
+    position: relative;
+    top: 52rem;
+  }
+  .contact-me {
+    position: relative;
+    top: 46rem;
+  }
+  .abt-ft {
+    width: 100%;
+  }
+}
+@media (min-height: 932px) {
+  .projects {
+    position: relative;
+    top: 59rem;
+  }
+  .contact-me {
+    position: relative;
+    top: 52rem;
+  }
+}
+@media (min-height: 960px) {
+  .me-pic {
+    height: 33%;
+    width: 60%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .about-container {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    top: 1rem;
+    z-index: -1;
+  }
+  .top-h1 {
+    position: absolute;
+    top: 3rem;
+    left: 20rem;
+    text-decoration: underline;
+    font-size: 30px;
+  }
+  .me-p {
+    position: absolute;
+    width: 60%;
+    font-size: 26px;
+    left: 1rem;
+    padding: 8px 2px;
+    top: 7rem;
+  }
+  .me-pic {
+    position: absolute;
+    top: 6rem;
+    left: 55rem;
+    width: 25%;
+    height: 50%;
+    border-radius: 50%;
+  }
+  .me-pic:hover {
+    box-shadow: 0 0 10px white, 0 0 20px gold;
+    transition: 0.65s ease-out;
+    transform: translateY(-0.5rem);
+  }
+  .contact-me {
+    position: relative;
+    top: 20rem;
+    left: 20rem;
+    background: white;
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 30px;
+  }
+  .contact-me:hover {
+    transform: translateX(0.5rem);
+    transition: 0.65s ease-in-out;
+    box-shadow: 0 0 10px white, 0 0 20px gold;
+    background: gold;
+  }
+  .projects {
+    position: relative;
+    top: 35rem;
+    height: 100vh;
+    width: 85%;
+  }
+  .projects-h1 {
+    position: relative;
+    left: 18rem;
+    text-decoration: underline;
+    width: 80%;
+    top: -8rem;
+    font-size: 2rem;
+    justify-content: center;
+    align-items: center;
+  }
+  .projects-p {
+    position: absolute;
+    left: -2rem;
+    top: -4rem;
+    font-size: 28px;
+    width: 100%;
+  }
+  .project-cards {
+    position: relative;
+    left: -1rem;
+    top: 5rem;
+    padding: 2px 10px;
+    align-items: center;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3rem;
+    flex-wrap: wrap;
+  }
+
+  .card1 {
+    display: block;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.952);
+    position: relative;
+    height: 100%;
+    border-radius: 10px;
+  }
+  .card1:hover {
+    box-shadow: 0 0 10px white, 0 0 20px gold;
+    transform: translateY(-0.5rem);
+    transition: 0.86s ease-in-out;
+  }
+  .card1 h2 {
+    width: 55%;
+    position: relative;
+    right: 5rem;
+  }
+  .card1 img {
+    width: 90%;
+    position: relative;
+    left: 1em;
+    top: -1rem;
+    height: 50%;
+  }
+  .card1 h4 {
+    color: black;
+    text-align: justify;
+    position: relative;
+    left: 1rem;
+    top: -2rem;
+    width: 90%;
+  }
+  .card1 .web-link {
+    position: relative;
+    top: -3rem;
+    left: 10rem;
+  }
+  .card2 {
+    display: block;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.952);
+    position: relative;
+    height: 100%;
+    border-radius: 10px;
+  }
+  .card2:hover {
+    box-shadow: 0 0 10px white, 0 0 20px gold;
+    transform: translateY(-0.5rem);
+    transition: 0.86s ease-in-out;
+  }
+  .card2 h2 {
+    width: 65%;
+    position: relative;
+    right: 5rem;
+    font-size: 1.2rem;
+  }
+  .card2 img {
+    width: 90%;
+    position: relative;
+    left: 1em;
+    top: -1rem;
+    height: 50%;
+  }
+  .card2 h4 {
+    color: black;
+    text-align: justify;
+    position: relative;
+    left: 1rem;
+    top: -2rem;
+    width: 90%;
+  }
+  .card2 .web-link {
+    position: relative;
+    top: -3.4rem;
+    left: 5rem;
+  }
+  .card3 {
+    display: block;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.952);
+    position: relative;
+    height: 100%;
+    border-radius: 10px;
+  }
+  .card3:hover {
+    box-shadow: 0 0 10px white, 0 0 20px gold;
+    transform: translateY(-0.5rem);
+    transition: 0.86s ease-in-out;
+  }
+  .card3 h2 {
+    width: 60%;
+    position: relative;
+    right: 5rem;
+    top: -1rem;
+  }
+  .card3 img {
+    width: 90%;
+    position: relative;
+    left: 1em;
+    top: -2rem;
+    height: 50%;
+  }
+  .card3 h4 {
+    color: black;
+    text-align: justify;
+    position: relative;
+    left: 1rem;
+    top: -4rem;
+    width: 90%;
+  }
+  .card3 .web-link {
+    position: relative;
+    top: -5rem;
+    left: 5rem;
+  }
+  .card4 {
+    display: block;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.952);
+    position: relative;
+    height: 100%;
+    border-radius: 10px;
+  }
+  .card4:hover {
+    box-shadow: 0 0 10px white, 0 0 20px gold;
+    transform: translateY(-0.5rem);
+    transition: 0.86s ease-in-out;
+  }
+  .card4 h2 {
+    padding: 0 0;
+    width: 64%;
+    position: relative;
+    right: 5rem;
+    font-size: 1.2rem;
+  }
+  .card4 img {
+    width: 90%;
+    position: relative;
+    left: 1em;
+    top: -1rem;
+    height: 50%;
+  }
+  .card4 h4 {
+    color: black;
+    text-align: justify;
+    position: relative;
+    left: 1rem;
+    top: -2rem;
+    width: 90%;
+  }
+  .card4 .web-link {
+    position: relative;
+    top: -3rem;
+    left: 10rem;
+  }
+  .project-cards h2 {
+    color: black;
+    padding: 0 6rem;
+  }
+  .project-cards a {
+    position: relative;
+    font-size: 18px;
+    color: white;
+    background: rgba(0, 0, 0, 0.505);
+    border-radius: 5px;
+    top: -1rem;
+    left: 7rem;
+    padding: 2px 10px;
+  }
+  .project-cards a:hover {
+    background: gold;
+    transition: 0.65s ease-in-out;
+    box-shadow: 0 0 10px white, 0 0 20px gold;
+    transform: translateX(0.5rem);
+    color: black;
+  }
+  .footer {
+    position: absolute;
+    bottom: -110rem;
+    background-color: white;
+    width: 100%;
+    height: 70%;
+  }
+  .search {
+    position: relative;
+    left: 20rem;
+  }
+  .search label {
+    color: black;
+    font-size: 18px;
+    font-weight: 600;
+  }
+  .search input {
+    font-size: 20px;
+    margin: 10px;
+    border-radius: 20px;
+    padding: 4px 20px;
+    width: 25rem;
+    color: white;
+  }
+  form button {
+    padding: 4px 10px;
+    font-size: 20px;
+  }
+  form button:hover {
+    background: gold;
+    box-shadow: 0 0 10px white, 0 0 20px gold;
+    transform: translateX(0.5rem);
+    color: black;
+    transition: 0.58s ease-in-out;
+  }
+  .search h5 {
+    position: relative;
+    top: 11rem;
+    left: -18rem;
+    color: black;
+    font-size: 19px;
+  }
+  ul {
+    position: relative;
+    top: -5rem;
+    left: -20rem;
+    color: black;
+    font-weight: 600;
+    font-size: 18px;
+  }
+  ul li {
+    list-style: outside;
+  }
+  .about-ft {
+    position: absolute;
+    background: white;
+    bottom: -72rem;
+    text-align: center;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+  .ft {
+    text-align: center;
+    position: absolute;
+    background: white;
+    display: flex;
+    top: 70rem;
+  }
+  .ft text {
+    color: black;
+  }
+  .ft .call-1 {
+    color: black;
+  }
+  .abt-ft {
+    display: block;
+    position: absolute;
+    top: 70rem;
+  }
+}
+@media (min-width: 1440px) {
+  .about-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .top-h1 {
+    position: absolute;
+    top: 7rem;
+    left: 20rem;
+    text-decoration: underline;
+    font-size: 30px;
+  }
+  .me-p {
+    position: absolute;
+    width: 60%;
+    font-size: 26px;
+    left: 1rem;
+    padding: 8px 2px;
+    top: 10rem;
+  }
+  .me-pic {
+    position: absolute;
+    top: 6rem;
+    left: 70rem;
+    width: 25%;
+    height: 52%;
+    border-radius: 50%;
+  }
+  .me-pic:hover {
+    box-shadow: 0 0 10px white, 0 0 20px gold;
+    transition: 0.65s ease-out;
+    transform: translateY(-0.5rem);
+  }
+  .contact-me {
+    position: relative;
+    top: 20rem;
+    left: 20rem;
+    background: white;
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 30px;
+  }
+  .contact-me:hover {
+    transform: translateX(0.5rem);
+    transition: 0.65s ease-in-out;
+    box-shadow: 0 0 10px white, 0 0 20px gold;
+    background: gold;
+  }
+  .projects {
+    position: relative;
+    top: 36rem;
+    height: 100vh;
+    width: 85%;
+  }
+  .projects-h1 {
+    position: relative;
+    left: 18rem;
+    text-decoration: underline;
+    width: 80%;
+    top: -8rem;
+    font-size: 2rem;
+    justify-content: center;
+    align-items: center;
+  }
+  .projects-p {
+    position: absolute;
+    left: -2rem;
+    top: -4rem;
+    font-size: 28px;
+    width: 100%;
+  }
+  .project-cards {
+    position: relative;
+    left: -1rem;
+    top: 5rem;
+    padding: 2px 10px;
+    align-items: center;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3rem 10rem;
+    flex-wrap: wrap;
+  }
+
+  .card1 {
+    display: block;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.952);
+    position: relative;
+    height: 100%;
+    border-radius: 10px;
+  }
+  .card1:hover {
+    box-shadow: 0 0 10px white, 0 0 20px gold;
+    transform: translateY(-0.5rem);
+    transition: 0.86s ease-in-out;
+  }
+  .card1 h2 {
+    width: 55%;
+    position: relative;
+    right: 5rem;
+  }
+  .card1 img {
+    width: 90%;
+    position: relative;
+    left: 1em;
+    top: -1rem;
+    height: 50%;
+  }
+  .card1 h4 {
+    color: black;
+    text-align: justify;
+    position: relative;
+    left: 1rem;
+    top: -2rem;
+    width: 90%;
+  }
+  .card1 .web-link {
+    position: relative;
+    top: -4rem;
+    left: 10rem;
+  }
+  .card2 {
+    display: block;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.952);
+    position: relative;
+    height: 100%;
+    border-radius: 10px;
+  }
+  .card2:hover {
+    box-shadow: 0 0 10px white, 0 0 20px gold;
+    transform: translateY(-0.5rem);
+    transition: 0.86s ease-in-out;
+  }
+  .card2 h2 {
+    width: 65%;
+    position: relative;
+    right: 5rem;
+    font-size: 1.2rem;
+  }
+  .card2 img {
+    width: 90%;
+    position: relative;
+    left: 1em;
+    top: -1rem;
+    height: 50%;
+  }
+  .card2 h4 {
+    color: black;
+    text-align: justify;
+    position: relative;
+    left: 1rem;
+    top: -2rem;
+    width: 90%;
+  }
+  .card2 .web-link {
+    position: relative;
+    top: -3.4rem;
+    left: 5rem;
+  }
+  .card3 {
+    display: block;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.952);
+    position: relative;
+    height: 100%;
+    border-radius: 10px;
+  }
+  .card3:hover {
+    box-shadow: 0 0 10px white, 0 0 20px gold;
+    transform: translateY(-0.5rem);
+    transition: 0.86s ease-in-out;
+  }
+  .card3 h2 {
+    width: 60%;
+    position: relative;
+    right: 5rem;
+    top: -1rem;
+  }
+  .card3 img {
+    width: 90%;
+    position: relative;
+    left: 1em;
+    top: -2rem;
+    height: 50%;
+  }
+  .card3 h4 {
+    color: black;
+    text-align: justify;
+    position: relative;
+    left: 1rem;
+    top: -4rem;
+    width: 90%;
+  }
+  .card3 .web-link {
+    position: relative;
+    top: -5rem;
+    left: 5rem;
+  }
+  .card4 {
+    display: block;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.952);
+    position: relative;
+    height: 100%;
+    border-radius: 10px;
+  }
+  .card4:hover {
+    box-shadow: 0 0 10px white, 0 0 20px gold;
+    transform: translateY(-0.5rem);
+    transition: 0.86s ease-in-out;
+  }
+  .card4 h2 {
+    padding: 0 0;
+    width: 64%;
+    position: relative;
+    right: 5rem;
+    font-size: 1.2rem;
+  }
+  .card4 img {
+    width: 90%;
+    position: relative;
+    left: 1em;
+    top: -1rem;
+    height: 50%;
+  }
+  .card4 h4 {
+    color: black;
+    text-align: justify;
+    position: relative;
+    left: 1rem;
+    top: -2rem;
+    width: 90%;
+  }
+  .card4 .web-link {
+    position: relative;
+    top: -4.5rem;
+    left: 10rem;
+  }
+  .project-cards h2 {
+    color: black;
+    padding: 0 6rem;
+  }
+  .project-cards a {
+    position: relative;
+    font-size: 18px;
+    color: white;
+    background: rgba(0, 0, 0, 0.505);
+    border-radius: 5px;
+    top: -1rem;
+    left: 7rem;
+    padding: 2px 10px;
+  }
+  .project-cards a:hover {
+    background: gold;
+    transition: 0.65s ease-in-out;
+    box-shadow: 0 0 10px white, 0 0 20px gold;
+    transform: translateX(0.5rem);
+    color: black;
+  }
+  .footer {
+    position: absolute;
+    bottom: -110rem;
+    background-color: white;
+    width: 100%;
+    height: 70%;
+  }
+  .search {
+    position: relative;
+    left: 20rem;
+  }
+  .search label {
+    color: black;
+    font-size: 18px;
+    font-weight: 600;
+  }
+  .search input {
+    font-size: 20px;
+    margin: 10px;
+    border-radius: 20px;
+    padding: 4px 20px;
+    width: 25rem;
+    color: white;
+  }
+  form button {
+    padding: 4px 10px;
+    font-size: 20px;
+  }
+  form button:hover {
+    background: gold;
+    box-shadow: 0 0 10px white, 0 0 20px gold;
+    transform: translateX(0.5rem);
+    color: black;
+    transition: 0.58s ease-in-out;
+  }
+  .search h5 {
+    position: relative;
+    top: 11rem;
+    left: -18rem;
+    color: black;
+    font-size: 19px;
+  }
+  ul {
+    position: relative;
+    top: -5rem;
+    left: -20rem;
+    color: black;
+    font-weight: 600;
+    font-size: 18px;
+  }
+  ul li {
+    list-style: outside;
+  }
+  .about-ft {
+    position: absolute;
+    background: white;
+    bottom: -72rem;
+    text-align: center;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+  .ft {
+    text-align: center;
+    position: absolute;
+    background: white;
+    display: flex;
+    top: 70rem;
+  }
+  .ft text {
+    color: black;
+  }
+  .ft .call-1 {
+    color: black;
+  }
+  .abt-ft {
+    display: block;
+    position: absolute;
+    top: 75rem;
+  }
+}

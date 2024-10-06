@@ -1,0 +1,319 @@
+.tap-me-menu {
+  display: none;
+}
+@media (max-width: 320px) {
+  .tap-me-menu {
+    display: block;
+    font-size: 0.5rem;
+    position: absolute;
+    top: 3rem;
+    right: 0.5rem;
+    z-index: 1;
+  }
+  .menu-class {
+    position: absolute;
+    top: 7rem;
+    display: flex;
+    animation: Slide;
+    animation-duration: 2s;
+    background: rgba(228, 166, 9, 0.737);
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    left: 0rem;
+    height: 100%;
+    width: 90%;
+    border: 2px white solid;
+  }
+
+  .menu-class ul {
+    position: relative;
+    left: -2rem;
+    top: 0rem;
+  }
+  .menu-class ul li {
+    display: block;
+    list-style: none;
+  }
+  .menu-class ul li a {
+    color: white;
+    display: block;
+    line-height: 5rem;
+    z-index: 1;
+    text-decoration: underline;
+  }
+}
+
+@keyframes Slide {
+  0% {
+    left: -11rem;
+  }
+  100% {
+    left: 0rem;
+  }
+}
+@media (min-width: 344px) {
+  .tap-me-menu {
+    display: block;
+    font-size: 0.5rem;
+    position: absolute;
+    top: 3rem;
+    right: 2rem;
+  }
+  .tap-me {
+    width: 100%;
+    border: 2px solid white;
+    display: flex;
+  }
+  .menu-class {
+    position: absolute;
+    display: flex;
+    top: 7rem;
+    background: rgba(228, 166, 9, 0.737);
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    left: 0.5rem;
+    height: 70%;
+    width: 90%;
+    border: 2px white solid;
+  }
+  .menu-class ul {
+    position: relative;
+    left: -2rem;
+    top: 0rem;
+  }
+  .menu-class ul li {
+    display: block;
+    list-style: none;
+  }
+  .menu-class ul li a {
+    color: white;
+    display: block;
+    line-height: 5rem;
+    text-decoration: underline;
+  }
+  .tap-me {
+    border: none;
+  }
+}
+@media (min-width: 360px) {
+  .tap-me-menu {
+    display: block;
+    font-size: 0.5rem;
+    position: absolute;
+    top: 3rem;
+    right: 2rem;
+  }
+  .tap-me {
+    width: 100%;
+    display: flex;
+    border: none;
+  }
+  .menu-class {
+    position: absolute;
+    display: flex;
+    top: 7rem;
+    background: rgba(228, 166, 9, 0.737);
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    left: 0.5rem;
+    height: 70%;
+    width: 90%;
+    border: 2px white solid;
+  }
+  .menu-class ul {
+    position: relative;
+    left: -2rem;
+    top: 0rem;
+  }
+  .menu-class ul li {
+    display: block;
+    list-style: none;
+  }
+  .menu-class ul li a {
+    color: white;
+    display: block;
+    line-height: 5rem;
+    text-decoration: underline;
+  }
+}
+@media (min-width: 375px) {
+  .menu-class {
+    height: 70%;
+    width: 100%;
+    animation: slide 3s forwards;
+  }
+  .tap-me {
+    border: none;
+  }
+  .menu-class li a {
+    list-style: none;
+    text-decoration: underline;
+    font-size: bold;
+  }
+}
+@media (min-width: 412px) {
+  .tap-me-menu {
+    display: block;
+    font-size: 0.5rem;
+    position: absolute;
+    top: 3rem;
+    right: 2rem;
+  }
+  .menu-class {
+    position: absolute;
+    display: flex;
+    top: 6rem;
+    background: rgba(228, 166, 9, 0.737);
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    left: 0.5rem;
+    height: 50%;
+    width: 90%;
+    border: 2px white solid;
+  }
+  .menu-class ul {
+    position: relative;
+    left: -2rem;
+    top: 0rem;
+  }
+  .menu-class ul li {
+    display: block;
+    list-style: none;
+  }
+  .menu-class ul li a {
+    color: white;
+    display: block;
+    line-height: 5rem;
+    text-decoration: underline;
+    text-transform: capitalize;
+  }
+  .tap-me {
+    border: none;
+  }
+}
+@media (min-width: 425px) {
+  .tap-me-menu {
+    display: block;
+    font-size: 0.5rem;
+    position: absolute;
+    top: 3rem;
+    right: 2rem;
+  }
+  .menu-class {
+    position: absolute;
+    display: flex;
+    top: 8rem;
+    background: rgba(228, 166, 9, 0.737);
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    left: 0.5rem;
+    height: 100%;
+    width: 90%;
+    border: 2px white solid;
+  }
+  .menu-class ul {
+    position: relative;
+    left: -2rem;
+    top: 0rem;
+  }
+  .menu-class ul li {
+    display: block;
+    list-style: none;
+  }
+  .menu-class ul li a {
+    color: white;
+    display: block;
+    line-height: 5rem;
+    text-decoration: underline;
+    text-transform: capitalize;
+  }
+  .tap-me {
+    border: none;
+  }
+}
+@media (min-width: 600px) {
+  .menu-class {
+    position: absolute;
+    top: 4rem;
+    right: 0rem;
+    background: rgba(228, 166, 9, 0.737);
+  }
+
+  .menu-class ul li a {
+    color: white;
+    display: block;
+    line-height: 5rem;
+    font-size: 2rem;
+    transition: 1.5s ease-in-out;
+  }
+  .tap-me-menu {
+    position: absolute;
+    top: 1rem;
+  }
+}
+@media (min-height: 854px) {
+  .menu-class {
+    height: 50%;
+    animation: slide 3s ease-in-out forwards;
+  }
+}
+/*@media (min-width: 600px) {
+  .tap-me-menu {
+    display: block;
+    font-size: 0.5rem;
+    position: absolute;
+    top: 3rem;
+    right: 2rem;
+    overflow: hidden;
+  }
+  .menu-class {
+    position: absolute;
+    display: flex;
+    top: -8rem;
+    background: rgba(228, 166, 9, 0.737);
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    left: 0.5rem;
+    height: 40%;
+    width: 60%;
+    border: 2px white solid;
+  }
+  .menu-class ul {
+    position: relative;
+    left: -2rem;
+    top: 0rem;
+  }
+  .menu-class ul li {
+    display: block;
+    list-style: none;
+  }
+  .menu-class ul li a {
+    color: white;
+    display: block;
+    line-height: 5rem;
+  }
+}*/
+
+@media (min-width: 768px) {
+  .menu-class {
+    position: absolute;
+    top: 3.5rem;
+  }
+}
+@media (min-height: 854px) {
+  .menu-class {
+    height: 50%;
+    animation: slide 3s ease-in-out forwards;
+  }
+}
+@media (min-width: 1024px) {
+  .tap-me-menu {
+    display: none;
+  }
+}

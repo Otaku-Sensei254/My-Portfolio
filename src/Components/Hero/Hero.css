@@ -1,0 +1,1439 @@
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  /*.container {
+    height: 100vh;
+    position: relative;
+    top: 8rem;
+    justify-content: center;
+    align-items: center;
+    
+    opacity: 1;
+    transform: translateY(50px);
+    transition: opacity 1s ease-out, transform 1s ease-out;
+  }
+  .hero-content.show {
+    opacity: 1;
+    transform: translateY(0);
+  }*/
+  .Ex-btn{
+    z-index:1;
+  }
+  @keyframes moving {
+    0%{
+        left:-2rem;
+        
+    }
+    100%{
+        right: 5rem;
+        
+    }
+    
+  }
+@media (max-width:321px){
+    .page-icons{
+        position: relative;
+        top: 53rem;
+        left: 1rem;
+        display: flex;
+        justify-content: space-between;
+        
+    }
+    .tech-icons{
+        position: relative;
+        right: 5rem;
+        display: inline;
+        align-items: center;
+        justify-content: space-evenly;
+        gap: 1rem;
+    }
+    .contact-me{
+        position: absolute;
+        top: -12rem;
+        left: -2rem;
+        background: white;
+        color: black;
+        font-size: 20px;
+        font-weight: 600;
+        border-radius: 30px;
+    }
+    .contact-me:hover{
+        transform: translateX(0.5rem);
+        transition: 0.65s ease-in-out;
+        box-shadow: 0 0 10px white, 0 0 20px gold;
+        background: gold;
+    }
+    
+    .react-logo{
+        position:relative;
+        left:0rem;
+        top:-5rem;
+        width:15%;
+    }
+    .js-logo{
+        position:relative;
+        width:14%;
+        left:16rem;
+        top:-4.5rem;
+    }
+    .css-logo{
+        position: relative;
+        width: 16%;
+        top: -4.5em;
+        left:6rem;
+    }
+    .html-logo{
+        position: relative;
+        width: 17%;
+        top:-4.5rem;
+        left: 10rem;
+    }
+    .myself{
+        position: absolute;
+        left: 2rem;
+        top:37rem;
+        border-radius: 5px;
+        width: 80%;
+        animation: moving 3s ease-in-out forwards;
+    }
+    .myself:hover{
+        transform: translateY(-0.5rem);
+        box-shadow: 0 0 10px white, 0 0 20px gold;
+        transition: 0.65s ease-out;
+    }
+    .hero-content{
+        position: absolute;
+        top:4rem;
+        left: 1rem;
+        z-index: 1;
+    }
+    .hero-content h1{
+        position: absolute;
+        left:-1rem;
+        top: -1rem;
+        font-size: 2.6rem;
+        font-weight: 700;
+        line-height: 1.3;
+        width: 100%;
+        text-align: center;
+        
+        
+    }
+    .hero-content h2{
+        color: gold;
+        font-size: 50px;
+        position: absolute;
+        top: 5rem;
+        width: 20%;
+        left: 2rem;
+        text-align: center;
+    }
+    .hero-content p{
+        position:relative;
+        top:15rem;
+        left: -0.5rem;
+        color:white;
+        font-size: 1.4rem;
+        width:100%;
+    }
+    .hero-img > div > img{
+        width:25rem;
+        transition: all 0.3s ease;
+    }
+    
+    .page-icons.img{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 0.65rem;
+        border: 1.9px solid gold;
+    }
+    .hero-img>div>img:hover,
+    .tech-icons img:hover{
+        transform: translateY(-0.5rem);
+    }
+    .Ex-btn{
+        background: White;
+        color: black;
+        border-radius: 30px;
+        padding: 4px 10px;
+        font-size: 20px;
+        position: relative;
+        left: 5rem;
+        top: 33rem;
+        z-index: -1;
+    }
+    .Ex-btn:hover{
+        background: gold;
+        box-shadow: 0 0 10px white, 0 0 20px gold;
+        transform: translateX(0.5rem);
+        color:black;
+        transition: 0.58s ease-in-out;
+    }
+    .Links{
+        width: 90%;
+    }
+}
+@media (min-width:344px){
+    .page-icons{
+        position: relative;
+        top: 35rem;
+        left: 1rem;
+        display: flex;
+        justify-content: space-between;
+        
+    }
+    .tech-icons{
+        position: relative;
+        right: 5rem;
+        display: inline;
+        align-items: center;
+        justify-content: space-evenly;
+        gap: 1rem;
+        top: 14rem;
+    }
+    .contact-me{
+        position: absolute;
+        top: -12rem;
+        left: -2rem;
+        background: white;
+        color: black;
+        font-size: 20px;
+        font-weight: 600;
+        border-radius: 30px;
+    }
+    .contact-me:hover{
+        transform: translateX(0.5rem);
+        transition: 0.65s ease-in-out;
+        box-shadow: 0 0 10px white, 0 0 20px gold;
+        background: gold;
+    }
+    
+    .react-logo{
+        position:relative;
+        left:0rem;
+        top:-5rem;
+        width:15%;
+    }
+    .js-logo{
+        position:relative;
+        width:14%;
+        left:16rem;
+        top:-4.5rem;
+    }
+    .css-logo{
+        position: relative;
+        width: 16%;
+        top: -4.5em;
+        left:6rem;
+    }
+    .html-logo{
+        position: relative;
+        width: 17%;
+        top:-4.5rem;
+        left: 10rem;
+    }
+    .myself{
+        position: absolute;
+        left: 2rem;
+        top:36rem;
+        border-radius: 5px;
+        width: 80%;
+        animation: moving 2s ease-in-out forwards;
+    }
+    .myself:hover{
+        transform: translateY(-0.5rem);
+        box-shadow: 0 0 10px white, 0 0 20px gold;
+        transition: 0.65s ease-out;
+    }
+    .hero-content{
+        position: absolute;
+        top:4rem;
+        left: 1rem;
+        
+    }
+    .hero-content h1{
+        position: absolute;
+        left:-1rem;
+        top: -1rem;
+        font-size: 2.6rem;
+        font-weight: 700;
+        line-height: 1.3;
+        width: 100%;
+        text-align: center;
+        
+    }
+    .hero-content h2{
+        color: gold;
+        font-size: 50px;
+        position: absolute;
+        top: 5rem;
+        width: 20%;
+        left: 2rem;
+        text-align: center;
+    }
+    .hero-content p{
+        position:relative;
+        top:15rem;
+        left: -0.5rem;
+        color:white;
+        font-size: 1.4rem;
+        width:100%;
+    }
+    .hero-img > div > img{
+        width:25rem;
+        transition: all 0.3s ease;
+    }
+    
+    .page-icons.img{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 0.65rem;
+        border: 1.9px solid gold;
+    }
+    .hero-img>div>img:hover,
+    .tech-icons img:hover{
+        transform: translateY(-0.5rem);
+    }
+    .Ex-btn{
+        background: White;
+        color: black;
+        border-radius: 30px;
+        padding: 4px 10px;
+        font-size: 20px;
+        position: relative;
+        left: 5rem;
+        top: 33.4rem;
+    }
+    .Ex-btn:hover{
+        background: gold;
+        box-shadow: 0 0 10px white, 0 0 20px gold;
+        transform: translateX(0.5rem);
+        color:black;
+        transition: 0.58s ease-in-out;
+    }
+}
+@media (min-width:360px){
+    .page-icons{
+        position: relative;
+        top: 35rem;
+        left: 1rem;
+        display: flex;
+        justify-content: space-between;
+        
+    }
+    .tech-icons{
+        position: relative;
+        right: 5rem;
+        display: inline;
+        align-items: center;
+        justify-content: space-evenly;
+        gap: 1rem;
+        top: -5rem;
+        z-index: -1;
+    }
+    .contact-me{
+        position: absolute;
+        top: -12rem;
+        left: -2rem;
+        background: white;
+        color: black;
+        font-size: 20px;
+        font-weight: 600;
+        border-radius: 30px;
+    }
+    .contact-me:hover{
+        transform: translateX(0.5rem);
+        transition: 0.65s ease-in-out;
+        box-shadow: 0 0 10px white, 0 0 20px gold;
+        background: gold;
+    }
+    
+    .react-logo{
+        position:relative;
+        left:0rem;
+        top:-5rem;
+        width:15%;
+    }
+    .js-logo{
+        position:relative;
+        width:14%;
+        left:16rem;
+        top:-4.5rem;
+    }
+    .css-logo{
+        position: relative;
+        width: 16%;
+        top: -4.5em;
+        left:6rem;
+    }
+    .html-logo{
+        position: relative;
+        width: 17%;
+        top:-4.5rem;
+        left: 10rem;
+    }
+    .myself{
+        position: absolute;
+        left: 0rem;
+        top:38rem;
+        border-radius: 5px;
+        width: 80%;
+        height: 55%;
+        animation: moving 3s ease-in-out forwards;
+        z-index: 1;
+    }
+    .myself:hover{
+        transform: translateY(-0.5rem);
+        box-shadow: 0 0 10px white, 0 0 20px gold;
+        transition: 0.65s ease-out;
+    }
+    .hero-content{
+        position: absolute;
+        top:2rem;
+        left: 1rem;
+        
+    }
+    .hero-content h1{
+        position: absolute;
+        left:-1rem;
+        top: -1rem;
+        font-size: 2.6rem;
+        font-weight: 700;
+        line-height: 1.3;
+        width: 100%;
+        text-align: center;
+        
+    }
+    .hero-content h2{
+        color: gold;
+        font-size: 50px;
+        position: absolute;
+        top: 5rem;
+        width: 20%;
+        left: 2rem;
+        text-align: center;
+    }
+    .hero-content p{
+        position:relative;
+        top:15rem;
+        left: -0.5rem;
+        color:white;
+        font-size: 1.4rem;
+        width:100%;
+    }
+    .hero-img > div > img{
+        width:25rem;
+        transition: all 0.3s ease;
+    }
+    
+    .page-icons.img{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 0.65rem;
+        border: 1.9px solid gold;
+    }
+    .hero-img>div>img:hover,
+    .tech-icons img:hover{
+        transform: translateY(-0.5rem);
+    }
+    .Ex-btn{
+        background: White;
+        color: black;
+        border-radius: 30px;
+        padding: 4px 10px;
+        font-size: 20px;
+        position: relative;
+        left: 5rem;
+        top: 33rem;
+    }
+    .Ex-btn:hover{
+        background: gold;
+        box-shadow: 0 0 10px white, 0 0 20px gold;
+        transform: translateX(0.5rem);
+        color:black;
+        transition: 0.58s ease-in-out;
+    }
+}
+@media (min-width:375px){
+    .page-icons{
+        position: relative;
+        top: 39rem;
+        left: 0rem;
+        display: flex;
+        justify-content: space-between;
+        
+    }
+    .tech-icons{
+        position: relative;
+        right: 4rem;
+        top: 9rem;
+        display: inline;
+        align-items: center;
+        justify-content: space-evenly;
+        gap: 1rem;
+    }
+    .contact-me{
+        position: absolute;
+        top: -12rem;
+        left: -2rem;
+        background: white;
+        color: black;
+        font-size: 20px;
+        font-weight: 600;
+        border-radius: 30px;
+    }
+    .contact-me:hover{
+        transform: translateX(0.5rem);
+        transition: 0.65s ease-in-out;
+        box-shadow: 0 0 10px white, 0 0 20px gold;
+        background: gold;
+    }
+    
+    .react-logo{
+        position:relative;
+        left:0rem;
+        top:-5rem;
+        width:15%;
+    }
+    .js-logo{
+        position:relative;
+        width:14%;
+        left:16rem;
+        top:-4.5rem;
+    }
+    .css-logo{
+        position: relative;
+        width: 16%;
+        top: -4.5em;
+        left:4.5rem;
+    }
+    .html-logo{
+        position: relative;
+        width: 17%;
+        top:-4.5rem;
+        left: 10rem;
+    }
+    .myself{
+        position: absolute;
+        left: 2rem;
+        top:34rem;
+        border-radius: 5px;
+        width: 80%;
+    }
+    .myself:hover{
+        transform: translateY(-0.5rem);
+        box-shadow: 0 0 10px white, 0 0 20px gold;
+        transition: 0.65s ease-out;
+    }
+    .hero-content{
+        position: absolute;
+        top:-2rem;
+        left: 1rem;
+        
+    }
+    .hero-content h1{
+        position: absolute;
+        left:-1rem;
+        top: -1rem;
+        font-size: 2.6rem;
+        font-weight: 700;
+        line-height: 1.3;
+        width: 90%;
+        text-align: center;
+        
+    }
+    .hero-content h2{
+        color: gold;
+        font-size: 50px;
+        position: absolute;
+        top: 5rem;
+        width: 15%;
+        left: 2rem;
+        text-align: center;
+    }
+    .hero-content p{
+        position:relative;
+        top:15rem;
+        left: -0.5rem;
+        color:white;
+        font-size: 1.4rem;
+        width:100%;
+    }
+    .hero-img > div > img{
+        width:25rem;
+        transition: all 0.3s ease;
+    }
+    
+    .page-icons.img{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 0.65rem;
+        border: 1.9px solid gold;
+    }
+    .hero-img>div>img:hover,
+    .tech-icons img:hover{
+        transform: translateY(-0.5rem);
+    }
+    .Ex-btn{
+        background: White;
+        color: black;
+        border-radius: 30px;
+        padding: 4px 10px;
+        font-size: 20px;
+        position: relative;
+        left: 5rem;
+        top: 30rem;
+    }
+    .Ex-btn:hover{
+        background: gold;
+        box-shadow: 0 0 10px white, 0 0 20px gold;
+        transform: translateX(0.5rem);
+        color:black;
+        transition: 0.58s ease-in-out;
+    }
+}   
+@media(min-width:390px){
+    .hero-container{
+        position: relative;
+        top: 2rem;
+    }
+    .hero-content p{
+        top: 18rem;
+    }
+    .Ex-btn{
+        position: relative;
+        top: 34rem;
+    }
+    
+    
+}
+@media (min-width:414px){
+    .page-icons{
+        position: relative;
+        top: 45rem;
+        left: 1rem;
+        display: flex;
+        justify-content: space-between;
+        
+    }
+    .tech-icons{
+        position: relative;
+        right: 5rem;
+        display: inline;
+        align-items: center;
+        justify-content: space-evenly;
+        gap: 1rem;
+        
+    }
+    .contact-me{
+        position: absolute;
+        top: -12rem;
+        left: -2rem;
+        background: white;
+        color: black;
+        font-size: 20px;
+        font-weight: 600;
+        border-radius: 30px;
+    }
+    .contact-me:hover{
+        transform: translateX(0.5rem);
+        transition: 0.65s ease-in-out;
+        box-shadow: 0 0 10px white, 0 0 20px gold;
+        background: gold;
+    }
+    
+    .react-logo{
+        position:relative;
+        left:0rem;
+        top:-5rem;
+        width:15%;
+    }
+    .js-logo{
+        position:relative;
+        width:14%;
+        left:16rem;
+        top:-4.5rem;
+    }
+    .css-logo{
+        position: relative;
+        width: 16%;
+        top: -4.5em;
+        left:6rem;
+    }
+    .html-logo{
+        position: relative;
+        width: 17%;
+        top:-4.5rem;
+        left: 10rem;
+    }
+    .myself{
+        position: absolute;
+        left: 2rem;
+        top:39rem;
+        border-radius: 5px;
+        width: 80%;
+    }
+    .myself:hover{
+        transform: translateY(-0.5rem);
+        box-shadow: 0 0 10px white, 0 0 20px gold;
+        transition: 0.65s ease-out;
+    }
+    .hero-content{
+        position: absolute;
+        top:3rem;
+        left: 1rem;
+        
+    }
+    .hero-content h1{
+        position: absolute;
+        left:-3rem;
+        top: -1rem;
+        font-size: 2.6rem;
+        font-weight: 700;
+        line-height: 1.3;
+        width: 100%;
+        text-align: center;
+        
+    }
+    .hero-content h2{
+        color: gold;
+        font-size: 50px;
+        position: absolute;
+        top: 5rem;
+        width: 20%;
+        left: 6rem;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+    .hero-content p{
+        position:relative;
+        top:20rem;
+        left: 0rem;
+        color:white;
+        font-size: 1.4rem;
+        width:99%;
+    }
+    .hero-img > div > img{
+        width:25rem;
+        transition: all 0.3s ease;
+    }
+    
+    .page-icons.img{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 0.65rem;
+        border: 1.9px solid gold;
+    }
+    .hero-img>div>img:hover,
+    .tech-icons img:hover{
+        transform: translateY(-0.5rem);
+    }
+    .Ex-btn{
+        background: White;
+        color: black;
+        border-radius: 30px;
+        padding: 4px 10px;
+        font-size: 20px;
+        position: relative;
+        left: 5rem;
+        top: 36rem;
+    }
+    .Ex-btn:hover{
+        background: gold;
+        box-shadow: 0 0 10px white, 0 0 20px gold;
+        transform: translateX(0.5rem);
+        color:black;
+        transition: 0.58s ease-in-out;
+    }
+}
+@media (min-width:425px){
+    .page-icons{
+        position: relative;
+        top: 45rem;
+        left: 1rem;
+        display: flex;
+        justify-content: space-between;
+        
+    }
+    .tech-icons{
+        position: relative;
+        right: 8rem;
+        top: 3rem;
+        display: inline;
+        align-items: center;
+        justify-content: space-evenly;
+        gap: 1rem;
+    }
+    .contact-me{
+        position: absolute;
+        top: -12rem;
+        left: -2rem;
+        background: white;
+        color: black;
+        font-size: 20px;
+        font-weight: 600;
+        border-radius: 30px;
+    }
+    .contact-me:hover{
+        transform: translateX(0.5rem);
+        transition: 0.65s ease-in-out;
+        box-shadow: 0 0 10px white, 0 0 20px gold;
+        background: gold;
+    }
+    
+    .react-logo{
+        position:relative;
+        left:0rem;
+        top:-5rem;
+        width:15%;
+    }
+    .js-logo{
+        position:relative;
+        width:14%;
+        left:22rem;
+        top:-4.5rem;
+    }
+    .css-logo{
+        position: relative;
+        width: 16%;
+        top: -4.5em;
+        left:8rem;
+    }
+    .html-logo{
+        position: relative;
+        width: 17%;
+        top:-4.5rem;
+        left: 13rem;
+    }
+    .myself{
+        position: relative;
+        left: 2rem;
+        top:33rem;
+        border-radius: 5px;
+        width: 82%;
+        height: 100%;
+    }
+    .myself:hover{
+        transform: translateY(-0.5rem);
+        box-shadow: 0 0 10px white, 0 0 20px gold;
+        transition: 0.65s ease-out;
+    }
+    .hero-content{
+        position: absolute;
+        top:-3rem;
+        left: 1rem;
+        
+    }
+    .hero-content h1{
+        position: absolute;
+        left:-2rem;
+        top: -1rem;
+        font-size: 2.8rem;
+        font-weight: 700;
+        line-height: 1.3;
+        width: 100%;
+        text-align: center;
+        
+    }
+    .hero-content h2{
+        color: gold;
+        font-size: 50px;
+        position: absolute;
+        top: 5rem;
+        width: 20%;
+        left: 8rem;
+        text-align: center;
+    }
+    .hero-content p{
+        position:relative;
+        top:15rem;
+        left: -0.5rem;
+        color:white;
+        font-size: 1.8rem;
+        width:100%;
+    }
+    .hero-img > div > img{
+        width:25rem;
+        transition: all 0.3s ease;
+    }
+    
+    .page-icons.img{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 0.65rem;
+        border: 1.9px solid gold;
+    }
+    .hero-img>div>img:hover,
+    .tech-icons img:hover{
+        transform: translateY(-0.5rem);
+    }
+    .Ex-btn{
+        background: White;
+        color: black;
+        border-radius: 30px;
+        padding: 4px 10px;
+        font-size: 20px;
+        position: relative;
+        left: 7rem;
+        top: 28rem;
+    }
+    .Ex-btn:hover{
+        background: gold;
+        box-shadow: 0 0 10px white, 0 0 20px gold;
+        transform: translateX(0.5rem);
+        color:black;
+        transition: 0.58s ease-in-out;
+    }
+}
+@media (min-width:430px){
+    .page-icons{
+        position: relative;
+        top: 45rem;
+        left: 1rem;
+        display: flex;
+        justify-content: space-between;
+        
+    }
+    .tech-icons{
+        position: relative;
+        right: 8rem;
+        top: 3rem;
+        display: inline;
+        align-items: center;
+        justify-content: space-evenly;
+        gap: 1rem;
+    }
+    .contact-me{
+        position: absolute;
+        top: -12rem;
+        left: -2rem;
+        background: white;
+        color: black;
+        font-size: 20px;
+        font-weight: 600;
+        border-radius: 30px;
+    }
+    .contact-me:hover{
+        transform: translateX(0.5rem);
+        transition: 0.65s ease-in-out;
+        box-shadow: 0 0 10px white, 0 0 20px gold;
+        background: gold;
+    }
+    
+    .react-logo{
+        position:relative;
+        left:0rem;
+        top:-5rem;
+        width:15%;
+    }
+    .js-logo{
+        position:relative;
+        width:14%;
+        left:22rem;
+        top:-4.5rem;
+    }
+    .css-logo{
+        position: relative;
+        width: 16%;
+        top: -4.5em;
+        left:8rem;
+    }
+    .html-logo{
+        position: relative;
+        width: 17%;
+        top:-4.5rem;
+        left: 13rem;
+    }
+    .myself{
+        position: relative;
+        left: 2rem;
+        top:33rem;
+        border-radius: 5px;
+        width: 82%;
+        height: 100%;
+    }
+    .myself:hover{
+        transform: translateY(-0.5rem);
+        box-shadow: 0 0 10px white, 0 0 20px gold;
+        transition: 0.65s ease-out;
+    }
+    .hero-content{
+        position: absolute;
+        top:-3rem;
+        left: 1rem;
+        
+    }
+    .hero-content h1{
+        position: absolute;
+        left:-2rem;
+        top: -1rem;
+        font-size: 2.8rem;
+        font-weight: 700;
+        line-height: 1.3;
+        width: 100%;
+        text-align: center;
+        
+    }
+    .hero-content h2{
+        color: gold;
+        font-size: 50px;
+        position: absolute;
+        top: 5rem;
+        width: 20%;
+        left: 8rem;
+        text-align: center;
+    }
+    .hero-content p{
+        position:relative;
+        top:15rem;
+        left: -0.5rem;
+        color:white;
+        font-size: 1.8rem;
+        width:100%;
+    }
+    .hero-img > div > img{
+        width:25rem;
+        transition: all 0.3s ease;
+    }
+    
+    .page-icons.img{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 0.65rem;
+        border: 1.9px solid gold;
+    }
+    .hero-img>div>img:hover,
+    .tech-icons img:hover{
+        transform: translateY(-0.5rem);
+    }
+    .Ex-btn{
+        background: White;
+        color: black;
+        border-radius: 30px;
+        padding: 4px 10px;
+        font-size: 20px;
+        position: relative;
+        left: 7rem;
+        top: 28rem;
+    }
+    .Ex-btn:hover{
+        background: gold;
+        box-shadow: 0 0 10px white, 0 0 20px gold;
+        transform: translateX(0.5rem);
+        color:black;
+        transition: 0.58s ease-in-out;
+    }
+}
+@media(min-width:600px){
+    .hero-content{
+        position: absolute;
+        top: -2rem;
+    }
+    .hero-content h1{
+        position: absolute;
+        top: 0rem;
+    }
+    .hero-content h2{
+        position: absolute;
+        width: 100%;
+        left: -5rem;
+        top: 4rem;
+    }
+    .Ex-btn{
+        position: absolute;
+        z-index: 1;
+        top: 30rem;
+        font-size: 1.5rem;
+        left: 13rem;
+        
+    }
+    .hero-content P{
+        position: relative;
+        top: 13rem;
+    }
+    .myself{
+        position: relative;
+        top: 35rem;
+        left: 5rem;
+    }
+    .tech-icons{
+        position: relative;
+        top: 2rem;
+        right: 11rem;
+    }
+    .react-logo{
+        position: relative;
+        left: 0em;
+        top: -5rem;
+    }
+    .html-logo{
+        position: relative;
+        left: 20rem;
+    }
+    .css-logo{
+        position: relative;
+        left: 13rem;
+    }
+    .js-logo{
+        position: relative;
+        left: 33rem;
+    }
+    
+}
+@media(min-height:667px){
+    .myself{
+        height: 50%;
+        width: 100%;
+        position: absolute;
+        left: 0;
+    }
+    .tech-icons{
+        position: relative;
+        top: 10rem;
+    }
+}
+@media(min-height:740px){
+    .myself{
+        width: 100%;
+        position: relative;
+    }
+    .tech-icons{
+        position: relative;
+        top: 14.5rem;
+    }
+}
+@media(min-width:768px){
+    .hero-content{
+        position: absolute;
+        top: -2rem;
+        z-index: 1;
+    }
+    .hero-content h1{
+        position: absolute;
+        height: 1.4rem;
+    }
+    .hero-content h2{
+        position: absolute;
+        width: 100%;
+        left: -5rem;
+        
+    }
+    .Ex-btn{
+        position: relative;
+        top: 25rem;
+        font-size: 1.5rem;
+        left: 19rem;
+    }
+    .hero-content P{
+        position: relative;
+        top: 10rem;
+    }
+    .myself{
+        position: relative;
+        top: 30rem;
+        left: 5rem;
+    }
+    .tech-icons{
+        position: relative;
+        top: 2rem;
+        right: 12rem;
+    }
+    .react-logo{
+        position: relative;
+        left: -2em;
+        top: -5rem;
+    }
+    .html-logo{
+        position: relative;
+        left: 22rem;
+    }
+    .css-logo{
+        position: relative;
+        left: 12rem;
+    }
+    .js-logo{
+        position: relative;
+        left: 38rem;
+    }
+}
+@media(min-height:844px){
+    .myself{
+        position: relative;
+        top: 35rem;
+        height: 100%;
+    }
+    .tech-icons{
+        position: relative;
+        top: 2rem;
+    }
+}
+@media(min-height:896px){
+    .tech-icons{
+        position: relative;
+        top: 14rem;
+    }
+    .react-logo{
+        position: relative;
+        left: -1rem;
+    }
+    .css-logo{
+        position: relative;
+        left: 3.5rem;
+    }
+}
+@media(min-height:914px){
+    .hero-container{
+        position: relative;
+        top: 5rem;
+    }
+    .hero-container p{
+        position: relative;
+        top: 19rem;
+    }
+    .Ex-btn{
+        position: relative;
+        top: 33rem;
+    }
+    .myself{
+        position: relative;
+        top:35rem;
+    }
+    .tech-icons{
+        position: relative;
+        top: 2rem;
+    }
+    .react-logo{
+        position: relative;
+        left: -2rem;
+    }
+}
+@media(min-height:932px){
+    .tech-icons{
+        position: relative;
+        top: -1rem;
+    }
+    .react-logo{
+        position: relative;
+        left: 0rem;
+    }
+    .css-logo{
+        position: relative;
+        left: 7rem;
+    }
+}
+
+@media(min-width:1024px){
+    .hero-container{
+        position: relative;
+        z-index: 1;
+        top: 2rem;
+    }
+    .hero-content{
+        position:relative;
+        top: -5rem;
+        z-index: -1;
+    }
+    .hero-content h1{
+        position: absolute;
+        left: -15rem;
+        top: 2rem;
+    }
+    .hero-content h2{
+        position: absolute;
+        left: 12rem;
+        font-size: 4rem;
+        width: 20%;
+        top: 5rem;
+    }
+    .Ex-btn{
+        position: absolute;
+        top: 35rem;
+    }
+    .hero-content p{
+        position: relative;
+        width: 90%;
+        left: 2rem;
+        font-size: 2.5rem;
+        top: 25rem;
+    }
+    .myself{
+        position: relative;
+        top: -15rem;
+        z-index: 1;
+        width: 35%;
+        left: 45rem;
+        animation: moving 3s forwards ease-in-out;
+        
+        
+    }
+    .myself:hover{
+        transform: translateY(-0.5rem);
+    }
+    .tech-icons{
+        position: relative;
+        top: -30rem;
+        right: 15rem;
+    }
+    .react-logo{
+        position: relative;
+        left: 2rem;
+    }
+    .html-logo{
+        position: relative;
+        left: 35rem;
+    }
+    .js-logo{
+        position: relative;
+        left: 42rem;
+    }
+    .css-logo{
+        position: relative;
+        left: 37rem;
+    }
+}
+@media(min-height:1024px){
+    .myself{
+        position: relative;
+        left: 0rem;
+    }
+    .css-logo{
+        position: relative;
+        left: 12rem;
+    }
+}
+@media(min-width:1440px){
+    .hero-container{
+        position: relative;
+        z-index: 1;
+        top: 2rem;
+    }
+    .hero-content{
+        position:relative;
+        top: -5rem;
+        z-index: -1;
+    }
+    .hero-content h1{
+        position: absolute;
+        left: -22rem;
+        top: 2rem;
+    }
+    .hero-content h2{
+        position: absolute;
+        left: 5rem;
+        font-size: 4rem;
+        width: 20%;
+        top: 4rem;
+    }
+    .Ex-btn{
+        position: absolute;
+        top: 35rem;
+    }
+    .hero-content p{
+        position: relative;
+        width: 90%;
+        left: 2rem;
+        font-size: 2.5rem;
+        top: 25rem;
+    }
+    .myself{
+        position: relative;
+        top: -15rem;
+        z-index: 1;
+        width: 35%;
+        left: 40rem;
+        
+    }
+    .myself:hover{
+        transform: translateY(-0.5rem);
+    }
+    .tech-icons{
+        position: relative;
+        top: -30rem;
+        right: 15rem;
+    }
+    .react-logo{
+        position: relative;
+        left: 2rem;
+    }
+    .html-logo{
+        position: relative;
+        left: 35rem;
+    }
+    .js-logo{
+        position: relative;
+        left: 42rem;
+    }
+    .css-logo{
+        position: relative;
+        left: 37rem;
+    }
+}
+/*@media (max-width:321px){
+    .hero-container{
+       
+       width: 30%;
+    }
+    .hero-content{
+        position: absolute;
+        left: 0rem;
+    }
+    .hero-content h1{
+        width:40%;
+        font-size: 1.7rem;
+        position: relative;
+        left:0rem;
+        text-align: center;
+    }
+    .hero-container h2{
+        width: 15%;
+        position: relative;
+        left: 2rem;
+    }
+    .hero-content p{
+        position: relative;
+        top: -5rem;
+        width: 40%;
+        text-align: center;
+        font-size: 1.4rem;
+    }
+    .myself{
+        position: absolute;
+        overflow: hidden;
+        left: 0.5rem;
+        top: 36rem;
+        width: 40%;
+    }
+    .Links{
+        position: relative;
+        right: 20rem;
+        display: flex;
+        flex-direction: column;
+        font-size: 2rem;
+    }
+    .html-logo{
+        position: relative;
+        top: 5rem;
+        background: blue;
+    }
+    .page-icons{
+        position: relative;
+        left: 12rem;
+        
+    }
+    .Ex-btn{
+        position: relative;
+        
+        top: 28rem;
+        left: 4rem;
+        
+    }
+}
