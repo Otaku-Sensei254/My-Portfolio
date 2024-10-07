@@ -24,7 +24,7 @@ const About = () => {
             the best services to our client's and 
             making sure you communicate your message to the masses easier and in the best way.
           </p>
-          <img className="me-pic"src={Me} alt="" />
+          <img className="me-pic"src='../Images/me.jpg' alt="" />
          <NavLink to="/Contact"><button className='contact-me'>Let's Talk</button></NavLink>
       </section>
       <section className='projects'>
